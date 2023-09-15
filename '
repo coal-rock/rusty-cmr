@@ -1,0 +1,88 @@
+pub struct Parser {
+    pub input: Vec<u8>,
+    pub position: usize,
+}
+
+#[derive(Debug)]
+pub struct MapHeader {
+    pub magic_field: String,
+    pub version: u32,
+    pub header_size: u32,
+    pub world_size: u32,
+    pub number_ents: u32,
+    pub number_pvs: u32,
+    pub light_maps: u32,
+    pub blend_map: u32,
+    pub number_vars: u32,
+}
+
+pub enum VariableType {
+    Int,
+    Float,
+    String,
+}
+
+pub struct Variable {
+    var_type: VariableType,
+    name_len: u16,
+    name: String,
+}
+
+impl Parser {
+    pub fn new(input: Vec<u8>) -> Self {
+        Parser { input, position: 0 }
+    }
+
+    pub fn parse_map(&mut self) {
+        let header = self.parse_header();
+
+        println!("{:#?}", header);
+    }
+
+    fn parse_header(&mut self) -> MapHeader {
+        MapHeader {
+            magic_field: self.parse_to_string(4),
+            version: self.parse_to_u32(),
+            header_size: self.parse_to_u32(),
+            world_size: self.parse_to_u32(),
+            number_ents: self.parse_to_u32(),
+            number_pvs: self.parse_to_u32(),
+            light_maps: self.parse_to_u32(),
+            blend_map: self.parse_to_u32(),
+            number_vars: self.parse_to_u32(),
+        }
+    }
+
+    fn parse_variable(&mut self) -> Variable {
+        Variable {
+            var_type: todo!(),
+            name_len: todo!(),
+            name: todo!(),
+        }
+    }
+
+    fn parse_to_string(&mut self, byte_count: i32) -> String {
+        let mut string = String::new();
+
+        for _ in 0..byte_count {
+            string.push(self.read_byte().into());
+        }
+
+        string
+    }
+
+    fn parse_to_u32(&mut self) -> u32 {
+        u32::from_le_bytes([
+            self.read_byte(),
+            self.read_byte(),
+            self.read_byte(),
+            self.read_byte(),
+        ])
+    }
+
+    fn read_byte(&mut self) -> u8 {
+        let byte = self.input[self.position];
+        self.position += 1;
+        byte
+    }
+}
