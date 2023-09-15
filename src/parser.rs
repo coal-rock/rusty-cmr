@@ -1,3 +1,5 @@
+use std::{borrow::Cow, num};
+
 pub struct Parser {
     pub input: Vec<u8>,
     pub position: usize,
@@ -92,20 +94,20 @@ pub enum EntityType {
     MaxEntTypes,
 }
 
-#[derive(Debug, Clone)]
-pub struct Cube<'a> {
-    children: [Option<&'a mut Cube<'a>>; 8], // "points to 8 cube structures which are its children, or NULL. -Z first, then -Y, -X"
+#[derive(Debug)]
+pub struct Cube {
+    children: [Box<Option<Cube>>; 8], // "points to 8 cube structures which are its children, or NULL. -Z first, then -Y, -X"
     edge_face: EdgeFace,
-    textures: (u16, u16, u16, u16, u16, u16), // "one for each face. same order as orient." (6 entries)
-    material: u16,                            // empty-space material
-    merged: u8,                               // merged faces of the cube
+    textures: [u16; 6], // "one for each face. same order as orient." (6 entries)
+    material: u16,      // empty-space material
+    merged: u8,         // merged faces of the cube
     escaped_visible: EscapedVisible,
 }
 
 #[derive(Debug, Clone)]
 pub enum EdgeFace {
-    Edge(Vec<u8>), // edges of the cube, each uchar is 2 4bit values denoting the range (there should be 12 entries here)
-    Face(Vec<u32>), // 4 edges of each dimension together representing 2 perpendicular faces (there should be 3 entries here)
+    Edge([u8; 12]), // edges of the cube, each uchar is 2 4bit values denoting the range (there should be 12 entries here)
+    Face([u32; 3]), // 4 edges of each dimension together representing 2 perpendicular faces (there should be 3 entries here)
 }
 
 #[derive(Debug, Copy, Clone)]
@@ -304,23 +306,28 @@ impl Parser {
     // copied almost verbatim from cardboard
     fn parse_cube<'a>(
         &'a mut self,
-        cube: Box<&'a mut Cube<'a>>,
+        cube: Box<Option<Cube>>,
         co: &IVector,
         size: u32,
-    ) -> Box<&mut Cube> {
+    ) -> Box<Option<Cube>> {
         let mut has_children = false;
         let oct_sav = self.read_byte();
+
+        let mut cube = cube.unwrap();
+
+        println!("hello");
 
         match oct_sav & 0x7 {
             // Children
             0 => {
-                cube.children = self.parse_children(co, size.try_into().unwrap());
-                return cube;
+                cube.children = self.parse_children(co, size as i32 >> 1);
+                cube.children = self.parse_children(co, size as i32 >> 1);
+                return Box::new(Some(cube));
             }
             // Empty
-            1 => cube.edge_face = EdgeFace::Face(vec![0x00000000; 3]),
+            1 => cube.edge_face = EdgeFace::Face([0x00000000; 3]),
             // Solid
-            2 => cube.edge_face = EdgeFace::Face(vec![0x80808080; 3]),
+            2 => cube.edge_face = EdgeFace::Face([0x80808080; 3]),
             // Normal
             3 => {
                 let mut edges = vec![];
@@ -329,7 +336,7 @@ impl Parser {
                     edges.push(self.read_byte());
                 }
 
-                cube.edge_face = EdgeFace::Edge(edges);
+                cube.edge_face = EdgeFace::Edge(edges.try_into().unwrap());
             }
             // LODCube
             4 => has_children = true,
@@ -352,45 +359,102 @@ impl Parser {
         if (oct_sav & 0x20) != 0 {
             let surface_mask: u8 = self.read_byte();
             let total_verts: u8 = self.read_byte().max(0);
+
+            let offset = 0;
+
+            for i in 0..6 {
+                if surface_mask & (1 << i) != 0 {
+                    // fields of surface mask struct
+                    let lmid: (u8, u8) = (self.read_byte(), self.read_byte());
+                    let mut verts = self.read_byte();
+                    let surf_num_verts = self.read_byte();
+
+                    let num_verts: i32 = if num_verts & (1 << 7) != 0 {
+                        (surf_num_verts as i32 & 15) * 2
+                    } else {
+                        surf_num_verts as i32 & 15
+                    };
+
+                    if num_verts == 0 {
+                        verts = 0;
+                        continue;
+                    }
+
+                    verts = offset;
+
+                    if (num_verts)
+
+                    self.parse_to_u32();
+
+                    println!("lalksjf");
+                }
+            }
         }
 
         println!("{:#?}", cube);
 
-        cube
+        Box::new(Some(cube))
     }
 
-    fn new_cubes<'a>(face: Option<u32>, material: Option<u16>) -> [Option<&'a mut Cube<'a>>; 8] {
+    fn new_cubes(face: Option<u32>, material: Option<u16>) -> [Box<Option<Cube>>; 8] {
         let face = face.unwrap_or(0); // F_EMPTY
         let material = material.unwrap_or(0); // MAT_AIR
 
-        let mut cubes: &mut Vec<Box<&mut Cube>> = &mut Vec::new();
+        let mut cubes: [Box<Option<Cube>>; 8] = [
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+        ];
 
         for i in 0..8 {
-            let children: Vec<Option<&mut Cube>> = Vec::new();
-
             let mut cube = Cube {
-                children: [None; 8],
-                edge_face: EdgeFace::Face(vec![face, face, face, face]),
-                textures: vec![1, 1, 1, 1, 1, 1],
+                children: [
+                    Box::new(None),
+                    Box::new(None),
+                    Box::new(None),
+                    Box::new(None),
+                    Box::new(None),
+                    Box::new(None),
+                    Box::new(None),
+                    Box::new(None),
+                ], // Cube cannot implement the copy trait, we cannot use [x; n]
+                edge_face: EdgeFace::Face([face, face, face]),
+                textures: [1, 1, 1, 1, 1, 1],
                 material,
                 merged: 0,
                 escaped_visible: EscapedVisible::Visible(0),
             };
 
-            cubes.push(Box::new(&mut cube));
+            cubes[i] = Box::new(Some(cube));
         }
 
         cubes
     }
 
-    fn parse_children(&mut self, co: &IVector, size: i32) -> [Option<&mut Cube>; 8] {
+    fn parse_children<'a>(&mut self, co: &IVector, size: i32) -> [Box<Option<Cube>>; 8] {
         let cubes = Parser::new_cubes(None, None);
 
-        for i in 0..8 {
-            self.parse_cube(cubes[i], co, size.try_into().unwrap());
+        let mut parsed_cubes: [Box<Option<Cube>>; 8] = [
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+            Box::new(None),
+        ];
+
+        for (i, cube) in cubes.into_iter().enumerate() {
+            parsed_cubes[i] = self.parse_cube(cube, co, size.try_into().unwrap());
         }
 
-        cubes.into()
+        parsed_cubes
     }
 
     fn parse_to_string(&mut self, byte_count: u16) -> String {
