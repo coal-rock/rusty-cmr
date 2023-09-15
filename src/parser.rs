@@ -50,6 +50,13 @@ pub struct Position {
 }
 
 #[derive(Debug)]
+pub struct IVector {
+    x: i32,
+    y: i32,
+    z: i32,
+}
+
+#[derive(Debug)]
 pub enum EntityType {
     Empty,
     Light,
@@ -85,238 +92,23 @@ pub enum EntityType {
     MaxEntTypes,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Cube<'a> {
-    children: Option<&'a mut Vec<Box<&'a mut Cube<'a>>>>, // "points to 8 cube structures which are its children, or NULL. -Z first, then -Y, -X"
-    cube_ext_info: Option<CubeExtInfo<'a>>,
+    children: [Option<&'a mut Cube<'a>>; 8], // "points to 8 cube structures which are its children, or NULL. -Z first, then -Y, -X"
     edge_face: EdgeFace,
-    textures: Vec<u16>, // "one for each face. same order as orient." (6 entries)
-    material: u16,      // empty-space material
-    merged: u8,         // merged faces of the cube
+    textures: (u16, u16, u16, u16, u16, u16), // "one for each face. same order as orient." (6 entries)
+    material: u16,                            // empty-space material
+    merged: u8,                               // merged faces of the cube
     escaped_visible: EscapedVisible,
 }
 
-// holy fucking bingle (x2)
-// these fuckers are making me implement a linked  list
-// it is so over
-#[derive(Debug)]
-pub struct CubeExtInfo<'a> {
-    vertex_array: Option<VertexArray<'a>>,
-    entities: Option<OctaEntities<'a>>,
-    surfaces: (
-        SurfaceInfo,
-        SurfaceInfo,
-        SurfaceInfo,
-        SurfaceInfo,
-        SurfaceInfo,
-        SurfaceInfo,
-    ),
-    tjoints: i32,
-    max_verts: u8,
-}
-
-#[derive(Debug)]
-pub struct VertexArray<'a> {
-    parent: Option<&'a VertexArray<'a>>,
-    children: Option<Vec<&'a VertexArray<'a>>>,
-    next: &'a VertexArray<'a>,
-    rnext: &'a VertexArray<'a>,
-    vdata: &'a Vertex<'a>,
-    voffset: u8,
-    edata: u8,   // texture indicies
-    skydata: u8, // texture indicies
-    vbuf: u32,
-    ebuf: u32,
-    skybuf: u32,
-    minvert: u8,                   // DRE info
-    maxvert: u8,                   // DRE info
-    element_list: ElementSet,      // List of element indices sets (range) per texture
-    material_buf: MaterialSurface, // Buffer of material surfaces
-    verts: i32,
-    tris: i32,
-    texs: i32,
-    blendtris: i32,
-    blends: i32,
-    alphabacktris: i32,
-    alphaback: i32,
-    alphafronttris: i32,
-    alphafront: i32,
-    alphatris: i32,
-    texmask: i32,
-    sky: i32,
-    explicitsky: i32,
-    skyfaces: i32,
-    skyclip: i32,
-    matsurfs: i32,
-    distance: i32,
-    sky_area: f64,
-    pos: IVector,
-    size: i32,               // location and size of cube
-    geo_min: IVector,        // BB of geom
-    geo_max: IVector,        // BB of geom
-    shadow_map_min: IVector, // BB of shadowmapped surfaces
-    shadow_map_max: IVector, // BB of shadowmapped surfaces
-    mat_min: IVector,        // BB of any materials
-    mat_max: IVector,        // BB of any materials
-    bb_min: IVector,         // BB of everything including children
-    bb_max: IVector,         // BB of everything including children
-    curvfc: u8,
-    occluded: u8,
-    query: &'a OccludedQuery<'a>,
-    map_models: Vec<&'a OctaEntities<'a>>,
-    grass_trips: Vec<&'a GrassTri>,
-    has_merges: i32,
-    merge_level: i32,
-    dyn_lightmask: u32,
-    shadowed: bool,
-}
-
-#[derive(Debug)]
-pub struct Vertex<'a> {
-    pos: &'a Vector,
-    normal: &'a BVector4,
-    tc: &'a Vector2,
-    lm: &'a SVector2,
-    tangent: &'a BVector4,
-}
-
-// god fucking damnit just use generics please
-// !FIXME: !!!
-#[derive(Debug)]
-pub struct Vector {
-    x: f32,
-    y: f32,
-    z: f32,
-}
-
-#[derive(Debug)]
-pub struct Vector2 {
-    x: f32,
-    y: f32,
-}
-
-#[derive(Debug)]
-pub struct Vector4 {
-    x: f32,
-    y: f32,
-    z: f32,
-    w: f32,
-}
-
-#[derive(Debug)]
-pub struct SVector2 {
-    x: u16,
-    y: u16,
-}
-
-#[derive(Debug)]
-pub struct BVector4 {
-    x: u8,
-    y: u8,
-    z: u8,
-    w: u8,
-}
-
-#[derive(Debug)]
-pub struct IVector {
-    x: i32,
-    y: i32,
-    z: i32,
-}
-
-#[derive(Debug)]
-pub struct Plane {
-    x: f32,
-    y: f32,
-    z: f32,
-    offset: f32,
-}
-
-#[derive(Debug)]
-pub struct ElementSet {
-    texture: u16,
-    lmid: u16,
-    env_map: u16,
-    dim: u8,
-    layer: u8,
-    length: (u16, u16, u16),
-    min_vert: (u16, u16, u16),
-    max_vett: (u16, u16, u16),
-}
-
-#[derive(Debug)]
-pub struct MaterialSurface {
-    pos: IVector,
-    csize: u16,
-    rsize: u16,
-    material: u16,
-    skip: u16,
-    index_depth: IndexDepth,
-    light_envmap_ends: LightEnvMapEnds,
-}
-
-#[derive(Debug)]
-pub struct GrassTri {
-    vec: (Vector, Vector, Vector, Vector),
-    numv: i32,
-    tcu: Vector4,
-    tcv: Vector4,
-    surface: Plane,
-    radius: f32,
-    min_z: f32,
-    max_z: f32,
-    texture: u16,
-    lmid: u16,
-}
-
-#[derive(Debug)]
-pub struct SurfaceInfo {
-    lmid: (u8, u8),
-    verts: u8,
-    num_verts: u8,
-}
-
-#[derive(Debug)]
-pub enum IndexDepth {
-    Index(i16),
-    Depth(i16),
-}
-
-#[derive(Debug)]
-pub enum LightEnvMapEnds {
-    Light(Entity),
-    EnvMap(u16),
-    Ends(u8),
-}
-
-#[derive(Debug)]
-pub struct OccludedQuery<'a> {
-    owner: &'a Cube<'a>,
-    id: u32,
-    fragments: i32,
-}
-
-#[derive(Debug)]
-pub struct OctaEntities<'a> {
-    map_models: Vec<i32>,
-    other: Vec<i32>,
-    query: &'a OccludedQuery<'a>,
-    next: Option<&'a OctaEntities<'a>>,
-    rnext: Option<&'a OctaEntities<'a>>,
-    distance: i32,
-    pos: IVector,
-    size: i32,
-    bb_min: IVector,
-    bb_max: IVector,
-}
-
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub enum EdgeFace {
     Edge(Vec<u8>), // edges of the cube, each uchar is 2 4bit values denoting the range (there should be 12 entries here)
     Face(Vec<u32>), // 4 edges of each dimension together representing 2 perpendicular faces (there should be 3 entries here)
 }
 
-#[derive(Debug)]
+#[derive(Debug, Copy, Clone)]
 pub enum EscapedVisible {
     Escaped(u8),
     Visible(u8),
@@ -567,19 +359,17 @@ impl Parser {
         cube
     }
 
-    fn new_cubes<'a>(
-        face: Option<u32>,
-        material: Option<u16>,
-    ) -> &'a mut Vec<Box<&'a mut Cube<'a>>> {
+    fn new_cubes<'a>(face: Option<u32>, material: Option<u16>) -> [Option<&'a mut Cube<'a>>; 8] {
         let face = face.unwrap_or(0); // F_EMPTY
         let material = material.unwrap_or(0); // MAT_AIR
 
         let mut cubes: &mut Vec<Box<&mut Cube>> = &mut Vec::new();
 
         for i in 0..8 {
+            let children: Vec<Option<&mut Cube>> = Vec::new();
+
             let mut cube = Cube {
-                children: None,
-                cube_ext_info: None,
+                children: [None; 8],
                 edge_face: EdgeFace::Face(vec![face, face, face, face]),
                 textures: vec![1, 1, 1, 1, 1, 1],
                 material,
@@ -593,14 +383,14 @@ impl Parser {
         cubes
     }
 
-    fn parse_children(&mut self, co: &IVector, size: i32) {
+    fn parse_children(&mut self, co: &IVector, size: i32) -> [Option<&mut Cube>; 8] {
         let cubes = Parser::new_cubes(None, None);
 
         for i in 0..8 {
             self.parse_cube(cubes[i], co, size.try_into().unwrap());
         }
 
-        Some(cubes)
+        cubes.into()
     }
 
     fn parse_to_string(&mut self, byte_count: u16) -> String {
