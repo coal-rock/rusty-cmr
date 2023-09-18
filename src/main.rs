@@ -5,7 +5,7 @@ use parser::Parser;
 use std::{fs::read, io::Read, thread};
 
 fn main() {
-    let map_bytes = read_gzip_to_bytes("mynewmap.ogz");
+    let map_bytes = read_gzip_to_bytes("simple_geo_nested.cmr");
 
     match map_bytes {
         Some(bytes) => {

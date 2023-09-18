@@ -1,3 +1,4 @@
+use serde::{Deserialize, Serialize};
 use std::{borrow::Cow, num};
 
 pub struct Parser {
@@ -94,8 +95,9 @@ pub enum EntityType {
     MaxEntTypes,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Serialize, Deserialize)]
 pub struct Cube {
+    #[serde(skip_serializing_if = "Vec::is_empty", default)]
     children: Vec<Box<Option<Cube>>>, // "points to 8 cube structures which are its children, or NULL. -Z first, then -Y, -X"
     edge_face: EdgeFace,
     textures: [u16; 6], // "one for each face. same order as orient." (6 entries)
@@ -105,19 +107,19 @@ pub struct Cube {
     cube_ext: Option<CubeExtInfo>,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Serialize, Deserialize)]
 pub struct CubeExtInfo {
     max_verts: u8,
     tjoints: i32,
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum EdgeFace {
     Edge([u8; 12]), // edges of the cube, each uchar is 2 4bit values denoting the range (there should be 12 entries here)
     Face([u32; 3]), // 4 edges of each dimension together representing 2 perpendicular faces (there should be 3 entries here)
 }
 
-#[derive(Debug, Copy, Clone)]
+#[derive(Debug, Copy, Clone, Serialize, Deserialize)]
 pub enum EscapedVisible {
     Escaped(u8),
     Visible(u8),
@@ -193,8 +195,7 @@ impl Parser {
 
         let world_root =
             self.parse_children(&IVector { x: 0, y: 0, z: 0 }, header.world_size as i32 >> 1);
-
-        println!("{:#?}", world_root);
+        println!("{}", serde_json::to_string_pretty(&world_root).unwrap());
 
         // self.parse_cube(None, None);
     }
