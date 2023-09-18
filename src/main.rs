@@ -5,13 +5,20 @@ use parser::Parser;
 use std::{fs::read, io::Read, thread};
 
 fn main() {
-    let map_bytes = read_gzip_to_bytes("retrograde.cmr");
+    let map_bytes = read_gzip_to_bytes("mynewmap.ogz");
 
     match map_bytes {
         Some(bytes) => {
-            let mut parser = Parser::new(bytes);
+            std::thread::Builder::new()
+                .stack_size(10024 * 10024 * 100)
+                .spawn(|| {
+                    let mut parser = Parser::new(bytes);
 
-            parser.parse_map()
+                    parser.parse_map()
+                })
+                .unwrap()
+                .join()
+                .unwrap();
         }
         None => println!("error"),
     }

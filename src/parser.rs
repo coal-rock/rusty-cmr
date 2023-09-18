@@ -96,12 +96,19 @@ pub enum EntityType {
 
 #[derive(Debug)]
 pub struct Cube {
-    children: [Box<Option<Cube>>; 8], // "points to 8 cube structures which are its children, or NULL. -Z first, then -Y, -X"
+    children: Vec<Box<Option<Cube>>>, // "points to 8 cube structures which are its children, or NULL. -Z first, then -Y, -X"
     edge_face: EdgeFace,
     textures: [u16; 6], // "one for each face. same order as orient." (6 entries)
     material: u16,      // empty-space material
     merged: u8,         // merged faces of the cube
     escaped_visible: EscapedVisible,
+    cube_ext: Option<CubeExtInfo>,
+}
+
+#[derive(Debug)]
+pub struct CubeExtInfo {
+    max_verts: u8,
+    tjoints: i32,
 }
 
 #[derive(Debug, Clone)]
@@ -186,6 +193,8 @@ impl Parser {
 
         let world_root =
             self.parse_children(&IVector { x: 0, y: 0, z: 0 }, header.world_size as i32 >> 1);
+
+        println!("{:#?}", world_root);
 
         // self.parse_cube(None, None);
     }
@@ -315,12 +324,10 @@ impl Parser {
 
         let mut cube = cube.unwrap();
 
-        println!("hello");
-
+        println!("{}", oct_sav & 0x7);
         match oct_sav & 0x7 {
             // Children
             0 => {
-                cube.children = self.parse_children(co, size as i32 >> 1);
                 cube.children = self.parse_children(co, size as i32 >> 1);
                 return Box::new(Some(cube));
             }
@@ -340,7 +347,7 @@ impl Parser {
             }
             // LODCube
             4 => has_children = true,
-            _ => todo!(),
+            _ => return Box::new(Some(cube)),
         }
 
         for i in 0..6 {
@@ -360,38 +367,113 @@ impl Parser {
             let surface_mask: u8 = self.read_byte();
             let total_verts: u8 = self.read_byte().max(0);
 
-            let offset = 0;
+            let mut offset = 0;
 
             for i in 0..6 {
                 if surface_mask & (1 << i) != 0 {
                     // fields of surface mask struct
-                    let lmid: (u8, u8) = (self.read_byte(), self.read_byte());
-                    let mut verts = self.read_byte();
+                    let surf_lmid: (u8, u8) = (self.read_byte(), self.read_byte());
+                    let mut surf_verts = self.read_byte();
                     let surf_num_verts = self.read_byte();
 
-                    let num_verts: i32 = if num_verts & (1 << 7) != 0 {
-                        (surf_num_verts as i32 & 15) * 2
+                    let vert_mask: i32 = surf_verts as i32;
+
+                    let num_verts = if surf_num_verts & (1 << 7) != 0 {
+                        (surf_num_verts & 15) * 2
                     } else {
-                        surf_num_verts as i32 & 15
+                        surf_num_verts & 15
                     };
 
                     if num_verts == 0 {
-                        verts = 0;
+                        surf_verts = 0;
                         continue;
                     }
 
-                    verts = offset;
+                    surf_verts = offset;
+                    offset += num_verts;
 
-                    if (num_verts)
+                    let layer_verts = surf_num_verts & 15;
 
-                    self.parse_to_u32();
+                    let mut has_xyz = vert_mask & 0x04 != 0;
+                    let mut has_uv = vert_mask & 0x40 != 0;
+                    let mut has_norm = vert_mask & 0x80 != 0;
 
-                    println!("lalksjf");
+                    if has_xyz {
+                        //do stuff
+                    } else {
+                        // do other stuff
+                    }
+
+                    if layer_verts == 4 {
+                        if has_xyz && (vert_mask & 0x01) != 0 {
+                            self.read_byte();
+                            self.read_byte();
+                            self.read_byte();
+                            self.read_byte();
+
+                            has_xyz = false;
+                        }
+                        if has_uv && (vert_mask & 0x02) != 0 {
+                            self.read_byte();
+                            self.read_byte();
+                            self.read_byte();
+                            self.read_byte();
+
+                            if surf_num_verts & (1 << 7) != 0 {
+                                self.read_byte();
+                                self.read_byte();
+                                self.read_byte();
+                                self.read_byte();
+                            }
+
+                            has_uv = false;
+                        }
+                    }
+
+                    if has_norm && (vert_mask & 0x08) != 0 {
+                        self.read_byte();
+                        has_norm = false;
+                    }
+
+                    if has_xyz || has_uv || has_norm {
+                        for _ in 0..layer_verts {
+                            if has_xyz {
+                                self.read_byte();
+                                self.read_byte();
+                            }
+                            if has_uv {
+                                self.read_byte();
+                                self.read_byte();
+                            }
+                            if has_norm {
+                                self.read_byte();
+                            }
+                        }
+                    }
+                    if surf_num_verts & (1 << 7) != 0 {
+                        for _ in 0..layer_verts {
+                            self.read_byte();
+                            self.read_byte();
+                        }
+                    }
                 }
             }
         }
 
-        println!("{:#?}", cube);
+        cube.children = if has_children {
+            self.parse_children(co, size as i32 >> 1)
+        } else {
+            vec![
+                Box::new(None),
+                Box::new(None),
+                Box::new(None),
+                Box::new(None),
+                Box::new(None),
+                Box::new(None),
+                Box::new(None),
+                Box::new(None),
+            ]
+        };
 
         Box::new(Some(cube))
     }
@@ -413,7 +495,7 @@ impl Parser {
 
         for i in 0..8 {
             let mut cube = Cube {
-                children: [
+                children: vec![
                     Box::new(None),
                     Box::new(None),
                     Box::new(None),
@@ -428,6 +510,7 @@ impl Parser {
                 material,
                 merged: 0,
                 escaped_visible: EscapedVisible::Visible(0),
+                cube_ext: None,
             };
 
             cubes[i] = Box::new(Some(cube));
@@ -436,10 +519,10 @@ impl Parser {
         cubes
     }
 
-    fn parse_children<'a>(&mut self, co: &IVector, size: i32) -> [Box<Option<Cube>>; 8] {
+    fn parse_children<'a>(&mut self, co: &IVector, size: i32) -> Vec<Box<Option<Cube>>> {
         let cubes = Parser::new_cubes(None, None);
 
-        let mut parsed_cubes: [Box<Option<Cube>>; 8] = [
+        let mut parsed_cubes: Vec<Box<Option<Cube>>> = vec![
             Box::new(None),
             Box::new(None),
             Box::new(None),
