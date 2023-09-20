@@ -53,11 +53,17 @@ pub struct Position {
     z: f32,
 }
 
-#[derive(Debug)]
-pub struct IVector {
-    x: i32,
-    y: i32,
-    z: i32,
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Vector3<T> {
+    x: T,
+    y: T,
+    z: T,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Vector2<T> {
+    x: T,
+    y: T,
 }
 
 #[derive(Debug)]
@@ -94,6 +100,84 @@ pub enum EntityType {
     PH16,
     Flag,
     MaxEntTypes,
+}
+
+#[derive(Debug)]
+pub struct VSlot {
+    // slot: &Slot,
+    next: Box<Option<VSlot>>,
+    index: i32,
+    changed: i32,
+    params: Vec<SlotShaderParam>,
+    linked: bool,
+    scale: f32,
+    rotation: i32,
+    offset: Vector2<i32>,
+    scroll: Vector2<f32>,
+    layer: i32,
+    alpha_front: f32,
+    alpha_back: f32,
+    color_scale: Vector3<f32>,
+    glow_color: Vector3<f32>,
+}
+
+#[derive(Debug)]
+pub struct Slot {
+    slot: Box<Option<Slot>>,
+    index: i32,
+    sts: Vec<Texture>,
+    shader: Shader,
+}
+
+#[derive(Debug)]
+pub struct Texture {
+    name: String,
+    tex_type: i32,
+    width: i32,
+    height: i32,
+    xs: i32,
+    ys: i32,
+    bpp: i32,
+    clamp: i32,
+    mipmap: bool,
+    can_reduce: bool,
+    id: u32, //GLuint
+    alpha_mask: String,
+}
+
+#[derive(Debug)]
+pub struct Shader {
+    last_shader: Box<Option<Shader>>,
+    name: String,
+    vs_str: String,
+    ps_str: String,
+    defer: String,
+    shader_type: i32,
+    program: u32, // GLuint
+    vs_obj: u32,  // GLuint
+    ps_obj: u32,  // GLuint
+}
+
+pub struct 
+
+pub enum TextureType {
+    Image,
+    CubeMap,
+    Type,
+
+    Stub,
+    Transient,
+    Compressed,
+    Alpha,
+    Mirror,
+    Flags,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct SlotShaderParam {
+    name: String,
+    loc: i32,
+    values: (f32, f32, f32, f32),
 }
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -168,18 +252,18 @@ impl Parser {
 
     pub fn parse_map(&mut self) {
         let header = self.parse_header();
-        println!("{:#?}", header);
+        // println!("{:#?}", header);
 
         let mut vars = Vec::new();
 
         for _ in 0..header.number_vars {
             let variable = self.parse_variable();
-            println!("{:#?}", variable);
+            // println!("{:#?}", variable);
             vars.push(variable);
         }
 
         let game_ident = self.parse_game_ident();
-        println!("{:#?}", game_ident);
+        // println!("{:#?}", game_ident);
 
         // load bearing printlns
         println!("{}", self.read_byte());
@@ -192,9 +276,10 @@ impl Parser {
 
         println!("{:#?}", header);
         let mut entities = vec![];
+
         for _ in 0..header.number_ents {
             let entity = self.parse_entity();
-            println!("{:#?}", entity);
+            // println!("{:#?}", entity);
             entities.push(entity);
         }
 
@@ -203,11 +288,11 @@ impl Parser {
         }
 
         let world_root = self.parse_children(
-            &IVector { x: 0, y: 0, z: 0 },
+            &Vector3::<i32> { x: 0, y: 0, z: 0 },
             header.world_size as i32 >> 1,
             &mut false,
         );
-        println!("{}", serde_json::to_string_pretty(&world_root).unwrap());
+        // println!("{}", serde_json::to_string_pretty(&world_root).unwrap());
 
         // self.parse_cube(None, None);
     }
@@ -325,11 +410,15 @@ impl Parser {
         ent
     }
 
+    fn parse_vslots(&mut self, vslot_count: i32) -> Vec<VSlot> {}
+
+    fn parse_vslot(&mut self, changed: i32) -> VSlot {}
+
     // copied almost verbatim from cardboard
     fn parse_cube<'a>(
         &'a mut self,
         cube: Box<Option<Cube>>,
-        co: &IVector,
+        co: &Vector3<i32>,
         size: u32,
         failed: &mut bool,
     ) -> Box<Option<Cube>> {
@@ -339,8 +428,6 @@ impl Parser {
         let position = self.position;
         let mut cube = cube.unwrap();
 
-        println!("{}", oct_sav);
-        // println!("Cube Count: {}", self.cube_count);
         match oct_sav & 0x7 {
             // Children
             0 => {
@@ -540,7 +627,7 @@ impl Parser {
 
     fn parse_children<'a>(
         &mut self,
-        co: &IVector,
+        co: &Vector3<i32>,
         size: i32,
         failed: &mut bool,
     ) -> Vec<Box<Option<Cube>>> {
@@ -601,13 +688,8 @@ impl Parser {
     }
 
     fn read_byte(&mut self) -> u8 {
-        if self.position >= self.input.len() {
-            return 169;
-        }
-
         let byte = self.input[self.position];
         self.position += 1;
-        println!("read");
         byte
     }
 
