@@ -1,0 +1,1043 @@
+[
+    {
+        "children": [],
+        "edge_face": {
+            "Face": [
+                2155905152,
+                2155905152,
+                2155905152
+            ]
+        },
+        "textures": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "material": 0,
+        "merged": 0,
+        "escaped_visible": {
+            "Visible": 0
+        },
+        "cube_ext": null
+    },
+    {
+        "children": [],
+        "edge_face": {
+            "Face": [
+                2155905152,
+                2155905152,
+                2155905152
+            ]
+        },
+        "textures": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "material": 0,
+        "merged": 0,
+        "escaped_visible": {
+            "Visible": 0
+        },
+        "cube_ext": null
+    },
+    {
+        "children": [],
+        "edge_face": {
+            "Face": [
+                2155905152,
+                2155905152,
+                2155905152
+            ]
+        },
+        "textures": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "material": 0,
+        "merged": 0,
+        "escaped_visible": {
+            "Visible": 0
+        },
+        "cube_ext": null
+    },
+    {
+        "children": [],
+        "edge_face": {
+            "Face": [
+                2155905152,
+                2155905152,
+                2155905152
+            ]
+        },
+        "textures": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "material": 0,
+        "merged": 0,
+        "escaped_visible": {
+            "Visible": 0
+        },
+        "cube_ext": null
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "edge_face": {
+                            "Face": [
+                                2155905152,
+                                2155905152,
+                                2155905152
+                            ]
+                        },
+                        "textures": [
+                            9,
+                            9,
+                            9,
+                            9,
+                            9,
+                            9
+                        ],
+                        "material": 0,
+                        "merged": 0,
+                        "escaped_visible": {
+                            "Visible": 0
+                        },
+                        "cube_ext": null
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                "edge_face": {
+                                    "Edge": [
+                                        96,
+                                        96,
+                                        96,
+                                        96,
+                                        128,
+                                        128,
+                                        98,
+                                        98,
+                                        128,
+                                        128,
+                                        128,
+                                        128
+                                    ]
+                                },
+                                "textures": [
+                                    1,
+                                    2,
+                                    3,
+                                    4,
+                                    5,
+                                    6
+                                ],
+                                "material": 0,
+                                "merged": 0,
+                                "escaped_visible": {
+                                    "Visible": 0
+                                },
+                                "cube_ext": null
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "edge_face": {
+                                            "Face": [
+                                                2155905152,
+                                                2155905152,
+                                                2155905152
+                                            ]
+                                        },
+                                        "textures": [
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842
+                                        ],
+                                        "material": 0,
+                                        "merged": 0,
+                                        "escaped_visible": {
+                                            "Visible": 0
+                                        },
+                                        "cube_ext": null
+                                    },
+                                    {
+                                        "children": [
+                                            null,
+                                            null,
+                                            null
+                                        ],
+                                        "edge_face": {
+                                            "Face": [
+                                                0,
+                                                0,
+                                                0
+                                            ]
+                                        },
+                                        "textures": [
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842
+                                        ],
+                                        "material": 0,
+                                        "merged": 0,
+                                        "escaped_visible": {
+                                            "Visible": 0
+                                        },
+                                        "cube_ext": null
+                                    },
+                                    {
+                                        "children": [
+                                            null,
+                                            null
+                                        ],
+                                        "edge_face": {
+                                            "Face": [
+                                                0,
+                                                0,
+                                                0
+                                            ]
+                                        },
+                                        "textures": [
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842
+                                        ],
+                                        "material": 0,
+                                        "merged": 0,
+                                        "escaped_visible": {
+                                            "Visible": 0
+                                        },
+                                        "cube_ext": null
+                                    },
+                                    {
+                                        "children": [
+                                            null,
+                                            null
+                                        ],
+                                        "edge_face": {
+                                            "Face": [
+                                                0,
+                                                0,
+                                                0
+                                            ]
+                                        },
+                                        "textures": [
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842
+                                        ],
+                                        "material": 0,
+                                        "merged": 0,
+                                        "escaped_visible": {
+                                            "Visible": 0
+                                        },
+                                        "cube_ext": null
+                                    },
+                                    {
+                                        "children": [
+                                            null,
+                                            null
+                                        ],
+                                        "edge_face": {
+                                            "Face": [
+                                                0,
+                                                0,
+                                                0
+                                            ]
+                                        },
+                                        "textures": [
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842
+                                        ],
+                                        "material": 0,
+                                        "merged": 0,
+                                        "escaped_visible": {
+                                            "Visible": 0
+                                        },
+                                        "cube_ext": null
+                                    },
+                                    {
+                                        "children": [
+                                            null,
+                                            null
+                                        ],
+                                        "edge_face": {
+                                            "Face": [
+                                                0,
+                                                0,
+                                                0
+                                            ]
+                                        },
+                                        "textures": [
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842
+                                        ],
+                                        "material": 0,
+                                        "merged": 0,
+                                        "escaped_visible": {
+                                            "Visible": 0
+                                        },
+                                        "cube_ext": null
+                                    },
+                                    {
+                                        "children": [
+                                            null,
+                                            null
+                                        ],
+                                        "edge_face": {
+                                            "Face": [
+                                                0,
+                                                0,
+                                                0
+                                            ]
+                                        },
+                                        "textures": [
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842
+                                        ],
+                                        "material": 0,
+                                        "merged": 0,
+                                        "escaped_visible": {
+                                            "Visible": 0
+                                        },
+                                        "cube_ext": null
+                                    },
+                                    {
+                                        "children": [
+                                            null,
+                                            null
+                                        ],
+                                        "edge_face": {
+                                            "Face": [
+                                                0,
+                                                0,
+                                                0
+                                            ]
+                                        },
+                                        "textures": [
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842,
+                                            842
+                                        ],
+                                        "material": 0,
+                                        "merged": 0,
+                                        "escaped_visible": {
+                                            "Visible": 0
+                                        },
+                                        "cube_ext": null
+                                    }
+                                ],
+                                "edge_face": {
+                                    "Face": [
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                "textures": [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "material": 0,
+                                "merged": 0,
+                                "escaped_visible": {
+                                    "Visible": 0
+                                },
+                                "cube_ext": null
+                            },
+                            {
+                                "children": [
+                                    null,
+                                    null
+                                ],
+                                "edge_face": {
+                                    "Face": [
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                "textures": [
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842
+                                ],
+                                "material": 0,
+                                "merged": 0,
+                                "escaped_visible": {
+                                    "Visible": 0
+                                },
+                                "cube_ext": null
+                            },
+                            {
+                                "children": [
+                                    null,
+                                    null
+                                ],
+                                "edge_face": {
+                                    "Face": [
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                "textures": [
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842
+                                ],
+                                "material": 0,
+                                "merged": 0,
+                                "escaped_visible": {
+                                    "Visible": 0
+                                },
+                                "cube_ext": null
+                            },
+                            {
+                                "children": [],
+                                "edge_face": {
+                                    "Face": [
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                "textures": [
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842
+                                ],
+                                "material": 0,
+                                "merged": 0,
+                                "escaped_visible": {
+                                    "Visible": 0
+                                },
+                                "cube_ext": null
+                            },
+                            {
+                                "children": [],
+                                "edge_face": {
+                                    "Face": [
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                "textures": [
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842
+                                ],
+                                "material": 0,
+                                "merged": 0,
+                                "escaped_visible": {
+                                    "Visible": 0
+                                },
+                                "cube_ext": null
+                            },
+                            {
+                                "children": [],
+                                "edge_face": {
+                                    "Face": [
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                "textures": [
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842
+                                ],
+                                "material": 0,
+                                "merged": 0,
+                                "escaped_visible": {
+                                    "Visible": 0
+                                },
+                                "cube_ext": null
+                            },
+                            {
+                                "children": [],
+                                "edge_face": {
+                                    "Face": [
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                "textures": [
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842,
+                                    842
+                                ],
+                                "material": 0,
+                                "merged": 0,
+                                "escaped_visible": {
+                                    "Visible": 0
+                                },
+                                "cube_ext": null
+                            }
+                        ],
+                        "edge_face": {
+                            "Face": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "textures": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "material": 0,
+                        "merged": 0,
+                        "escaped_visible": {
+                            "Visible": 0
+                        },
+                        "cube_ext": null
+                    },
+                    {
+                        "children": [],
+                        "edge_face": {
+                            "Face": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "textures": [
+                            842,
+                            842,
+                            842,
+                            842,
+                            842,
+                            842
+                        ],
+                        "material": 0,
+                        "merged": 0,
+                        "escaped_visible": {
+                            "Visible": 0
+                        },
+                        "cube_ext": null
+                    },
+                    {
+                        "children": [],
+                        "edge_face": {
+                            "Face": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "textures": [
+                            842,
+                            842,
+                            842,
+                            842,
+                            842,
+                            842
+                        ],
+                        "material": 0,
+                        "merged": 0,
+                        "escaped_visible": {
+                            "Visible": 0
+                        },
+                        "cube_ext": null
+                    },
+                    {
+                        "children": [],
+                        "edge_face": {
+                            "Face": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "textures": [
+                            842,
+                            842,
+                            842,
+                            842,
+                            842,
+                            842
+                        ],
+                        "material": 0,
+                        "merged": 0,
+                        "escaped_visible": {
+                            "Visible": 0
+                        },
+                        "cube_ext": null
+                    },
+                    {
+                        "children": [],
+                        "edge_face": {
+                            "Face": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "textures": [
+                            842,
+                            842,
+                            842,
+                            842,
+                            842,
+                            842
+                        ],
+                        "material": 0,
+                        "merged": 0,
+                        "escaped_visible": {
+                            "Visible": 0
+                        },
+                        "cube_ext": null
+                    },
+                    {
+                        "children": [],
+                        "edge_face": {
+                            "Face": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "textures": [
+                            842,
+                            842,
+                            842,
+                            842,
+                            842,
+                            842
+                        ],
+                        "material": 0,
+                        "merged": 0,
+                        "escaped_visible": {
+                            "Visible": 0
+                        },
+                        "cube_ext": null
+                    },
+                    {
+                        "children": [],
+                        "edge_face": {
+                            "Face": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "textures": [
+                            842,
+                            842,
+                            842,
+                            842,
+                            842,
+                            842
+                        ],
+                        "material": 0,
+                        "merged": 0,
+                        "escaped_visible": {
+                            "Visible": 0
+                        },
+                        "cube_ext": null
+                    }
+                ],
+                "edge_face": {
+                    "Face": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "textures": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "material": 0,
+                "merged": 0,
+                "escaped_visible": {
+                    "Visible": 0
+                },
+                "cube_ext": null
+            },
+            {
+                "children": [],
+                "edge_face": {
+                    "Face": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "textures": [
+                    842,
+                    842,
+                    842,
+                    842,
+                    842,
+                    842
+                ],
+                "material": 0,
+                "merged": 0,
+                "escaped_visible": {
+                    "Visible": 0
+                },
+                "cube_ext": null
+            },
+            {
+                "children": [],
+                "edge_face": {
+                    "Face": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "textures": [
+                    842,
+                    842,
+                    842,
+                    842,
+                    842,
+                    842
+                ],
+                "material": 0,
+                "merged": 0,
+                "escaped_visible": {
+                    "Visible": 0
+                },
+                "cube_ext": null
+            },
+            {
+                "children": [],
+                "edge_face": {
+                    "Face": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "textures": [
+                    842,
+                    842,
+                    842,
+                    842,
+                    842,
+                    842
+                ],
+                "material": 0,
+                "merged": 0,
+                "escaped_visible": {
+                    "Visible": 0
+                },
+                "cube_ext": null
+            },
+            {
+                "children": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "edge_face": {
+                    "Face": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "textures": [
+                    842,
+                    842,
+                    842,
+                    842,
+                    842,
+                    842
+                ],
+                "material": 0,
+                "merged": 0,
+                "escaped_visible": {
+                    "Visible": 0
+                },
+                "cube_ext": null
+            },
+            {
+                "children": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "edge_face": {
+                    "Face": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "textures": [
+                    842,
+                    842,
+                    842,
+                    842,
+                    842,
+                    842
+                ],
+                "material": 0,
+                "merged": 0,
+                "escaped_visible": {
+                    "Visible": 0
+                },
+                "cube_ext": null
+            },
+            {
+                "children": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "edge_face": {
+                    "Face": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "textures": [
+                    842,
+                    842,
+                    842,
+                    842,
+                    842,
+                    842
+                ],
+                "material": 0,
+                "merged": 0,
+                "escaped_visible": {
+                    "Visible": 0
+                },
+                "cube_ext": null
+            },
+            {
+                "children": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "edge_face": {
+                    "Face": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "textures": [
+                    842,
+                    842,
+                    842,
+                    842,
+                    842,
+                    842
+                ],
+                "material": 0,
+                "merged": 0,
+                "escaped_visible": {
+                    "Visible": 0
+                },
+                "cube_ext": null
+            }
+        ],
+        "edge_face": {
+            "Face": [
+                0,
+                0,
+                0
+            ]
+        },
+        "textures": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "material": 0,
+        "merged": 0,
+        "escaped_visible": {
+            "Visible": 0
+        },
+        "cube_ext": null
+    },
+    {
+        "children": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "edge_face": {
+            "Face": [
+                0,
+                0,
+                0
+            ]
+        },
+        "textures": [
+            842,
+            842,
+            842,
+            842,
+            842,
+            842
+        ],
+        "material": 0,
+        "merged": 0,
+        "escaped_visible": {
+            "Visible": 0
+        },
+        "cube_ext": null
+    },
+    {
+        "children": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "edge_face": {
+            "Face": [
+                0,
+                0,
+                0
+            ]
+        },
+        "textures": [
+            842,
+            842,
+            842,
+            842,
+            842,
+            842
+        ],
+        "material": 0,
+        "merged": 0,
+        "escaped_visible": {
+            "Visible": 0
+        },
+        "cube_ext": null
+    },
+    {
+        "children": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "edge_face": {
+            "Face": [
+                0,
+                0,
+                0
+            ]
+        },
+        "textures": [
+            842,
+            842,
+            842,
+            842,
+            842,
+            842
+        ],
+        "material": 0,
+        "merged": 0,
+        "escaped_visible": {
+            "Visible": 0
+        },
+        "cube_ext": null
+    }
+]

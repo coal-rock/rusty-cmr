@@ -1,531 +1,18613 @@
-[
-	{
-		"children": [
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"edge_face": {
-			"Face": [
-				2155905152,
-				2155905152,
-				2155905152
-			]
-		},
-		"textures": [
-			1,
-			1,
-			1,
-			1,
-			1,
-			1
-		],
-		"material": 0,
-		"merged": 0,
-		"escaped_visible": {
-			"Visible": 0
-		},
-		"cube_ext": null
-	},
-	{
-		"children": [
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"edge_face": {
-			"Face": [
-				2155905152,
-				2155905152,
-				2155905152
-			]
-		},
-		"textures": [
-			1,
-			1,
-			1,
-			1,
-			1,
-			1
-		],
-		"material": 0,
-		"merged": 0,
-		"escaped_visible": {
-			"Visible": 0
-		},
-		"cube_ext": null
-	},
-	{
-		"children": [
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"edge_face": {
-			"Face": [
-				2155905152,
-				2155905152,
-				2155905152
-			]
-		},
-		"textures": [
-			1,
-			1,
-			1,
-			1,
-			1,
-			1
-		],
-		"material": 0,
-		"merged": 0,
-		"escaped_visible": {
-			"Visible": 0
-		},
-		"cube_ext": null
-	},
-	{
-		"children": [
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"edge_face": {
-			"Face": [
-				2155905152,
-				2155905152,
-				2155905152
-			]
-		},
-		"textures": [
-			1,
-			1,
-			1,
-			1,
-			1,
-			1
-		],
-		"material": 0,
-		"merged": 0,
-		"escaped_visible": {
-			"Visible": 0
-		},
-		"cube_ext": null
-	},
-	{
-		"children": [
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"edge_face": {
-			"Face": [
-				2155905152,
-				2155905152,
-				2155905152
-			]
-		},
-		"textures": [
-			1,
-			1,
-			1,
-			1,
-			1,
-			1
-		],
-		"material": 0,
-		"merged": 0,
-		"escaped_visible": {
-			"Visible": 0
-		},
-		"cube_ext": null
-	},
-	{
-		"children": [
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"edge_face": {
-			"Face": [
-				2155905152,
-				2155905152,
-				2155905152
-			]
-		},
-		"textures": [
-			1,
-			1,
-			1,
-			1,
-			1,
-			1
-		],
-		"material": 0,
-		"merged": 0,
-		"escaped_visible": {
-			"Visible": 0
-		},
-		"cube_ext": null
-	},
-	{
-		"children": [
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"edge_face": {
-			"Face": [
-				2155905152,
-				2155905152,
-				2155905152
-			]
-		},
-		"textures": [
-			1,
-			1,
-			1,
-			1,
-			1,
-			1
-		],
-		"material": 0,
-		"merged": 0,
-		"escaped_visible": {
-			"Visible": 0
-		},
-		"cube_ext": null
-	},
-	{
-		"children": [
-			{
-				"children": [
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null
-				],
-				"edge_face": {
-					"Edge": [
-						96,
-						96,
-						96,
-						96,
-						128,
-						128,
-						98,
-						98,
-						128,
-						128,
-						128,
-						128
-					]
-				},
-				"textures": [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6
-				],
-				"material": 0,
-				"merged": 0,
-				"escaped_visible": {
-					"Visible": 0
-				},
-				"cube_ext": null
-			},
-			{
-				"children": [
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null
-				],
-				"edge_face": {
-					"Face": [
-						0,
-						0,
-						0
-					]
-				},
-				"textures": [
-					6,
-					6,
-					6,
-					6,
-					6,
-					6
-				],
-				"material": 0,
-				"merged": 0,
-				"escaped_visible": {
-					"Visible": 0
-				},
-				"cube_ext": null
-			},
-			{
-				"children": [
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null
-				],
-				"edge_face": {
-					"Face": [
-						0,
-						0,
-						0
-					]
-				},
-				"textures": [
-					6,
-					6,
-					6,
-					6,
-					6,
-					6
-				],
-				"material": 0,
-				"merged": 0,
-				"escaped_visible": {
-					"Visible": 0
-				},
-				"cube_ext": null
-			},
-			{
-				"children": [
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null
-				],
-				"edge_face": {
-					"Face": [
-						0,
-						0,
-						0
-					]
-				},
-				"textures": [
-					6,
-					6,
-					6,
-					6,
-					6,
-					6
-				],
-				"material": 0,
-				"merged": 0,
-				"escaped_visible": {
-					"Visible": 0
-				},
-				"cube_ext": null
-			},
-			{
-				"children": [
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null
-				],
-				"edge_face": {
-					"Face": [
-						0,
-						0,
-						0
-					]
-				},
-				"textures": [
-					6,
-					6,
-					6,
-					6,
-					6,
-					6
-				],
-				"material": 0,
-				"merged": 0,
-				"escaped_visible": {
-					"Visible": 0
-				},
-				"cube_ext": null
-			},
-			{
-				"children": [
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null
-				],
-				"edge_face": {
-					"Face": [
-						0,
-						0,
-						0
-					]
-				},
-				"textures": [
-					6,
-					6,
-					6,
-					6,
-					6,
-					6
-				],
-				"material": 0,
-				"merged": 0,
-				"escaped_visible": {
-					"Visible": 0
-				},
-				"cube_ext": null
-			},
-			{
-				"children": [
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null
-				],
-				"edge_face": {
-					"Face": [
-						0,
-						0,
-						0
-					]
-				},
-				"textures": [
-					6,
-					6,
-					6,
-					6,
-					6,
-					6
-				],
-				"material": 0,
-				"merged": 0,
-				"escaped_visible": {
-					"Visible": 0
-				},
-				"cube_ext": null
-			},
-			{
-				"children": [
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null
-				],
-				"edge_face": {
-					"Face": [
-						0,
-						0,
-						0
-					]
-				},
-				"textures": [
-					6,
-					6,
-					6,
-					6,
-					6,
-					6
-				],
-				"material": 0,
-				"merged": 0,
-				"escaped_visible": {
-					"Visible": 0
-				},
-				"cube_ext": null
-			}
-		],
-		"edge_face": {
-			"Face": [
-				0,
-				0,
-				0
-			]
-		},
-		"textures": [
-			1,
-			1,
-			1,
-			1,
-			1,
-			1
-		],
-		"material": 0,
-		"merged": 0,
-		"escaped_visible": {
-			"Visible": 0
-		},
-		"cube_ext": null
-	}
-]
+MapHeader {
+    magic_field: "CARD",
+    version: 34,
+    header_size: 40,
+    world_size: 2048,
+    number_ents: 78,
+    number_pvs: 0,
+    light_maps: 0,
+    blend_map: 0,
+    number_vars: 9,
+    number_vslots: 904,
+}
+Variable {
+    var_type: Int(
+        24,
+    ),
+    name_len: 11,
+    name: "sunlightyaw",
+}
+Variable {
+    var_type: Int(
+        16777215,
+    ),
+    name_len: 8,
+    name: "fogcolor",
+}
+Variable {
+    var_type: Int(
+        5263442,
+    ),
+    name_len: 8,
+    name: "skylight",
+}
+Variable {
+    var_type: String(
+        16,
+        "Duabo by NoobGuy",
+    ),
+    name_len: 8,
+    name: "maptitle",
+}
+Variable {
+    var_type: Int(
+        81,
+    ),
+    name_len: 13,
+    name: "sunlightpitch",
+}
+Variable {
+    var_type: String(
+        10,
+        "red/clouds",
+    ),
+    name_len: 6,
+    name: "skybox",
+}
+Variable {
+    var_type: Int(
+        9211020,
+    ),
+    name_len: 8,
+    name: "sunlight",
+}
+Variable {
+    var_type: Int(
+        1250067,
+    ),
+    name_len: 7,
+    name: "ambient",
+}
+Variable {
+    var_type: Int(
+        1000,
+    ),
+    name_len: 3,
+    name: "fog",
+}
+"fps"
+0
+0
+0
+0
+MapHeader {
+    magic_field: "CARD",
+    version: 34,
+    header_size: 40,
+    world_size: 2048,
+    number_ents: 78,
+    number_pvs: 0,
+    light_maps: 0,
+    blend_map: 0,
+    number_vars: 9,
+    number_vslots: 904,
+}
+Entity {
+    position: Position {
+        x: 982.56866,
+        y: 840.7621,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 976.0,
+        y: 848.0,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 976.0,
+        y: 880.0,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 984.0,
+        y: 904.0,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 968.0003,
+        y: 919.9999,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 984.0,
+        y: 872.0,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 968.0,
+        y: 856.0,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 968.0,
+        y: 888.0,
+        z: 800.0,
+    },
+    attr1: 11,
+    attr2: 17,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 984.0,
+        y: 856.0,
+        z: 800.0,
+    },
+    attr1: 281,
+    attr2: 17,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1336.0,
+        y: 920.0,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1320.0,
+        y: 904.0,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1336.0,
+        y: 872.0,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1320.0,
+        y: 840.0,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1320.0,
+        y: 856.0,
+        z: 800.0,
+    },
+    attr1: 337,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1317.7991,
+        y: 878.5366,
+        z: 800.0,
+    },
+    attr1: 86,
+    attr2: 17,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1336.0,
+        y: 888.0,
+        z: 800.0,
+    },
+    attr1: 11,
+    attr2: 17,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 984.0,
+        y: 1272.0,
+        z: 800.0,
+    },
+    attr1: 236,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 968.0,
+        y: 1288.0,
+        z: 800.0,
+    },
+    attr1: 146,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 984.0,
+        y: 1320.0,
+        z: 800.0,
+    },
+    attr1: 146,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 968.0,
+        y: 1320.0,
+        z: 800.0,
+    },
+    attr1: 146,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 977.95197,
+        y: 1313.783,
+        z: 800.0,
+    },
+    attr1: 146,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 972.8466,
+        y: 1255.2716,
+        z: 800.0,
+    },
+    attr1: 146,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1336.0,
+        y: 1256.0,
+        z: 800.0,
+    },
+    attr1: 266,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1320.0,
+        y: 1272.0,
+        z: 800.0,
+    },
+    attr1: 206,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1336.0,
+        y: 1304.0,
+        z: 800.0,
+    },
+    attr1: 251,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1335.5631,
+        y: 1320.7352,
+        z: 800.0,
+    },
+    attr1: 236,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1323.4417,
+        y: 1316.012,
+        z: 800.0,
+    },
+    attr1: 221,
+    attr2: 30,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1336.0,
+        y: 1288.0,
+        z: 800.0,
+    },
+    attr1: 118,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1320.0,
+        y: 1304.0,
+        z: 800.0,
+    },
+    attr1: 118,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1320.0,
+        y: 1336.0,
+        z: 800.0,
+    },
+    attr1: 118,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1320.0,
+        y: 1288.0,
+        z: 800.0,
+    },
+    attr1: 118,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 968.0,
+        y: 1272.0,
+        z: 800.0,
+    },
+    attr1: 118,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 984.0,
+        y: 1304.0,
+        z: 800.0,
+    },
+    attr1: 118,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 968.0,
+        y: 1304.0,
+        z: 800.0,
+    },
+    attr1: 118,
+    attr2: 5,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1202.2368,
+        y: 1469.5123,
+        z: 800.17755,
+    },
+    attr1: 346,
+    attr2: 6,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1234.6086,
+        y: 1469.8821,
+        z: 833.1039,
+    },
+    attr1: 346,
+    attr2: 6,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1104.0,
+        y: 1471.3068,
+        z: 800.0772,
+    },
+    attr1: 346,
+    attr2: 6,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1120.7522,
+        y: 1489.3644,
+        z: 799.6817,
+    },
+    attr1: 450,
+    attr2: 6,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1101.5548,
+        y: 1504.4603,
+        z: 800.4727,
+    },
+    attr1: 190,
+    attr2: 6,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1072.0,
+        y: 1471.5715,
+        z: 830.0849,
+    },
+    attr1: 346,
+    attr2: 6,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1088.0767,
+        y: 1488.0,
+        z: 831.6484,
+    },
+    attr1: 450,
+    attr2: 6,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1203.0371,
+        y: 917.07874,
+        z: 768.0,
+    },
+    attr1: 274,
+    attr2: 8,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1193.3691,
+        y: 943.2041,
+        z: 768.0,
+    },
+    attr1: 321,
+    attr2: 9,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1200.0,
+        y: 880.0,
+        z: 768.0,
+    },
+    attr1: 274,
+    attr2: 8,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1104.0,
+        y: 912.0,
+        z: 768.0,
+    },
+    attr1: 94,
+    attr2: 8,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1104.0,
+        y: 880.0,
+        z: 768.0,
+    },
+    attr1: 94,
+    attr2: 8,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1099.305,
+        y: 903.0073,
+        z: 768.0,
+    },
+    attr1: 55,
+    attr2: 38,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1175.4458,
+        y: 699.83295,
+        z: 771.5207,
+    },
+    attr1: 358,
+    attr2: 7,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1168.3702,
+        y: 695.41187,
+        z: 767.9925,
+    },
+    attr1: 190,
+    attr2: 15,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1200.0256,
+        y: 704.66425,
+        z: 768.0,
+    },
+    attr1: 182,
+    attr2: 14,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1240.758,
+        y: 654.68866,
+        z: 811.98883,
+    },
+    attr1: 271,
+    attr2: 16,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1240.3306,
+        y: 653.9294,
+        z: 833.29596,
+    },
+    attr1: 271,
+    attr2: 16,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1159.7028,
+        y: 1257.3413,
+        z: 767.9351,
+    },
+    attr1: 188,
+    attr2: 54,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1154.4971,
+        y: 1301.416,
+        z: 767.9991,
+    },
+    attr1: 166,
+    attr2: 54,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1134.7075,
+        y: 1340.0845,
+        z: 768.0,
+    },
+    attr1: 188,
+    attr2: 54,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1158.8165,
+        y: 1388.7511,
+        z: 768.0,
+    },
+    attr1: 166,
+    attr2: 54,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1200.0,
+        y: 1296.0,
+        z: 768.0,
+    },
+    attr1: 166,
+    attr2: 55,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1104.0,
+        y: 1296.0,
+        z: 768.0,
+    },
+    attr1: 166,
+    attr2: 55,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1104.0,
+        y: 1232.0,
+        z: 768.0,
+    },
+    attr1: 166,
+    attr2: 55,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1200.0,
+        y: 1232.0,
+        z: 768.0,
+    },
+    attr1: 166,
+    attr2: 55,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: MapModel,
+}
+Entity {
+    position: Position {
+        x: 1223.8949,
+        y: 616.0288,
+        z: 772.0,
+    },
+    attr1: 58,
+    attr2: 2,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1224.0,
+        y: 568.0,
+        z: 772.0,
+    },
+    attr1: 27,
+    attr2: 2,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1080.0,
+        y: 632.0,
+        z: 772.0,
+    },
+    attr1: 314,
+    attr2: 2,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1080.0,
+        y: 551.99536,
+        z: 772.00214,
+    },
+    attr1: 341,
+    attr2: 2,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1111.9218,
+        y: 1528.0,
+        z: 771.92883,
+    },
+    attr1: 214,
+    attr2: 1,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1112.0,
+        y: 1592.0,
+        z: 772.0,
+    },
+    attr1: 199,
+    attr2: 1,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1224.0,
+        y: 1560.0,
+        z: 772.0,
+    },
+    attr1: 144,
+    attr2: 1,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1208.0,
+        y: 1608.0,
+        z: 772.0,
+    },
+    attr1: 158,
+    attr2: 1,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1152.546,
+        y: 1483.6466,
+        z: 772.0,
+    },
+    attr1: 180,
+    attr2: 1,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: Flag,
+}
+Entity {
+    position: Position {
+        x: 1168.0,
+        y: 1104.0,
+        z: 836.0,
+    },
+    attr1: 1,
+    attr2: 0,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1136.0,
+        y: 1072.0,
+        z: 836.0,
+    },
+    attr1: 180,
+    attr2: 0,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1168.0,
+        y: 1072.0,
+        z: 836.0,
+    },
+    attr1: 269,
+    attr2: 0,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1136.0,
+        y: 1104.0,
+        z: 836.0,
+    },
+    attr1: 92,
+    attr2: 0,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1328.0,
+        y: 1552.0,
+        z: 772.0,
+    },
+    attr1: 88,
+    attr2: 0,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1328.0,
+        y: 1520.0,
+        z: 772.0,
+    },
+    attr1: 179,
+    attr2: 0,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 976.0,
+        y: 624.0,
+        z: 772.0,
+    },
+    attr1: 271,
+    attr2: 0,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 976.0,
+        y: 656.0,
+        z: 772.0,
+    },
+    attr1: 359,
+    attr2: 0,
+    attr3: 0,
+    attr4: 0,
+    attr5: 0,
+    ent_type: PlayerStart,
+}
+Entity {
+    position: Position {
+        x: 1136.0,
+        y: 688.0,
+        z: 772.0,
+    },
+    attr1: 0,
+    attr2: 2,
+    attr3: 2,
+    attr4: 0,
+    attr5: 0,
+    ent_type: Flag,
+}
+1111100
+4
+Cube Count: 1
+10110111
+7
+Cube Count: 2
+11010001
+1
+Cube Count: 3
+10000011
+3
+Cube Count: 4
+1101111
+7
+Cube Count: 5
+10010
+2
+Cube Count: 6
+1
+1
+Cube Count: 7
+1
+1
+Cube Count: 8
+1
+1
+Cube Count: 9
+0
+0
+Cube Count: 10
+1
+1
+Cube Count: 11
+1
+1
+Cube Count: 12
+1
+1
+Cube Count: 13
+0
+0
+Cube Count: 14
+1
+1
+Cube Count: 15
+1
+1
+Cube Count: 16
+1
+1
+Cube Count: 17
+0
+0
+Cube Count: 18
+1
+1
+Cube Count: 19
+1
+1
+Cube Count: 20
+1
+1
+Cube Count: 21
+10000110
+6
+Cube Count: 22
+10000110
+6
+Cube Count: 23
+10000110
+6
+Cube Count: 24
+10000110
+6
+Cube Count: 25
+10000000
+0
+Cube Count: 26
+10000000
+0
+Cube Count: 27
+10000000
+0
+Cube Count: 28
+10000000
+0
+Cube Count: 29
+10000100
+4
+Cube Count: 30
+0
+0
+Cube Count: 31
+1
+1
+Cube Count: 32
+1
+1
+Cube Count: 33
+1
+1
+Cube Count: 34
+10000111
+7
+Cube Count: 35
+10000111
+7
+Cube Count: 36
+10000110
+6
+Cube Count: 37
+10000110
+6
+Cube Count: 38
+10000110
+6
+Cube Count: 39
+10000110
+6
+Cube Count: 40
+10000000
+0
+Cube Count: 41
+10000000
+0
+Cube Count: 42
+10000000
+0
+Cube Count: 43
+10000000
+0
+Cube Count: 44
+10000100
+4
+Cube Count: 45
+0
+0
+Cube Count: 46
+1
+1
+Cube Count: 47
+1
+1
+Cube Count: 48
+1
+1
+Cube Count: 49
+0
+0
+Cube Count: 50
+1
+1
+Cube Count: 51
+1
+1
+Cube Count: 52
+1
+1
+Cube Count: 53
+10000111
+7
+Cube Count: 54
+10000111
+7
+Cube Count: 55
+10000110
+6
+Cube Count: 56
+10000110
+6
+Cube Count: 57
+10000110
+6
+Cube Count: 58
+10000110
+6
+Cube Count: 59
+10000000
+0
+Cube Count: 60
+10000000
+0
+Cube Count: 61
+10000000
+0
+Cube Count: 62
+10000000
+0
+Cube Count: 63
+10000100
+4
+Cube Count: 64
+0
+0
+Cube Count: 65
+1
+1
+Cube Count: 66
+1
+1
+Cube Count: 67
+1
+1
+Cube Count: 68
+10000111
+7
+Cube Count: 69
+10000111
+7
+Cube Count: 70
+10000110
+6
+Cube Count: 71
+10000110
+6
+Cube Count: 72
+10000110
+6
+Cube Count: 73
+10000110
+6
+Cube Count: 74
+10000000
+0
+Cube Count: 75
+10000000
+0
+Cube Count: 76
+10000000
+0
+Cube Count: 77
+10000000
+0
+Cube Count: 78
+10000100
+4
+Cube Count: 79
+0
+0
+Cube Count: 80
+1
+1
+Cube Count: 81
+1
+1
+Cube Count: 82
+1
+1
+Cube Count: 83
+0
+0
+Cube Count: 84
+1
+1
+Cube Count: 85
+1
+1
+Cube Count: 86
+1
+1
+Cube Count: 87
+0
+0
+Cube Count: 88
+1
+1
+Cube Count: 89
+1
+1
+Cube Count: 90
+1
+1
+Cube Count: 91
+10000111
+7
+Cube Count: 92
+10000111
+7
+Cube Count: 93
+10000110
+6
+Cube Count: 94
+10000110
+6
+Cube Count: 95
+10000110
+6
+Cube Count: 96
+10000110
+6
+Cube Count: 97
+10000000
+0
+Cube Count: 98
+10000000
+0
+Cube Count: 99
+10000000
+0
+Cube Count: 100
+10000000
+0
+Cube Count: 101
+10000100
+4
+Cube Count: 102
+0
+0
+Cube Count: 103
+1
+1
+Cube Count: 104
+1
+1
+Cube Count: 105
+1
+1
+Cube Count: 106
+10000111
+7
+Cube Count: 107
+10000111
+7
+Cube Count: 108
+10000110
+6
+Cube Count: 109
+10000110
+6
+Cube Count: 110
+10000110
+6
+Cube Count: 111
+10000110
+6
+Cube Count: 112
+10000000
+0
+Cube Count: 113
+10000000
+0
+Cube Count: 114
+10000000
+0
+Cube Count: 115
+10000000
+0
+Cube Count: 116
+10000100
+4
+Cube Count: 117
+0
+0
+Cube Count: 118
+1
+1
+Cube Count: 119
+1
+1
+Cube Count: 120
+1
+1
+Cube Count: 121
+0
+0
+Cube Count: 122
+1
+1
+Cube Count: 123
+1
+1
+Cube Count: 124
+1
+1
+Cube Count: 125
+10000111
+7
+Cube Count: 126
+10000111
+7
+Cube Count: 127
+10000110
+6
+Cube Count: 128
+10000110
+6
+Cube Count: 129
+10000110
+6
+Cube Count: 130
+10000110
+6
+Cube Count: 131
+10000000
+0
+Cube Count: 132
+10000000
+0
+Cube Count: 133
+10000000
+0
+Cube Count: 134
+10000000
+0
+Cube Count: 135
+10000100
+4
+Cube Count: 136
+0
+0
+Cube Count: 137
+1
+1
+Cube Count: 138
+1
+1
+Cube Count: 139
+1
+1
+Cube Count: 140
+10000111
+7
+Cube Count: 141
+10000111
+7
+Cube Count: 142
+10000110
+6
+Cube Count: 143
+10000110
+6
+Cube Count: 144
+10000110
+6
+Cube Count: 145
+10000110
+6
+Cube Count: 146
+10000000
+0
+Cube Count: 147
+10000000
+0
+Cube Count: 148
+10000000
+0
+Cube Count: 149
+10000000
+0
+Cube Count: 150
+10000100
+4
+Cube Count: 151
+0
+0
+Cube Count: 152
+1
+1
+Cube Count: 153
+1
+1
+Cube Count: 154
+1
+1
+Cube Count: 155
+0
+0
+Cube Count: 156
+1
+1
+Cube Count: 157
+10
+2
+Cube Count: 158
+10
+2
+Cube Count: 159
+10
+2
+Cube Count: 160
+10
+2
+Cube Count: 161
+10
+2
+Cube Count: 162
+10000000
+0
+Cube Count: 163
+10000000
+0
+Cube Count: 164
+10000000
+0
+Cube Count: 165
+10001000
+0
+Cube Count: 166
+10001000
+0
+Cube Count: 167
+10000000
+0
+Cube Count: 168
+10000000
+0
+Cube Count: 169
+10000000
+0
+Cube Count: 170
+10000000
+0
+Cube Count: 171
+10000000
+0
+Cube Count: 172
+10000000
+0
+Cube Count: 173
+10010111
+7
+Cube Count: 174
+10
+2
+Cube Count: 175
+10
+2
+Cube Count: 176
+10000000
+0
+Cube Count: 177
+10000000
+0
+Cube Count: 178
+10000000
+0
+Cube Count: 179
+0
+0
+Cube Count: 180
+0
+0
+Cube Count: 181
+10000000
+0
+Cube Count: 182
+10000000
+0
+Cube Count: 183
+10000000
+0
+Cube Count: 184
+10000000
+0
+Cube Count: 185
+10000000
+0
+Cube Count: 186
+10000000
+0
+Cube Count: 187
+10010111
+7
+Cube Count: 188
+10
+2
+Cube Count: 189
+0
+0
+Cube Count: 190
+1
+1
+Cube Count: 191
+0
+0
+Cube Count: 192
+1
+1
+Cube Count: 193
+1
+1
+Cube Count: 194
+1
+1
+Cube Count: 195
+0
+0
+Cube Count: 196
+1
+1
+Cube Count: 197
+1
+1
+Cube Count: 198
+1
+1
+Cube Count: 199
+10000111
+7
+Cube Count: 200
+10000111
+7
+Cube Count: 201
+10000110
+6
+Cube Count: 202
+10000110
+6
+Cube Count: 203
+10000110
+6
+Cube Count: 204
+10000110
+6
+Cube Count: 205
+10000000
+0
+Cube Count: 206
+10000000
+0
+Cube Count: 207
+10000000
+0
+Cube Count: 208
+10000000
+0
+Cube Count: 209
+10000100
+4
+Cube Count: 210
+0
+0
+Cube Count: 211
+1
+1
+Cube Count: 212
+1
+1
+Cube Count: 213
+1
+1
+Cube Count: 214
+10000111
+7
+Cube Count: 215
+10000111
+7
+Cube Count: 216
+10000110
+6
+Cube Count: 217
+10000110
+6
+Cube Count: 218
+10000110
+6
+Cube Count: 219
+10000110
+6
+Cube Count: 220
+10000000
+0
+Cube Count: 221
+10000000
+0
+Cube Count: 222
+10000000
+0
+Cube Count: 223
+10000000
+0
+Cube Count: 224
+10000100
+4
+Cube Count: 225
+0
+0
+Cube Count: 226
+1
+1
+Cube Count: 227
+1
+1
+Cube Count: 228
+1
+1
+Cube Count: 229
+0
+0
+Cube Count: 230
+1
+1
+Cube Count: 231
+1
+1
+Cube Count: 232
+1
+1
+Cube Count: 233
+10000111
+7
+Cube Count: 234
+10000111
+7
+Cube Count: 235
+10000110
+6
+Cube Count: 236
+10000110
+6
+Cube Count: 237
+10000110
+6
+Cube Count: 238
+10000110
+6
+Cube Count: 239
+10000000
+0
+Cube Count: 240
+10000000
+0
+Cube Count: 241
+10000000
+0
+Cube Count: 242
+10000000
+0
+Cube Count: 243
+10000100
+4
+Cube Count: 244
+0
+0
+Cube Count: 245
+1
+1
+Cube Count: 246
+1
+1
+Cube Count: 247
+1
+1
+Cube Count: 248
+0
+0
+Cube Count: 249
+1
+1
+Cube Count: 250
+1
+1
+Cube Count: 251
+1
+1
+Cube Count: 252
+10
+2
+Cube Count: 253
+10
+2
+Cube Count: 254
+11
+3
+Cube Count: 255
+11
+3
+Cube Count: 256
+10110
+6
+Cube Count: 257
+11000000
+0
+Cube Count: 258
+11111
+7
+Cube Count: 259
+0
+0
+Cube Count: 260
+10110
+6
+Cube Count: 261
+0
+0
+Cube Count: 262
+100000
+0
+Cube Count: 263
+0
+0
+Cube Count: 264
+10110
+6
+Cube Count: 265
+1
+1
+Cube Count: 266
+1
+1
+Cube Count: 267
+1
+1
+Cube Count: 268
+0
+0
+Cube Count: 269
+1
+1
+Cube Count: 270
+10100011
+3
+Cube Count: 271
+11000000
+0
+Cube Count: 272
+10110
+6
+Cube Count: 273
+10000000
+0
+Cube Count: 274
+11111
+7
+Cube Count: 275
+1
+1
+Cube Count: 276
+10000011
+3
+Cube Count: 277
+1
+1
+Cube Count: 278
+1
+1
+Cube Count: 279
+1
+1
+Cube Count: 280
+1
+1
+Cube Count: 281
+1
+1
+Cube Count: 282
+1
+1
+Cube Count: 283
+1
+1
+Cube Count: 284
+1
+1
+Cube Count: 285
+1
+1
+Cube Count: 286
+1
+1
+Cube Count: 287
+1
+1
+Cube Count: 288
+0
+0
+Cube Count: 289
+1
+1
+Cube Count: 290
+0
+0
+Cube Count: 291
+1
+1
+Cube Count: 292
+1
+1
+Cube Count: 293
+1
+1
+Cube Count: 294
+11
+3
+Cube Count: 295
+1
+1
+Cube Count: 296
+1
+1
+Cube Count: 297
+1
+1
+Cube Count: 298
+1
+1
+Cube Count: 299
+1
+1
+Cube Count: 300
+0
+0
+Cube Count: 301
+1
+1
+Cube Count: 302
+11
+3
+Cube Count: 303
+1
+1
+Cube Count: 304
+1
+1
+Cube Count: 305
+1
+1
+Cube Count: 306
+1
+1
+Cube Count: 307
+1
+1
+Cube Count: 308
+1
+1
+Cube Count: 309
+1
+1
+Cube Count: 310
+1
+1
+Cube Count: 311
+1
+1
+Cube Count: 312
+1
+1
+Cube Count: 313
+0
+0
+Cube Count: 314
+1
+1
+Cube Count: 315
+1
+1
+Cube Count: 316
+0
+0
+Cube Count: 317
+1
+1
+Cube Count: 318
+1
+1
+Cube Count: 319
+1
+1
+Cube Count: 320
+0
+0
+Cube Count: 321
+1
+1
+Cube Count: 322
+1
+1
+Cube Count: 323
+0
+0
+Cube Count: 324
+1
+1
+Cube Count: 325
+1
+1
+Cube Count: 326
+11
+3
+Cube Count: 327
+1
+1
+Cube Count: 328
+1
+1
+Cube Count: 329
+1
+1
+Cube Count: 330
+11
+3
+Cube Count: 331
+1
+1
+Cube Count: 332
+1
+1
+Cube Count: 333
+1
+1
+Cube Count: 334
+1
+1
+Cube Count: 335
+0
+0
+Cube Count: 336
+1
+1
+Cube Count: 337
+1
+1
+Cube Count: 338
+11
+3
+Cube Count: 339
+1
+1
+Cube Count: 340
+1
+1
+Cube Count: 341
+1
+1
+Cube Count: 342
+11
+3
+Cube Count: 343
+1
+1
+Cube Count: 344
+1
+1
+Cube Count: 345
+1
+1
+Cube Count: 346
+1
+1
+Cube Count: 347
+1
+1
+Cube Count: 348
+0
+0
+Cube Count: 349
+1
+1
+Cube Count: 350
+1
+1
+Cube Count: 351
+0
+0
+Cube Count: 352
+1
+1
+Cube Count: 353
+1
+1
+Cube Count: 354
+11
+3
+Cube Count: 355
+1
+1
+Cube Count: 356
+1
+1
+Cube Count: 357
+1
+1
+Cube Count: 358
+11
+3
+Cube Count: 359
+1
+1
+Cube Count: 360
+1
+1
+Cube Count: 361
+1
+1
+Cube Count: 362
+1
+1
+Cube Count: 363
+0
+0
+Cube Count: 364
+1
+1
+Cube Count: 365
+1
+1
+Cube Count: 366
+11
+3
+Cube Count: 367
+1
+1
+Cube Count: 368
+1
+1
+Cube Count: 369
+1
+1
+Cube Count: 370
+11
+3
+Cube Count: 371
+1
+1
+Cube Count: 372
+1
+1
+Cube Count: 373
+1
+1
+Cube Count: 374
+1
+1
+Cube Count: 375
+1
+1
+Cube Count: 376
+0
+0
+Cube Count: 377
+0
+0
+Cube Count: 378
+1
+1
+Cube Count: 379
+11
+3
+Cube Count: 380
+1
+1
+Cube Count: 381
+1
+1
+Cube Count: 382
+10
+2
+Cube Count: 383
+10100010
+2
+Cube Count: 384
+0
+0
+Cube Count: 385
+10100
+4
+Cube Count: 386
+11
+3
+Cube Count: 387
+0
+0
+Cube Count: 388
+11000
+0
+Cube Count: 389
+0
+0
+Cube Count: 390
+10100
+4
+Cube Count: 391
+10
+2
+Cube Count: 392
+10
+2
+Cube Count: 393
+10
+2
+Cube Count: 394
+10
+2
+Cube Count: 395
+10000100
+4
+Cube Count: 396
+11
+3
+Cube Count: 397
+11
+3
+Cube Count: 398
+11
+3
+Cube Count: 399
+11
+3
+Cube Count: 400
+10
+2
+Cube Count: 401
+10
+2
+Cube Count: 402
+10
+2
+Cube Count: 403
+10
+2
+Cube Count: 404
+10000100
+4
+Cube Count: 405
+11
+3
+Cube Count: 406
+11
+3
+Cube Count: 407
+11
+3
+Cube Count: 408
+11
+3
+Cube Count: 409
+10000100
+4
+Cube Count: 410
+11
+3
+Cube Count: 411
+11
+3
+Cube Count: 412
+11
+3
+Cube Count: 413
+11
+3
+Cube Count: 414
+10
+2
+Cube Count: 415
+10
+2
+Cube Count: 416
+10
+2
+Cube Count: 417
+10
+2
+Cube Count: 418
+10000000
+0
+Cube Count: 419
+10000000
+0
+Cube Count: 420
+10000000
+0
+Cube Count: 421
+10000000
+0
+Cube Count: 422
+10000000
+0
+Cube Count: 423
+10000000
+0
+Cube Count: 424
+10010111
+7
+Cube Count: 425
+10
+2
+Cube Count: 426
+10010111
+7
+Cube Count: 427
+10
+2
+Cube Count: 428
+1010
+2
+Cube Count: 429
+0
+0
+Cube Count: 430
+10000
+0
+Cube Count: 431
+0
+0
+Cube Count: 432
+101000
+0
+Cube Count: 433
+0
+0
+Cube Count: 434
+10010
+2
+Cube Count: 435
+0
+0
+Cube Count: 436
+101010
+2
+Cube Count: 437
+0
+0
+Cube Count: 438
+101010
+2
+Cube Count: 439
+10000000
+0
+Cube Count: 440
+10000000
+0
+Cube Count: 441
+10000000
+0
+Cube Count: 442
+10000000
+0
+Cube Count: 443
+10000000
+0
+Cube Count: 444
+10000000
+0
+Cube Count: 445
+10000100
+4
+Cube Count: 446
+1110110
+6
+Cube Count: 447
+11
+3
+Cube Count: 448
+0
+0
+Cube Count: 449
+10010111
+7
+Cube Count: 450
+10
+2
+Cube Count: 451
+10
+2
+Cube Count: 452
+10
+2
+Cube Count: 453
+11
+3
+Cube Count: 454
+1110110
+6
+Cube Count: 455
+11
+3
+Cube Count: 456
+1110110
+6
+Cube Count: 457
+11
+3
+Cube Count: 458
+10100
+4
+Cube Count: 459
+10
+2
+Cube Count: 460
+10
+2
+Cube Count: 461
+10000000
+0
+Cube Count: 462
+10000000
+0
+Cube Count: 463
+10000000
+0
+Cube Count: 464
+10000000
+0
+Cube Count: 465
+10000100
+4
+Cube Count: 466
+10010111
+7
+Cube Count: 467
+10
+2
+Cube Count: 468
+10000100
+4
+Cube Count: 469
+11
+3
+Cube Count: 470
+11
+3
+Cube Count: 471
+11
+3
+Cube Count: 472
+11
+3
+Cube Count: 473
+10000100
+4
+Cube Count: 474
+1110110
+6
+Cube Count: 475
+11
+3
+Cube Count: 476
+1110110
+6
+Cube Count: 477
+11
+3
+Cube Count: 478
+11
+3
+Cube Count: 479
+1
+1
+Cube Count: 480
+10
+2
+Cube Count: 481
+10
+2
+Cube Count: 482
+10
+2
+Cube Count: 483
+10
+2
+Cube Count: 484
+10
+2
+Cube Count: 485
+10
+2
+Cube Count: 486
+10
+2
+Cube Count: 487
+10
+2
+Cube Count: 488
+10010111
+7
+Cube Count: 489
+10
+2
+Cube Count: 490
+10
+2
+Cube Count: 491
+10
+2
+Cube Count: 492
+10
+2
+Cube Count: 493
+10
+2
+Cube Count: 494
+10
+2
+Cube Count: 495
+10
+2
+Cube Count: 496
+10
+2
+Cube Count: 497
+10010111
+7
+Cube Count: 498
+10
+2
+Cube Count: 499
+10
+2
+Cube Count: 500
+10
+2
+Cube Count: 501
+10100
+4
+Cube Count: 502
+10
+2
+Cube Count: 503
+0
+0
+Cube Count: 504
+10010111
+7
+Cube Count: 505
+10
+2
+Cube Count: 506
+10
+2
+Cube Count: 507
+10010111
+7
+Cube Count: 508
+10
+2
+Cube Count: 509
+10010111
+7
+Cube Count: 510
+10
+2
+Cube Count: 511
+100000
+0
+Cube Count: 512
+0
+0
+Cube Count: 513
+11000
+0
+Cube Count: 514
+0
+0
+Cube Count: 515
+100010
+2
+Cube Count: 516
+10100010
+2
+Cube Count: 517
+10000000
+0
+Cube Count: 518
+100000
+0
+Cube Count: 519
+0
+0
+Cube Count: 520
+11000
+0
+Cube Count: 521
+10
+2
+Cube Count: 522
+11
+3
+Cube Count: 523
+10000010
+2
+Cube Count: 524
+10
+2
+Cube Count: 525
+10100010
+2
+Cube Count: 526
+0
+0
+Cube Count: 527
+11000
+0
+Cube Count: 528
+0
+0
+Cube Count: 529
+11110
+6
+Cube Count: 530
+10100010
+2
+Cube Count: 531
+0
+0
+Cube Count: 532
+100010
+2
+Cube Count: 533
+1101011
+3
+Cube Count: 534
+11100000
+0
+Cube Count: 535
+10111
+7
+Cube Count: 536
+0
+0
+Cube Count: 537
+11111
+7
+Cube Count: 538
+1
+1
+Cube Count: 539
+10100010
+2
+Cube Count: 540
+10000000
+0
+Cube Count: 541
+10000000
+0
+Cube Count: 542
+10000000
+0
+Cube Count: 543
+10000000
+0
+Cube Count: 544
+10000000
+0
+Cube Count: 545
+10000000
+0
+Cube Count: 546
+1110000
+0
+Cube Count: 547
+1110000
+0
+Cube Count: 548
+1110000
+0
+Cube Count: 549
+1110000
+0
+Cube Count: 550
+10010111
+7
+Cube Count: 551
+10
+2
+Cube Count: 552
+0
+0
+Cube Count: 553
+10
+2
+Cube Count: 554
+10
+2
+Cube Count: 555
+10
+2
+Cube Count: 556
+10
+2
+Cube Count: 557
+10000010
+2
+Cube Count: 558
+10100010
+2
+Cube Count: 559
+0
+0
+Cube Count: 560
+100010
+2
+Cube Count: 561
+0
+0
+Cube Count: 562
+100000
+0
+Cube Count: 563
+0
+0
+Cube Count: 564
+100100
+4
+Cube Count: 565
+0
+0
+Cube Count: 566
+10010111
+7
+Cube Count: 567
+10
+2
+Cube Count: 568
+10
+2
+Cube Count: 569
+10
+2
+Cube Count: 570
+10110
+6
+Cube Count: 571
+10000000
+0
+Cube Count: 572
+11111
+7
+Cube Count: 573
+0
+0
+Cube Count: 574
+10100
+4
+Cube Count: 575
+11
+3
+Cube Count: 576
+10
+2
+Cube Count: 577
+10
+2
+Cube Count: 578
+10
+2
+Cube Count: 579
+10
+2
+Cube Count: 580
+10
+2
+Cube Count: 581
+10010111
+7
+Cube Count: 582
+10
+2
+Cube Count: 583
+100110
+6
+Cube Count: 584
+0
+0
+Cube Count: 585
+11000
+0
+Cube Count: 586
+0
+0
+Cube Count: 587
+100100
+4
+Cube Count: 588
+0
+0
+Cube Count: 589
+100000
+0
+Cube Count: 590
+0
+0
+Cube Count: 591
+100110
+6
+Cube Count: 592
+11000011
+3
+Cube Count: 593
+0
+0
+Cube Count: 594
+10000010
+2
+Cube Count: 595
+10100010
+2
+Cube Count: 596
+0
+0
+Cube Count: 597
+101000
+0
+Cube Count: 598
+0
+0
+Cube Count: 599
+10110
+6
+Cube Count: 600
+10
+2
+Cube Count: 601
+0
+0
+Cube Count: 602
+10
+2
+Cube Count: 603
+10000010
+2
+Cube Count: 604
+10
+2
+Cube Count: 605
+10
+2
+Cube Count: 606
+10
+2
+Cube Count: 607
+10100010
+2
+Cube Count: 608
+0
+0
+Cube Count: 609
+0
+0
+Cube Count: 610
+1101
+5
+Cube Count: 611
+100100
+4
+Cube Count: 612
+11
+3
+Cube Count: 613
+10000000
+0
+Cube Count: 614
+10000000
+0
+Cube Count: 615
+1000000
+0
+Cube Count: 616
+1000000
+0
+Cube Count: 617
+1000000
+0
+Cube Count: 618
+1000000
+0
+Cube Count: 619
+10000111
+7
+Cube Count: 620
+11
+3
+Cube Count: 621
+1000
+0
+Cube Count: 622
+100
+4
+Cube Count: 623
+10100010
+2
+Cube Count: 624
+0
+0
+Cube Count: 625
+10110
+6
+Cube Count: 626
+0
+0
+Cube Count: 627
+11110
+6
+Cube Count: 628
+1000011
+3
+Cube Count: 629
+10100010
+2
+Cube Count: 630
+0
+0
+Cube Count: 631
+0
+0
+Cube Count: 632
+1101
+5
+Cube Count: 633
+100100
+4
+Cube Count: 634
+1
+1
+Cube Count: 635
+1
+1
+Cube Count: 636
+0
+0
+Cube Count: 637
+1
+1
+Cube Count: 638
+1
+1
+Cube Count: 639
+10000000
+0
+Cube Count: 640
+10000000
+0
+Cube Count: 641
+10000000
+0
+Cube Count: 642
+10000000
+0
+Cube Count: 643
+10000100
+4
+Cube Count: 644
+0
+0
+Cube Count: 645
+1
+1
+Cube Count: 646
+1
+1
+Cube Count: 647
+1
+1
+Cube Count: 648
+10000
+0
+Cube Count: 649
+10000
+0
+Cube Count: 650
+10000110
+6
+Cube Count: 651
+10000110
+6
+Cube Count: 652
+10000110
+6
+Cube Count: 653
+10000110
+6
+Cube Count: 654
+10000000
+0
+Cube Count: 655
+10000000
+0
+Cube Count: 656
+10000000
+0
+Cube Count: 657
+10000000
+0
+Cube Count: 658
+10000100
+4
+Cube Count: 659
+0
+0
+Cube Count: 660
+1
+1
+Cube Count: 661
+1
+1
+Cube Count: 662
+1
+1
+Cube Count: 663
+1
+1
+Cube Count: 664
+0
+0
+Cube Count: 665
+1
+1
+Cube Count: 666
+1
+1
+Cube Count: 667
+10000
+0
+Cube Count: 668
+10000
+0
+Cube Count: 669
+10000110
+6
+Cube Count: 670
+10000110
+6
+Cube Count: 671
+10000110
+6
+Cube Count: 672
+10000110
+6
+Cube Count: 673
+10000000
+0
+Cube Count: 674
+10000000
+0
+Cube Count: 675
+10000000
+0
+Cube Count: 676
+10000000
+0
+Cube Count: 677
+10000100
+4
+Cube Count: 678
+0
+0
+Cube Count: 679
+1
+1
+Cube Count: 680
+1
+1
+Cube Count: 681
+1
+1
+Cube Count: 682
+0
+0
+Cube Count: 683
+1
+1
+Cube Count: 684
+1
+1
+Cube Count: 685
+10
+2
+Cube Count: 686
+10
+2
+Cube Count: 687
+1000000
+0
+Cube Count: 688
+100000
+0
+Cube Count: 689
+100000
+0
+Cube Count: 690
+10000000
+0
+Cube Count: 691
+10000000
+0
+Cube Count: 692
+10000000
+0
+Cube Count: 693
+10000000
+0
+Cube Count: 694
+10000000
+0
+Cube Count: 695
+10000000
+0
+Cube Count: 696
+10000000
+0
+Cube Count: 697
+10000000
+0
+Cube Count: 698
+10000100
+4
+Cube Count: 699
+100
+4
+Cube Count: 700
+0
+0
+Cube Count: 701
+101000
+0
+Cube Count: 702
+0
+0
+Cube Count: 703
+10110
+6
+Cube Count: 704
+1000000
+0
+Cube Count: 705
+101000
+0
+Cube Count: 706
+0
+0
+Cube Count: 707
+10110
+6
+Cube Count: 708
+1
+1
+Cube Count: 709
+1
+1
+Cube Count: 710
+1
+1
+Cube Count: 711
+0
+0
+Cube Count: 712
+10100011
+3
+Cube Count: 713
+11000000
+0
+Cube Count: 714
+10110
+6
+Cube Count: 715
+0
+0
+Cube Count: 716
+100000
+0
+Cube Count: 717
+1
+1
+Cube Count: 718
+10000011
+3
+Cube Count: 719
+1
+1
+Cube Count: 720
+1
+1
+Cube Count: 721
+1
+1
+Cube Count: 722
+1
+1
+Cube Count: 723
+1
+1
+Cube Count: 724
+1
+1
+Cube Count: 725
+1
+1
+Cube Count: 726
+1
+1
+Cube Count: 727
+1
+1
+Cube Count: 728
+1
+1
+Cube Count: 729
+1
+1
+Cube Count: 730
+1
+1
+Cube Count: 731
+1
+1
+Cube Count: 732
+0
+0
+Cube Count: 733
+1
+1
+Cube Count: 734
+1
+1
+Cube Count: 735
+0
+0
+Cube Count: 736
+0
+0
+Cube Count: 737
+10100010
+2
+Cube Count: 738
+0
+0
+Cube Count: 739
+0
+0
+Cube Count: 740
+1101
+5
+Cube Count: 741
+100100
+4
+Cube Count: 742
+11
+3
+Cube Count: 743
+1110001
+1
+Cube Count: 744
+0
+0
+Cube Count: 745
+10110
+6
+Cube Count: 746
+0
+0
+Cube Count: 747
+11010
+2
+Cube Count: 748
+11
+3
+Cube Count: 749
+10
+2
+Cube Count: 750
+10000100
+4
+Cube Count: 751
+10
+2
+Cube Count: 752
+10110
+6
+Cube Count: 753
+0
+0
+Cube Count: 754
+11001
+1
+Cube Count: 755
+10000000
+0
+Cube Count: 756
+10000000
+0
+Cube Count: 757
+10000000
+0
+Cube Count: 758
+10010011
+3
+Cube Count: 759
+1000000
+0
+Cube Count: 760
+1000000
+0
+Cube Count: 761
+1000000
+0
+Cube Count: 762
+1000000
+0
+Cube Count: 763
+10000000
+0
+Cube Count: 764
+10000000
+0
+Cube Count: 765
+10000000
+0
+Cube Count: 766
+10000000
+0
+Cube Count: 767
+1000000
+0
+Cube Count: 768
+1000000
+0
+Cube Count: 769
+1000000
+0
+Cube Count: 770
+1000000
+0
+Cube Count: 771
+10010011
+3
+Cube Count: 772
+1000000
+0
+Cube Count: 773
+1000000
+0
+Cube Count: 774
+1000000
+0
+Cube Count: 775
+1000000
+0
+Cube Count: 776
+1000000
+0
+Cube Count: 777
+1000000
+0
+Cube Count: 778
+1000000
+0
+Cube Count: 779
+1000000
+0
+Cube Count: 780
+1000000
+0
+Cube Count: 781
+1000000
+0
+Cube Count: 782
+1000000
+0
+Cube Count: 783
+1000000
+0
+Cube Count: 784
+10010011
+3
+Cube Count: 785
+11
+3
+Cube Count: 786
+0
+0
+Cube Count: 787
+1
+1
+Cube Count: 788
+10100010
+2
+Cube Count: 789
+0
+0
+Cube Count: 790
+101000
+0
+Cube Count: 791
+0
+0
+Cube Count: 792
+11000
+0
+Cube Count: 793
+10100011
+3
+Cube Count: 794
+0
+0
+Cube Count: 795
+0
+0
+Cube Count: 796
+1101
+5
+Cube Count: 797
+100100
+4
+Cube Count: 798
+11
+3
+Cube Count: 799
+11
+3
+Cube Count: 800
+10100
+4
+Cube Count: 801
+10000000
+0
+Cube Count: 802
+10010111
+7
+Cube Count: 803
+10
+2
+Cube Count: 804
+10010011
+3
+Cube Count: 805
+11
+3
+Cube Count: 806
+11
+3
+Cube Count: 807
+0
+0
+Cube Count: 808
+1
+1
+Cube Count: 809
+10
+2
+Cube Count: 810
+10
+2
+Cube Count: 811
+10
+2
+Cube Count: 812
+1
+1
+Cube Count: 813
+1
+1
+Cube Count: 814
+1
+1
+Cube Count: 815
+1
+1
+Cube Count: 816
+1
+1
+Cube Count: 817
+11
+3
+Cube Count: 818
+1
+1
+Cube Count: 819
+1
+1
+Cube Count: 820
+1
+1
+Cube Count: 821
+1
+1
+Cube Count: 822
+1
+1
+Cube Count: 823
+0
+0
+Cube Count: 824
+1
+1
+Cube Count: 825
+1
+1
+Cube Count: 826
+0
+0
+Cube Count: 827
+1
+1
+Cube Count: 828
+1
+1
+Cube Count: 829
+0
+0
+Cube Count: 830
+10000010
+2
+Cube Count: 831
+10100010
+2
+Cube Count: 832
+0
+0
+Cube Count: 833
+0
+0
+Cube Count: 834
+1101
+5
+Cube Count: 835
+100100
+4
+Cube Count: 836
+11
+3
+Cube Count: 837
+10010111
+7
+Cube Count: 838
+10
+2
+Cube Count: 839
+10
+2
+Cube Count: 840
+11000
+0
+Cube Count: 841
+0
+0
+Cube Count: 842
+100000
+0
+Cube Count: 843
+0
+0
+Cube Count: 844
+11010
+2
+Cube Count: 845
+11
+3
+Cube Count: 846
+11010
+2
+Cube Count: 847
+11
+3
+Cube Count: 848
+10
+2
+Cube Count: 849
+0
+0
+Cube Count: 850
+10010111
+7
+Cube Count: 851
+10
+2
+Cube Count: 852
+10
+2
+Cube Count: 853
+10010111
+7
+Cube Count: 854
+10
+2
+Cube Count: 855
+10010111
+7
+Cube Count: 856
+10
+2
+Cube Count: 857
+100000
+0
+Cube Count: 858
+0
+0
+Cube Count: 859
+11100
+4
+Cube Count: 860
+0
+0
+Cube Count: 861
+100010
+2
+Cube Count: 862
+11
+3
+Cube Count: 863
+1101
+5
+Cube Count: 864
+100100
+4
+Cube Count: 865
+0
+0
+Cube Count: 866
+100000
+0
+Cube Count: 867
+0
+0
+Cube Count: 868
+11111
+7
+Cube Count: 869
+0
+0
+Cube Count: 870
+100010
+2
+Cube Count: 871
+10100010
+2
+Cube Count: 872
+0
+0
+Cube Count: 873
+11010
+2
+Cube Count: 874
+11
+3
+Cube Count: 875
+11
+3
+Cube Count: 876
+0
+0
+Cube Count: 877
+10010111
+7
+Cube Count: 878
+10
+2
+Cube Count: 879
+10
+2
+Cube Count: 880
+1000000
+0
+Cube Count: 881
+10000000
+0
+Cube Count: 882
+10000000
+0
+Cube Count: 883
+10000000
+0
+Cube Count: 884
+10000000
+0
+Cube Count: 885
+10010111
+7
+Cube Count: 886
+10
+2
+Cube Count: 887
+10010111
+7
+Cube Count: 888
+10
+2
+Cube Count: 889
+100
+4
+Cube Count: 890
+10100010
+2
+Cube Count: 891
+0
+0
+Cube Count: 892
+101000
+0
+Cube Count: 893
+0
+0
+Cube Count: 894
+11000
+0
+Cube Count: 895
+1
+1
+Cube Count: 896
+10000010
+2
+Cube Count: 897
+10000010
+2
+Cube Count: 898
+10100010
+2
+Cube Count: 899
+0
+0
+Cube Count: 900
+11000
+0
+Cube Count: 901
+0
+0
+Cube Count: 902
+11110
+6
+Cube Count: 903
+1
+1
+Cube Count: 904
+10100010
+2
+Cube Count: 905
+0
+0
+Cube Count: 906
+11010
+2
+Cube Count: 907
+0
+0
+Cube Count: 908
+10010111
+7
+Cube Count: 909
+10
+2
+Cube Count: 910
+10
+2
+Cube Count: 911
+10000000
+0
+Cube Count: 912
+10010111
+7
+Cube Count: 913
+10
+2
+Cube Count: 914
+100
+4
+Cube Count: 915
+0
+0
+Cube Count: 916
+10100010
+2
+Cube Count: 917
+0
+0
+Cube Count: 918
+100111
+7
+Cube Count: 919
+0
+0
+Cube Count: 920
+11100
+4
+Cube Count: 921
+11
+3
+Cube Count: 922
+1110110
+6
+Cube Count: 923
+11
+3
+Cube Count: 924
+10
+2
+Cube Count: 925
+11110
+6
+Cube Count: 926
+0
+0
+Cube Count: 927
+100110
+6
+Cube Count: 928
+0
+0
+Cube Count: 929
+11111
+7
+Cube Count: 930
+0
+0
+Cube Count: 931
+101000
+0
+Cube Count: 932
+10100010
+2
+Cube Count: 933
+0
+0
+Cube Count: 934
+11010
+2
+Cube Count: 935
+11
+3
+Cube Count: 936
+0
+0
+Cube Count: 937
+100000
+0
+Cube Count: 938
+0
+0
+Cube Count: 939
+11100
+4
+Cube Count: 940
+0
+0
+Cube Count: 941
+10010111
+7
+Cube Count: 942
+10
+2
+Cube Count: 943
+10
+2
+Cube Count: 944
+0
+0
+Cube Count: 945
+1
+1
+Cube Count: 946
+0
+0
+Cube Count: 947
+0
+0
+Cube Count: 948
+1
+1
+Cube Count: 949
+1
+1
+Cube Count: 950
+11
+3
+Cube Count: 951
+1
+1
+Cube Count: 952
+1
+1
+Cube Count: 953
+1
+1
+Cube Count: 954
+1
+1
+Cube Count: 955
+1
+1
+Cube Count: 956
+1
+1
+Cube Count: 957
+0
+0
+Cube Count: 958
+11
+3
+Cube Count: 959
+1
+1
+Cube Count: 960
+1
+1
+Cube Count: 961
+1
+1
+Cube Count: 962
+1
+1
+Cube Count: 963
+1
+1
+Cube Count: 964
+1
+1
+Cube Count: 965
+1
+1
+Cube Count: 966
+1
+1
+Cube Count: 967
+1
+1
+Cube Count: 968
+1
+1
+Cube Count: 969
+1
+1
+Cube Count: 970
+1
+1
+Cube Count: 971
+1
+1
+Cube Count: 972
+0
+0
+Cube Count: 973
+1
+1
+Cube Count: 974
+0
+0
+Cube Count: 975
+1
+1
+Cube Count: 976
+0
+0
+Cube Count: 977
+1
+1
+Cube Count: 978
+0
+0
+Cube Count: 979
+1
+1
+Cube Count: 980
+0
+0
+Cube Count: 981
+1
+1
+Cube Count: 982
+10100011
+3
+Cube Count: 983
+0
+0
+Cube Count: 984
+100000
+0
+Cube Count: 985
+0
+0
+Cube Count: 986
+10
+2
+Cube Count: 987
+0
+0
+Cube Count: 988
+10100011
+3
+Cube Count: 989
+0
+0
+Cube Count: 990
+100000
+0
+Cube Count: 991
+0
+0
+Cube Count: 992
+0
+0
+Cube Count: 993
+1
+1
+Cube Count: 994
+10100011
+3
+Cube Count: 995
+0
+0
+Cube Count: 996
+0
+0
+Cube Count: 997
+1101
+5
+Cube Count: 998
+100100
+4
+Cube Count: 999
+0
+0
+Cube Count: 1000
+1
+1
+Cube Count: 1001
+10000100
+4
+Cube Count: 1002
+10000100
+4
+Cube Count: 1003
+100010
+2
+Cube Count: 1004
+10000000
+0
+Cube Count: 1005
+100001
+1
+Cube Count: 1006
+1
+1
+Cube Count: 1007
+10100011
+3
+Cube Count: 1008
+0
+0
+Cube Count: 1009
+100000
+0
+Cube Count: 1010
+0
+0
+Cube Count: 1011
+10
+2
+Cube Count: 1012
+0
+0
+Cube Count: 1013
+10100011
+3
+Cube Count: 1014
+0
+0
+Cube Count: 1015
+100000
+0
+Cube Count: 1016
+0
+0
+Cube Count: 1017
+0
+0
+Cube Count: 1018
+1
+1
+Cube Count: 1019
+10100011
+3
+Cube Count: 1020
+0
+0
+Cube Count: 1021
+0
+0
+Cube Count: 1022
+1101
+5
+Cube Count: 1023
+100100
+4
+Cube Count: 1024
+0
+0
+Cube Count: 1025
+1
+1
+Cube Count: 1026
+10000100
+4
+Cube Count: 1027
+10000100
+4
+Cube Count: 1028
+100100
+4
+Cube Count: 1029
+10000000
+0
+Cube Count: 1030
+100011
+3
+Cube Count: 1031
+0
+0
+Cube Count: 1032
+10100011
+3
+Cube Count: 1033
+0
+0
+Cube Count: 1034
+100000
+0
+Cube Count: 1035
+0
+0
+Cube Count: 1036
+100
+4
+Cube Count: 1037
+0
+0
+Cube Count: 1038
+10100011
+3
+Cube Count: 1039
+0
+0
+Cube Count: 1040
+100000
+0
+Cube Count: 1041
+0
+0
+Cube Count: 1042
+10
+2
+Cube Count: 1043
+0
+0
+Cube Count: 1044
+10100011
+3
+Cube Count: 1045
+0
+0
+Cube Count: 1046
+0
+0
+Cube Count: 1047
+1101
+5
+Cube Count: 1048
+100100
+4
+Cube Count: 1049
+0
+0
+Cube Count: 1050
+1
+1
+Cube Count: 1051
+10000100
+4
+Cube Count: 1052
+10000100
+4
+Cube Count: 1053
+100010
+2
+Cube Count: 1054
+10000000
+0
+Cube Count: 1055
+100001
+1
+Cube Count: 1056
+1
+1
+Cube Count: 1057
+10100011
+3
+Cube Count: 1058
+0
+0
+Cube Count: 1059
+100000
+0
+Cube Count: 1060
+0
+0
+Cube Count: 1061
+100
+4
+Cube Count: 1062
+0
+0
+Cube Count: 1063
+10100011
+3
+Cube Count: 1064
+0
+0
+Cube Count: 1065
+100000
+0
+Cube Count: 1066
+0
+0
+Cube Count: 1067
+10
+2
+Cube Count: 1068
+0
+0
+Cube Count: 1069
+10100011
+3
+Cube Count: 1070
+0
+0
+Cube Count: 1071
+0
+0
+Cube Count: 1072
+1101
+5
+Cube Count: 1073
+100100
+4
+Cube Count: 1074
+0
+0
+Cube Count: 1075
+1
+1
+Cube Count: 1076
+10000100
+4
+Cube Count: 1077
+10000100
+4
+Cube Count: 1078
+100100
+4
+Cube Count: 1079
+10000000
+0
+Cube Count: 1080
+100011
+3
+Cube Count: 1081
+0
+0
+Cube Count: 1082
+11
+3
+Cube Count: 1083
+1
+1
+Cube Count: 1084
+1
+1
+Cube Count: 1085
+1
+1
+Cube Count: 1086
+11
+3
+Cube Count: 1087
+1
+1
+Cube Count: 1088
+1
+1
+Cube Count: 1089
+1
+1
+Cube Count: 1090
+0
+0
+Cube Count: 1091
+1
+1
+Cube Count: 1092
+0
+0
+Cube Count: 1093
+1
+1
+Cube Count: 1094
+10100011
+3
+Cube Count: 1095
+0
+0
+Cube Count: 1096
+100000
+0
+Cube Count: 1097
+0
+0
+Cube Count: 1098
+110
+6
+Cube Count: 1099
+1
+1
+Cube Count: 1100
+10100011
+3
+Cube Count: 1101
+0
+0
+Cube Count: 1102
+100000
+0
+Cube Count: 1103
+0
+0
+Cube Count: 1104
+100
+4
+Cube Count: 1105
+0
+0
+Cube Count: 1106
+10100011
+3
+Cube Count: 1107
+0
+0
+Cube Count: 1108
+0
+0
+Cube Count: 1109
+1101
+5
+Cube Count: 1110
+100100
+4
+Cube Count: 1111
+0
+0
+Cube Count: 1112
+1
+1
+Cube Count: 1113
+10000100
+4
+Cube Count: 1114
+10000100
+4
+Cube Count: 1115
+100010
+2
+Cube Count: 1116
+10000000
+0
+Cube Count: 1117
+100001
+1
+Cube Count: 1118
+1
+1
+Cube Count: 1119
+10100011
+3
+Cube Count: 1120
+0
+0
+Cube Count: 1121
+100000
+0
+Cube Count: 1122
+0
+0
+Cube Count: 1123
+110
+6
+Cube Count: 1124
+1
+1
+Cube Count: 1125
+10100011
+3
+Cube Count: 1126
+0
+0
+Cube Count: 1127
+100000
+0
+Cube Count: 1128
+0
+0
+Cube Count: 1129
+100
+4
+Cube Count: 1130
+0
+0
+Cube Count: 1131
+10100011
+3
+Cube Count: 1132
+0
+0
+Cube Count: 1133
+0
+0
+Cube Count: 1134
+1101
+5
+Cube Count: 1135
+100100
+4
+Cube Count: 1136
+0
+0
+Cube Count: 1137
+1
+1
+Cube Count: 1138
+10000100
+4
+Cube Count: 1139
+10000100
+4
+Cube Count: 1140
+100100
+4
+Cube Count: 1141
+10000000
+0
+Cube Count: 1142
+100011
+3
+Cube Count: 1143
+0
+0
+Cube Count: 1144
+10100011
+3
+Cube Count: 1145
+0
+0
+Cube Count: 1146
+100000
+0
+Cube Count: 1147
+0
+0
+Cube Count: 1148
+1000
+0
+Cube Count: 1149
+1
+1
+Cube Count: 1150
+10100011
+3
+Cube Count: 1151
+0
+0
+Cube Count: 1152
+100000
+0
+Cube Count: 1153
+0
+0
+Cube Count: 1154
+110
+6
+Cube Count: 1155
+1
+1
+Cube Count: 1156
+10100011
+3
+Cube Count: 1157
+0
+0
+Cube Count: 1158
+0
+0
+Cube Count: 1159
+1101
+5
+Cube Count: 1160
+100100
+4
+Cube Count: 1161
+0
+0
+Cube Count: 1162
+1
+1
+Cube Count: 1163
+10000100
+4
+Cube Count: 1164
+10000100
+4
+Cube Count: 1165
+100010
+2
+Cube Count: 1166
+10000000
+0
+Cube Count: 1167
+100001
+1
+Cube Count: 1168
+1
+1
+Cube Count: 1169
+10100011
+3
+Cube Count: 1170
+0
+0
+Cube Count: 1171
+100000
+0
+Cube Count: 1172
+0
+0
+Cube Count: 1173
+1000
+0
+Cube Count: 1174
+1
+1
+Cube Count: 1175
+10100011
+3
+Cube Count: 1176
+0
+0
+Cube Count: 1177
+100000
+0
+Cube Count: 1178
+0
+0
+Cube Count: 1179
+110
+6
+Cube Count: 1180
+1
+1
+Cube Count: 1181
+10100011
+3
+Cube Count: 1182
+0
+0
+Cube Count: 1183
+0
+0
+Cube Count: 1184
+1101
+5
+Cube Count: 1185
+100100
+4
+Cube Count: 1186
+0
+0
+Cube Count: 1187
+1
+1
+Cube Count: 1188
+10000100
+4
+Cube Count: 1189
+10000100
+4
+Cube Count: 1190
+100100
+4
+Cube Count: 1191
+10000000
+0
+Cube Count: 1192
+100011
+3
+Cube Count: 1193
+0
+0
+Cube Count: 1194
+11
+3
+Cube Count: 1195
+1
+1
+Cube Count: 1196
+1
+1
+Cube Count: 1197
+1
+1
+Cube Count: 1198
+11
+3
+Cube Count: 1199
+1
+1
+Cube Count: 1200
+1
+1
+Cube Count: 1201
+1
+1
+Cube Count: 1202
+1
+1
+Cube Count: 1203
+1
+1
+Cube Count: 1204
+0
+0
+Cube Count: 1205
+1
+1
+Cube Count: 1206
+0
+0
+Cube Count: 1207
+1
+1
+Cube Count: 1208
+0
+0
+Cube Count: 1209
+1
+1
+Cube Count: 1210
+10100011
+3
+Cube Count: 1211
+0
+0
+Cube Count: 1212
+100000
+0
+Cube Count: 1213
+0
+0
+Cube Count: 1214
+1010
+2
+Cube Count: 1215
+0
+0
+Cube Count: 1216
+10100011
+3
+Cube Count: 1217
+0
+0
+Cube Count: 1218
+100000
+0
+Cube Count: 1219
+0
+0
+Cube Count: 1220
+1000
+0
+Cube Count: 1221
+1
+1
+Cube Count: 1222
+10100011
+3
+Cube Count: 1223
+0
+0
+Cube Count: 1224
+0
+0
+Cube Count: 1225
+1101
+5
+Cube Count: 1226
+100100
+4
+Cube Count: 1227
+0
+0
+Cube Count: 1228
+1
+1
+Cube Count: 1229
+10000100
+4
+Cube Count: 1230
+10000100
+4
+Cube Count: 1231
+100010
+2
+Cube Count: 1232
+10000000
+0
+Cube Count: 1233
+100001
+1
+Cube Count: 1234
+1
+1
+Cube Count: 1235
+10100011
+3
+Cube Count: 1236
+0
+0
+Cube Count: 1237
+100000
+0
+Cube Count: 1238
+0
+0
+Cube Count: 1239
+1010
+2
+Cube Count: 1240
+0
+0
+Cube Count: 1241
+10100011
+3
+Cube Count: 1242
+0
+0
+Cube Count: 1243
+100000
+0
+Cube Count: 1244
+0
+0
+Cube Count: 1245
+1000
+0
+Cube Count: 1246
+1
+1
+Cube Count: 1247
+10100011
+3
+Cube Count: 1248
+0
+0
+Cube Count: 1249
+0
+0
+Cube Count: 1250
+1101
+5
+Cube Count: 1251
+100100
+4
+Cube Count: 1252
+0
+0
+Cube Count: 1253
+1
+1
+Cube Count: 1254
+10000100
+4
+Cube Count: 1255
+10000100
+4
+Cube Count: 1256
+100100
+4
+Cube Count: 1257
+10000000
+0
+Cube Count: 1258
+100011
+3
+Cube Count: 1259
+0
+0
+Cube Count: 1260
+10100011
+3
+Cube Count: 1261
+0
+0
+Cube Count: 1262
+100000
+0
+Cube Count: 1263
+0
+0
+Cube Count: 1264
+1100
+4
+Cube Count: 1265
+0
+0
+Cube Count: 1266
+10100011
+3
+Cube Count: 1267
+0
+0
+Cube Count: 1268
+100000
+0
+Cube Count: 1269
+0
+0
+Cube Count: 1270
+1010
+2
+Cube Count: 1271
+0
+0
+Cube Count: 1272
+10100011
+3
+Cube Count: 1273
+0
+0
+Cube Count: 1274
+0
+0
+Cube Count: 1275
+1101
+5
+Cube Count: 1276
+100100
+4
+Cube Count: 1277
+0
+0
+Cube Count: 1278
+1
+1
+Cube Count: 1279
+10000100
+4
+Cube Count: 1280
+10000100
+4
+Cube Count: 1281
+100010
+2
+Cube Count: 1282
+10000000
+0
+Cube Count: 1283
+100001
+1
+Cube Count: 1284
+1
+1
+Cube Count: 1285
+10100011
+3
+Cube Count: 1286
+0
+0
+Cube Count: 1287
+100000
+0
+Cube Count: 1288
+0
+0
+Cube Count: 1289
+1100
+4
+Cube Count: 1290
+0
+0
+Cube Count: 1291
+10100011
+3
+Cube Count: 1292
+0
+0
+Cube Count: 1293
+100000
+0
+Cube Count: 1294
+0
+0
+Cube Count: 1295
+1010
+2
+Cube Count: 1296
+0
+0
+Cube Count: 1297
+10100011
+3
+Cube Count: 1298
+0
+0
+Cube Count: 1299
+0
+0
+Cube Count: 1300
+1101
+5
+Cube Count: 1301
+100100
+4
+Cube Count: 1302
+0
+0
+Cube Count: 1303
+1
+1
+Cube Count: 1304
+10000100
+4
+Cube Count: 1305
+10000100
+4
+Cube Count: 1306
+100100
+4
+Cube Count: 1307
+10000000
+0
+Cube Count: 1308
+100011
+3
+Cube Count: 1309
+0
+0
+Cube Count: 1310
+11
+3
+Cube Count: 1311
+1
+1
+Cube Count: 1312
+1
+1
+Cube Count: 1313
+1
+1
+Cube Count: 1314
+11
+3
+Cube Count: 1315
+1
+1
+Cube Count: 1316
+1
+1
+Cube Count: 1317
+1
+1
+Cube Count: 1318
+0
+0
+Cube Count: 1319
+1
+1
+Cube Count: 1320
+0
+0
+Cube Count: 1321
+1
+1
+Cube Count: 1322
+10100011
+3
+Cube Count: 1323
+0
+0
+Cube Count: 1324
+100000
+0
+Cube Count: 1325
+0
+0
+Cube Count: 1326
+1110
+6
+Cube Count: 1327
+1
+1
+Cube Count: 1328
+10100011
+3
+Cube Count: 1329
+0
+0
+Cube Count: 1330
+100000
+0
+Cube Count: 1331
+0
+0
+Cube Count: 1332
+1100
+4
+Cube Count: 1333
+0
+0
+Cube Count: 1334
+10100011
+3
+Cube Count: 1335
+0
+0
+Cube Count: 1336
+0
+0
+Cube Count: 1337
+1101
+5
+Cube Count: 1338
+100100
+4
+Cube Count: 1339
+0
+0
+Cube Count: 1340
+1
+1
+Cube Count: 1341
+10000100
+4
+Cube Count: 1342
+10000100
+4
+Cube Count: 1343
+100010
+2
+Cube Count: 1344
+10000000
+0
+Cube Count: 1345
+100001
+1
+Cube Count: 1346
+1
+1
+Cube Count: 1347
+10100011
+3
+Cube Count: 1348
+0
+0
+Cube Count: 1349
+100000
+0
+Cube Count: 1350
+0
+0
+Cube Count: 1351
+1110
+6
+Cube Count: 1352
+1
+1
+Cube Count: 1353
+10100011
+3
+Cube Count: 1354
+0
+0
+Cube Count: 1355
+100000
+0
+Cube Count: 1356
+0
+0
+Cube Count: 1357
+1100
+4
+Cube Count: 1358
+0
+0
+Cube Count: 1359
+10100011
+3
+Cube Count: 1360
+0
+0
+Cube Count: 1361
+0
+0
+Cube Count: 1362
+1101
+5
+Cube Count: 1363
+100100
+4
+Cube Count: 1364
+0
+0
+Cube Count: 1365
+1
+1
+Cube Count: 1366
+10000100
+4
+Cube Count: 1367
+10000100
+4
+Cube Count: 1368
+100100
+4
+Cube Count: 1369
+10000000
+0
+Cube Count: 1370
+100011
+3
+Cube Count: 1371
+0
+0
+Cube Count: 1372
+10100011
+3
+Cube Count: 1373
+0
+0
+Cube Count: 1374
+100000
+0
+Cube Count: 1375
+0
+0
+Cube Count: 1376
+10000
+0
+Cube Count: 1377
+1
+1
+Cube Count: 1378
+10100011
+3
+Cube Count: 1379
+0
+0
+Cube Count: 1380
+100000
+0
+Cube Count: 1381
+0
+0
+Cube Count: 1382
+1110
+6
+Cube Count: 1383
+1
+1
+Cube Count: 1384
+10100011
+3
+Cube Count: 1385
+0
+0
+Cube Count: 1386
+0
+0
+Cube Count: 1387
+1101
+5
+Cube Count: 1388
+100100
+4
+Cube Count: 1389
+0
+0
+Cube Count: 1390
+1
+1
+Cube Count: 1391
+10000100
+4
+Cube Count: 1392
+10000100
+4
+Cube Count: 1393
+100010
+2
+Cube Count: 1394
+10000000
+0
+Cube Count: 1395
+100001
+1
+Cube Count: 1396
+1
+1
+Cube Count: 1397
+10100011
+3
+Cube Count: 1398
+0
+0
+Cube Count: 1399
+100000
+0
+Cube Count: 1400
+0
+0
+Cube Count: 1401
+10000
+0
+Cube Count: 1402
+1
+1
+Cube Count: 1403
+10100011
+3
+Cube Count: 1404
+0
+0
+Cube Count: 1405
+100000
+0
+Cube Count: 1406
+0
+0
+Cube Count: 1407
+1110
+6
+Cube Count: 1408
+1
+1
+Cube Count: 1409
+10100011
+3
+Cube Count: 1410
+0
+0
+Cube Count: 1411
+0
+0
+Cube Count: 1412
+1101
+5
+Cube Count: 1413
+100100
+4
+Cube Count: 1414
+0
+0
+Cube Count: 1415
+1
+1
+Cube Count: 1416
+10000100
+4
+Cube Count: 1417
+10000100
+4
+Cube Count: 1418
+100100
+4
+Cube Count: 1419
+10000000
+0
+Cube Count: 1420
+100011
+3
+Cube Count: 1421
+0
+0
+Cube Count: 1422
+11
+3
+Cube Count: 1423
+1
+1
+Cube Count: 1424
+1
+1
+Cube Count: 1425
+1
+1
+Cube Count: 1426
+11
+3
+Cube Count: 1427
+1
+1
+Cube Count: 1428
+1
+1
+Cube Count: 1429
+1
+1
+Cube Count: 1430
+1
+1
+Cube Count: 1431
+1
+1
+Cube Count: 1432
+1
+1
+Cube Count: 1433
+1
+1
+Cube Count: 1434
+0
+0
+Cube Count: 1435
+1
+1
+Cube Count: 1436
+0
+0
+Cube Count: 1437
+1
+1
+Cube Count: 1438
+0
+0
+Cube Count: 1439
+1
+1
+Cube Count: 1440
+0
+0
+Cube Count: 1441
+1
+1
+Cube Count: 1442
+10100011
+3
+Cube Count: 1443
+0
+0
+Cube Count: 1444
+100000
+0
+Cube Count: 1445
+0
+0
+Cube Count: 1446
+10010
+2
+Cube Count: 1447
+0
+0
+Cube Count: 1448
+10100011
+3
+Cube Count: 1449
+0
+0
+Cube Count: 1450
+100000
+0
+Cube Count: 1451
+0
+0
+Cube Count: 1452
+10000
+0
+Cube Count: 1453
+1
+1
+Cube Count: 1454
+10100011
+3
+Cube Count: 1455
+0
+0
+Cube Count: 1456
+0
+0
+Cube Count: 1457
+1101
+5
+Cube Count: 1458
+100100
+4
+Cube Count: 1459
+0
+0
+Cube Count: 1460
+1
+1
+Cube Count: 1461
+10000100
+4
+Cube Count: 1462
+10000100
+4
+Cube Count: 1463
+100010
+2
+Cube Count: 1464
+10000000
+0
+Cube Count: 1465
+100001
+1
+Cube Count: 1466
+1
+1
+Cube Count: 1467
+10100011
+3
+Cube Count: 1468
+0
+0
+Cube Count: 1469
+100000
+0
+Cube Count: 1470
+0
+0
+Cube Count: 1471
+10010
+2
+Cube Count: 1472
+0
+0
+Cube Count: 1473
+10100011
+3
+Cube Count: 1474
+0
+0
+Cube Count: 1475
+100000
+0
+Cube Count: 1476
+0
+0
+Cube Count: 1477
+10000
+0
+Cube Count: 1478
+1
+1
+Cube Count: 1479
+10100011
+3
+Cube Count: 1480
+0
+0
+Cube Count: 1481
+0
+0
+Cube Count: 1482
+1101
+5
+Cube Count: 1483
+100100
+4
+Cube Count: 1484
+0
+0
+Cube Count: 1485
+1
+1
+Cube Count: 1486
+10000100
+4
+Cube Count: 1487
+10000100
+4
+Cube Count: 1488
+100100
+4
+Cube Count: 1489
+10000000
+0
+Cube Count: 1490
+100011
+3
+Cube Count: 1491
+0
+0
+Cube Count: 1492
+10100011
+3
+Cube Count: 1493
+0
+0
+Cube Count: 1494
+100000
+0
+Cube Count: 1495
+0
+0
+Cube Count: 1496
+10100
+4
+Cube Count: 1497
+0
+0
+Cube Count: 1498
+10100011
+3
+Cube Count: 1499
+0
+0
+Cube Count: 1500
+100000
+0
+Cube Count: 1501
+0
+0
+Cube Count: 1502
+10010
+2
+Cube Count: 1503
+0
+0
+Cube Count: 1504
+10100011
+3
+Cube Count: 1505
+0
+0
+Cube Count: 1506
+0
+0
+Cube Count: 1507
+1101
+5
+Cube Count: 1508
+100100
+4
+Cube Count: 1509
+0
+0
+Cube Count: 1510
+1
+1
+Cube Count: 1511
+10000100
+4
+Cube Count: 1512
+10000100
+4
+Cube Count: 1513
+100010
+2
+Cube Count: 1514
+10000000
+0
+Cube Count: 1515
+100001
+1
+Cube Count: 1516
+1
+1
+Cube Count: 1517
+10100011
+3
+Cube Count: 1518
+0
+0
+Cube Count: 1519
+100000
+0
+Cube Count: 1520
+0
+0
+Cube Count: 1521
+10100
+4
+Cube Count: 1522
+0
+0
+Cube Count: 1523
+10100011
+3
+Cube Count: 1524
+0
+0
+Cube Count: 1525
+100000
+0
+Cube Count: 1526
+0
+0
+Cube Count: 1527
+10010
+2
+Cube Count: 1528
+0
+0
+Cube Count: 1529
+10100011
+3
+Cube Count: 1530
+0
+0
+Cube Count: 1531
+0
+0
+Cube Count: 1532
+1101
+5
+Cube Count: 1533
+100100
+4
+Cube Count: 1534
+0
+0
+Cube Count: 1535
+1
+1
+Cube Count: 1536
+10000100
+4
+Cube Count: 1537
+10000100
+4
+Cube Count: 1538
+100100
+4
+Cube Count: 1539
+10000000
+0
+Cube Count: 1540
+100011
+3
+Cube Count: 1541
+0
+0
+Cube Count: 1542
+11
+3
+Cube Count: 1543
+1
+1
+Cube Count: 1544
+1
+1
+Cube Count: 1545
+1
+1
+Cube Count: 1546
+11
+3
+Cube Count: 1547
+1
+1
+Cube Count: 1548
+1
+1
+Cube Count: 1549
+1
+1
+Cube Count: 1550
+0
+0
+Cube Count: 1551
+1
+1
+Cube Count: 1552
+0
+0
+Cube Count: 1553
+1
+1
+Cube Count: 1554
+10100011
+3
+Cube Count: 1555
+0
+0
+Cube Count: 1556
+100000
+0
+Cube Count: 1557
+0
+0
+Cube Count: 1558
+10110
+6
+Cube Count: 1559
+1
+1
+Cube Count: 1560
+10100011
+3
+Cube Count: 1561
+0
+0
+Cube Count: 1562
+100000
+0
+Cube Count: 1563
+0
+0
+Cube Count: 1564
+10100
+4
+Cube Count: 1565
+0
+0
+Cube Count: 1566
+10100011
+3
+Cube Count: 1567
+0
+0
+Cube Count: 1568
+10110
+6
+Cube Count: 1569
+0
+0
+Cube Count: 1570
+100000
+0
+Cube Count: 1571
+1
+1
+Cube Count: 1572
+10100011
+3
+Cube Count: 1573
+0
+0
+Cube Count: 1574
+10110
+6
+Cube Count: 1575
+10000000
+0
+Cube Count: 1576
+100001
+1
+Cube Count: 1577
+1
+1
+Cube Count: 1578
+10100011
+3
+Cube Count: 1579
+0
+0
+Cube Count: 1580
+100000
+0
+Cube Count: 1581
+0
+0
+Cube Count: 1582
+10110
+6
+Cube Count: 1583
+1
+1
+Cube Count: 1584
+10100011
+3
+Cube Count: 1585
+0
+0
+Cube Count: 1586
+100000
+0
+Cube Count: 1587
+0
+0
+Cube Count: 1588
+10100
+4
+Cube Count: 1589
+0
+0
+Cube Count: 1590
+10100011
+3
+Cube Count: 1591
+0
+0
+Cube Count: 1592
+10110
+6
+Cube Count: 1593
+0
+0
+Cube Count: 1594
+100010
+2
+Cube Count: 1595
+10000110
+6
+Cube Count: 1596
+10000110
+6
+Cube Count: 1597
+10000110
+6
+Cube Count: 1598
+10000110
+6
+Cube Count: 1599
+10000100
+4
+Cube Count: 1600
+10000100
+4
+Cube Count: 1601
+10100
+4
+Cube Count: 1602
+10
+2
+Cube Count: 1603
+10010111
+7
+Cube Count: 1604
+10
+2
+Cube Count: 1605
+10010111
+7
+Cube Count: 1606
+10
+2
+Cube Count: 1607
+10000000
+0
+Cube Count: 1608
+10000000
+0
+Cube Count: 1609
+10000000
+0
+Cube Count: 1610
+10000000
+0
+Cube Count: 1611
+10000000
+0
+Cube Count: 1612
+10000000
+0
+Cube Count: 1613
+10000000
+0
+Cube Count: 1614
+10000100
+4
+Cube Count: 1615
+100
+4
+Cube Count: 1616
+11100000
+0
+Cube Count: 1617
+11111
+7
+Cube Count: 1618
+10000000
+0
+Cube Count: 1619
+10110
+6
+Cube Count: 1620
+0
+0
+Cube Count: 1621
+100000
+0
+Cube Count: 1622
+11000000
+0
+Cube Count: 1623
+10110
+6
+Cube Count: 1624
+1
+1
+Cube Count: 1625
+1
+1
+Cube Count: 1626
+1
+1
+Cube Count: 1627
+0
+0
+Cube Count: 1628
+1
+1
+Cube Count: 1629
+10100011
+3
+Cube Count: 1630
+11000000
+0
+Cube Count: 1631
+10110
+6
+Cube Count: 1632
+0
+0
+Cube Count: 1633
+100000
+0
+Cube Count: 1634
+1
+1
+Cube Count: 1635
+10000011
+3
+Cube Count: 1636
+1
+1
+Cube Count: 1637
+1
+1
+Cube Count: 1638
+1
+1
+Cube Count: 1639
+1
+1
+Cube Count: 1640
+1
+1
+Cube Count: 1641
+1
+1
+Cube Count: 1642
+1
+1
+Cube Count: 1643
+0
+0
+Cube Count: 1644
+1
+1
+Cube Count: 1645
+1
+1
+Cube Count: 1646
+1
+1
+Cube Count: 1647
+10100011
+3
+Cube Count: 1648
+11000000
+0
+Cube Count: 1649
+11111
+7
+Cube Count: 1650
+0
+0
+Cube Count: 1651
+10110
+6
+Cube Count: 1652
+0
+0
+Cube Count: 1653
+100000
+0
+Cube Count: 1654
+0
+0
+Cube Count: 1655
+10110
+6
+Cube Count: 1656
+1
+1
+Cube Count: 1657
+1
+1
+Cube Count: 1658
+1
+1
+Cube Count: 1659
+0
+0
+Cube Count: 1660
+1
+1
+Cube Count: 1661
+10100011
+3
+Cube Count: 1662
+11000000
+0
+Cube Count: 1663
+10110
+6
+Cube Count: 1664
+10000000
+0
+Cube Count: 1665
+100001
+1
+Cube Count: 1666
+1
+1
+Cube Count: 1667
+1
+1
+Cube Count: 1668
+1
+1
+Cube Count: 1669
+1
+1
+Cube Count: 1670
+1
+1
+Cube Count: 1671
+1
+1
+Cube Count: 1672
+1
+1
+Cube Count: 1673
+1
+1
+Cube Count: 1674
+1
+1
+Cube Count: 1675
+0
+0
+Cube Count: 1676
+1
+1
+Cube Count: 1677
+0
+0
+Cube Count: 1678
+1
+1
+Cube Count: 1679
+10100011
+3
+Cube Count: 1680
+11100000
+0
+Cube Count: 1681
+11111
+7
+Cube Count: 1682
+10000000
+0
+Cube Count: 1683
+10110
+6
+Cube Count: 1684
+0
+0
+Cube Count: 1685
+100000
+0
+Cube Count: 1686
+11000000
+0
+Cube Count: 1687
+10110
+6
+Cube Count: 1688
+1
+1
+Cube Count: 1689
+1
+1
+Cube Count: 1690
+1
+1
+Cube Count: 1691
+0
+0
+Cube Count: 1692
+1
+1
+Cube Count: 1693
+10100011
+3
+Cube Count: 1694
+11000000
+0
+Cube Count: 1695
+10110
+6
+Cube Count: 1696
+0
+0
+Cube Count: 1697
+100010
+2
+Cube Count: 1698
+1
+1
+Cube Count: 1699
+1
+1
+Cube Count: 1700
+1
+1
+Cube Count: 1701
+1
+1
+Cube Count: 1702
+1
+1
+Cube Count: 1703
+1
+1
+Cube Count: 1704
+1
+1
+Cube Count: 1705
+0
+0
+Cube Count: 1706
+1
+1
+Cube Count: 1707
+1
+1
+Cube Count: 1708
+1
+1
+Cube Count: 1709
+10100011
+3
+Cube Count: 1710
+11000000
+0
+Cube Count: 1711
+11111
+7
+Cube Count: 1712
+0
+0
+Cube Count: 1713
+10110
+6
+Cube Count: 1714
+0
+0
+Cube Count: 1715
+100000
+0
+Cube Count: 1716
+0
+0
+Cube Count: 1717
+10110
+6
+Cube Count: 1718
+1
+1
+Cube Count: 1719
+1
+1
+Cube Count: 1720
+1
+1
+Cube Count: 1721
+0
+0
+Cube Count: 1722
+1
+1
+Cube Count: 1723
+10100011
+3
+Cube Count: 1724
+11000000
+0
+Cube Count: 1725
+10110
+6
+Cube Count: 1726
+10000000
+0
+Cube Count: 1727
+100011
+3
+Cube Count: 1728
+10000100
+4
+Cube Count: 1729
+10010111
+7
+Cube Count: 1730
+10
+2
+Cube Count: 1731
+10
+2
+Cube Count: 1732
+10
+2
+Cube Count: 1733
+10
+2
+Cube Count: 1734
+10
+2
+Cube Count: 1735
+0
+0
+Cube Count: 1736
+1
+1
+Cube Count: 1737
+10010111
+7
+Cube Count: 1738
+10
+2
+Cube Count: 1739
+0
+0
+Cube Count: 1740
+1
+1
+Cube Count: 1741
+1
+1
+Cube Count: 1742
+0
+0
+Cube Count: 1743
+1
+1
+Cube Count: 1744
+100000
+0
+Cube Count: 1745
+100000
+0
+Cube Count: 1746
+100000
+0
+Cube Count: 1747
+100000
+0
+Cube Count: 1748
+10000000
+0
+Cube Count: 1749
+10000000
+0
+Cube Count: 1750
+10000000
+0
+Cube Count: 1751
+10000000
+0
+Cube Count: 1752
+10000100
+4
+Cube Count: 1753
+0
+0
+Cube Count: 1754
+1
+1
+Cube Count: 1755
+1
+1
+Cube Count: 1756
+1
+1
+Cube Count: 1757
+0
+0
+Cube Count: 1758
+1
+1
+Cube Count: 1759
+11
+3
+Cube Count: 1760
+11
+3
+Cube Count: 1761
+10110
+6
+Cube Count: 1762
+11100000
+0
+Cube Count: 1763
+11111
+7
+Cube Count: 1764
+10000000
+0
+Cube Count: 1765
+10110
+6
+Cube Count: 1766
+0
+0
+Cube Count: 1767
+100000
+0
+Cube Count: 1768
+11000000
+0
+Cube Count: 1769
+10110
+6
+Cube Count: 1770
+1
+1
+Cube Count: 1771
+1
+1
+Cube Count: 1772
+1
+1
+Cube Count: 1773
+0
+0
+Cube Count: 1774
+1
+1
+Cube Count: 1775
+10100011
+3
+Cube Count: 1776
+11000000
+0
+Cube Count: 1777
+10110
+6
+Cube Count: 1778
+0
+0
+Cube Count: 1779
+100100
+4
+Cube Count: 1780
+1
+1
+Cube Count: 1781
+1
+1
+Cube Count: 1782
+1
+1
+Cube Count: 1783
+1
+1
+Cube Count: 1784
+1
+1
+Cube Count: 1785
+1
+1
+Cube Count: 1786
+1
+1
+Cube Count: 1787
+1
+1
+Cube Count: 1788
+1
+1
+Cube Count: 1789
+1
+1
+Cube Count: 1790
+1
+1
+Cube Count: 1791
+1
+1
+Cube Count: 1792
+1
+1
+Cube Count: 1793
+1
+1
+Cube Count: 1794
+1
+1
+Cube Count: 1795
+0
+0
+Cube Count: 1796
+1
+1
+Cube Count: 1797
+1
+1
+Cube Count: 1798
+1
+1
+Cube Count: 1799
+0
+0
+Cube Count: 1800
+1
+1
+Cube Count: 1801
+1
+1
+Cube Count: 1802
+1
+1
+Cube Count: 1803
+1
+1
+Cube Count: 1804
+11
+3
+Cube Count: 1805
+11
+3
+Cube Count: 1806
+11
+3
+Cube Count: 1807
+11
+3
+Cube Count: 1808
+1
+1
+Cube Count: 1809
+11
+3
+Cube Count: 1810
+1
+1
+Cube Count: 1811
+0
+0
+Cube Count: 1812
+11
+3
+Cube Count: 1813
+11
+3
+Cube Count: 1814
+11
+3
+Cube Count: 1815
+11
+3
+Cube Count: 1816
+11
+3
+Cube Count: 1817
+0
+0
+Cube Count: 1818
+1
+1
+Cube Count: 1819
+1
+1
+Cube Count: 1820
+1
+1
+Cube Count: 1821
+1
+1
+Cube Count: 1822
+10000011
+3
+Cube Count: 1823
+10000010
+2
+Cube Count: 1824
+10100010
+2
+Cube Count: 1825
+0
+0
+Cube Count: 1826
+11110
+6
+Cube Count: 1827
+0
+0
+Cube Count: 1828
+101110
+6
+Cube Count: 1829
+0
+0
+Cube Count: 1830
+100000
+0
+Cube Count: 1831
+0
+0
+Cube Count: 1832
+0
+0
+Cube Count: 1833
+1100
+4
+Cube Count: 1834
+11110
+6
+Cube Count: 1835
+0
+0
+Cube Count: 1836
+101100
+4
+Cube Count: 1837
+0
+0
+Cube Count: 1838
+110000
+0
+Cube Count: 1839
+0
+0
+Cube Count: 1840
+1
+1
+Cube Count: 1841
+1
+1
+Cube Count: 1842
+1
+1
+Cube Count: 1843
+1
+1
+Cube Count: 1844
+10000011
+3
+Cube Count: 1845
+10000010
+2
+Cube Count: 1846
+1
+1
+Cube Count: 1847
+10100011
+3
+Cube Count: 1848
+0
+0
+Cube Count: 1849
+11110
+6
+Cube Count: 1850
+0
+0
+Cube Count: 1851
+0
+0
+Cube Count: 1852
+1100
+4
+Cube Count: 1853
+11110
+6
+Cube Count: 1854
+11
+3
+Cube Count: 1855
+1
+1
+Cube Count: 1856
+0
+0
+Cube Count: 1857
+1
+1
+Cube Count: 1858
+0
+0
+Cube Count: 1859
+10100011
+3
+Cube Count: 1860
+10000000
+0
+Cube Count: 1861
+11000
+0
+Cube Count: 1862
+0
+0
+Cube Count: 1863
+100000
+0
+Cube Count: 1864
+0
+0
+Cube Count: 1865
+0
+0
+Cube Count: 1866
+0
+0
+Cube Count: 1867
+11100011
+3
+Cube Count: 1868
+0
+0
+Cube Count: 1869
+0
+0
+Cube Count: 1870
+1101
+5
+Cube Count: 1871
+100100
+4
+Cube Count: 1872
+10000100
+4
+Cube Count: 1873
+10010111
+7
+Cube Count: 1874
+10
+2
+Cube Count: 1875
+10010111
+7
+Cube Count: 1876
+10
+2
+Cube Count: 1877
+10
+2
+Cube Count: 1878
+10000000
+0
+Cube Count: 1879
+10000000
+0
+Cube Count: 1880
+10000000
+0
+Cube Count: 1881
+10000100
+4
+Cube Count: 1882
+10010111
+7
+Cube Count: 1883
+10
+2
+Cube Count: 1884
+100001
+1
+Cube Count: 1885
+0
+0
+Cube Count: 1886
+1
+1
+Cube Count: 1887
+10000100
+4
+Cube Count: 1888
+10010111
+7
+Cube Count: 1889
+10
+2
+Cube Count: 1890
+10
+2
+Cube Count: 1891
+10000000
+0
+Cube Count: 1892
+10000000
+0
+Cube Count: 1893
+10000000
+0
+Cube Count: 1894
+10000100
+4
+Cube Count: 1895
+10010111
+7
+Cube Count: 1896
+10
+2
+Cube Count: 1897
+100001
+1
+Cube Count: 1898
+0
+0
+Cube Count: 1899
+100001
+1
+Cube Count: 1900
+1000000
+0
+Cube Count: 1901
+1000000
+0
+Cube Count: 1902
+10000000
+0
+Cube Count: 1903
+10000000
+0
+Cube Count: 1904
+10000000
+0
+Cube Count: 1905
+10000000
+0
+Cube Count: 1906
+10000100
+4
+Cube Count: 1907
+10010111
+7
+Cube Count: 1908
+10
+2
+Cube Count: 1909
+10000100
+4
+Cube Count: 1910
+10010111
+7
+Cube Count: 1911
+10
+2
+Cube Count: 1912
+100000
+0
+Cube Count: 1913
+10000000
+0
+Cube Count: 1914
+11000
+0
+Cube Count: 1915
+0
+0
+Cube Count: 1916
+100001
+1
+Cube Count: 1917
+10000000
+0
+Cube Count: 1918
+10000000
+0
+Cube Count: 1919
+10000000
+0
+Cube Count: 1920
+10000000
+0
+Cube Count: 1921
+10000100
+4
+Cube Count: 1922
+10010111
+7
+Cube Count: 1923
+10
+2
+Cube Count: 1924
+10010111
+7
+Cube Count: 1925
+10
+2
+Cube Count: 1926
+10000000
+0
+Cube Count: 1927
+10000000
+0
+Cube Count: 1928
+10000100
+4
+Cube Count: 1929
+10010111
+7
+Cube Count: 1930
+10
+2
+Cube Count: 1931
+10010111
+7
+Cube Count: 1932
+10
+2
+Cube Count: 1933
+10000000
+0
+Cube Count: 1934
+10000100
+4
+Cube Count: 1935
+10010111
+7
+Cube Count: 1936
+10
+2
+Cube Count: 1937
+11110
+6
+Cube Count: 1938
+0
+0
+Cube Count: 1939
+100001
+1
+Cube Count: 1940
+1
+1
+Cube Count: 1941
+10000100
+4
+Cube Count: 1942
+10010111
+7
+Cube Count: 1943
+10
+2
+Cube Count: 1944
+1
+1
+Cube Count: 1945
+0
+0
+Cube Count: 1946
+11100011
+3
+Cube Count: 1947
+11000011
+3
+Cube Count: 1948
+1000001
+1
+Cube Count: 1949
+11100011
+3
+Cube Count: 1950
+10
+2
+Cube Count: 1951
+11000011
+3
+Cube Count: 1952
+1000001
+1
+Cube Count: 1953
+0
+0
+Cube Count: 1954
+11100011
+3
+Cube Count: 1955
+0
+0
+Cube Count: 1956
+0
+0
+Cube Count: 1957
+1101
+5
+Cube Count: 1958
+100100
+4
+Cube Count: 1959
+10000100
+4
+Cube Count: 1960
+10010111
+7
+Cube Count: 1961
+10
+2
+Cube Count: 1962
+10010111
+7
+Cube Count: 1963
+10
+2
+Cube Count: 1964
+10000000
+0
+Cube Count: 1965
+10000100
+4
+Cube Count: 1966
+10010111
+7
+Cube Count: 1967
+10
+2
+Cube Count: 1968
+100001
+1
+Cube Count: 1969
+0
+0
+Cube Count: 1970
+100001
+1
+Cube Count: 1971
+1101
+5
+Cube Count: 1972
+100100
+4
+Cube Count: 1973
+10
+2
+Cube Count: 1974
+10000000
+0
+Cube Count: 1975
+10000000
+0
+Cube Count: 1976
+10000100
+4
+Cube Count: 1977
+10010111
+7
+Cube Count: 1978
+10
+2
+Cube Count: 1979
+10
+2
+Cube Count: 1980
+10000000
+0
+Cube Count: 1981
+10000000
+0
+Cube Count: 1982
+10000000
+0
+Cube Count: 1983
+10000100
+4
+Cube Count: 1984
+10010111
+7
+Cube Count: 1985
+10
+2
+Cube Count: 1986
+100001
+1
+Cube Count: 1987
+0
+0
+Cube Count: 1988
+100001
+1
+Cube Count: 1989
+1000000
+0
+Cube Count: 1990
+1000000
+0
+Cube Count: 1991
+10000000
+0
+Cube Count: 1992
+10000000
+0
+Cube Count: 1993
+10000000
+0
+Cube Count: 1994
+10000000
+0
+Cube Count: 1995
+10000100
+4
+Cube Count: 1996
+10010111
+7
+Cube Count: 1997
+10
+2
+Cube Count: 1998
+10000100
+4
+Cube Count: 1999
+10010111
+7
+Cube Count: 2000
+10
+2
+Cube Count: 2001
+100000
+0
+Cube Count: 2002
+0
+0
+Cube Count: 2003
+11001
+1
+Cube Count: 2004
+11100000
+0
+Cube Count: 2005
+11000
+0
+Cube Count: 2006
+11100011
+3
+Cube Count: 2007
+0
+0
+Cube Count: 2008
+0
+0
+Cube Count: 2009
+1101
+5
+Cube Count: 2010
+100100
+4
+Cube Count: 2011
+10000000
+0
+Cube Count: 2012
+10000000
+0
+Cube Count: 2013
+10000000
+0
+Cube Count: 2014
+10000100
+4
+Cube Count: 2015
+10010111
+7
+Cube Count: 2016
+10
+2
+Cube Count: 2017
+10000100
+4
+Cube Count: 2018
+10010111
+7
+Cube Count: 2019
+10
+2
+Cube Count: 2020
+10000000
+0
+Cube Count: 2021
+10000100
+4
+Cube Count: 2022
+10010111
+7
+Cube Count: 2023
+10
+2
+Cube Count: 2024
+10010111
+7
+Cube Count: 2025
+10
+2
+Cube Count: 2026
+10000000
+0
+Cube Count: 2027
+10000100
+4
+Cube Count: 2028
+10010111
+7
+Cube Count: 2029
+10
+2
+Cube Count: 2030
+11110
+6
+Cube Count: 2031
+0
+0
+Cube Count: 2032
+100001
+1
+Cube Count: 2033
+10000100
+4
+Cube Count: 2034
+10010111
+7
+Cube Count: 2035
+10
+2
+Cube Count: 2036
+10000100
+4
+Cube Count: 2037
+10010111
+7
+Cube Count: 2038
+10
+2
+Cube Count: 2039
+10000100
+4
+Cube Count: 2040
+10010111
+7
+Cube Count: 2041
+10
+2
+Cube Count: 2042
+0
+0
+Cube Count: 2043
+1101
+5
+Cube Count: 2044
+100100
+4
+Cube Count: 2045
+1000000
+0
+Cube Count: 2046
+11110
+6
+Cube Count: 2047
+0
+0
+Cube Count: 2048
+100000
+0
+Cube Count: 2049
+100000
+0
+Cube Count: 2050
+11110
+6
+Cube Count: 2051
+11100011
+3
+Cube Count: 2052
+11000011
+3
+Cube Count: 2053
+1000001
+1
+Cube Count: 2054
+11100011
+3
+Cube Count: 2055
+1000000
+0
+Cube Count: 2056
+1000000
+0
+Cube Count: 2057
+1000000
+0
+Cube Count: 2058
+10000000
+0
+Cube Count: 2059
+10000000
+0
+Cube Count: 2060
+10000000
+0
+Cube Count: 2061
+10000000
+0
+Cube Count: 2062
+10000100
+4
+Cube Count: 2063
+10010111
+7
+Cube Count: 2064
+10
+2
+Cube Count: 2065
+10000100
+4
+Cube Count: 2066
+10010111
+7
+Cube Count: 2067
+10
+2
+Cube Count: 2068
+10000100
+4
+Cube Count: 2069
+10010111
+7
+Cube Count: 2070
+10
+2
+Cube Count: 2071
+11110
+6
+Cube Count: 2072
+0
+0
+Cube Count: 2073
+100001
+1
+Cube Count: 2074
+10000011
+3
+Cube Count: 2075
+10100010
+2
+Cube Count: 2076
+0
+0
+Cube Count: 2077
+11000
+0
+Cube Count: 2078
+0
+0
+Cube Count: 2079
+100001
+1
+Cube Count: 2080
+10000
+0
+Cube Count: 2081
+100
+4
+Cube Count: 2082
+1
+1
+Cube Count: 2083
+1
+1
+Cube Count: 2084
+1
+1
+Cube Count: 2085
+1
+1
+Cube Count: 2086
+10100011
+3
+Cube Count: 2087
+10000000
+0
+Cube Count: 2088
+11000
+0
+Cube Count: 2089
+0
+0
+Cube Count: 2090
+100011
+3
+Cube Count: 2091
+11000
+0
+Cube Count: 2092
+0
+0
+Cube Count: 2093
+100010
+2
+Cube Count: 2094
+11
+3
+Cube Count: 2095
+10010111
+7
+Cube Count: 2096
+10
+2
+Cube Count: 2097
+100100
+4
+Cube Count: 2098
+0
+0
+Cube Count: 2099
+11000011
+3
+Cube Count: 2100
+1000001
+1
+Cube Count: 2101
+1000001
+1
+Cube Count: 2102
+11100011
+3
+Cube Count: 2103
+10000000
+0
+Cube Count: 2104
+11000
+0
+Cube Count: 2105
+0
+0
+Cube Count: 2106
+100011
+3
+Cube Count: 2107
+10010111
+7
+Cube Count: 2108
+10
+2
+Cube Count: 2109
+10
+2
+Cube Count: 2110
+1000000
+0
+Cube Count: 2111
+10000000
+0
+Cube Count: 2112
+10000000
+0
+Cube Count: 2113
+10000000
+0
+Cube Count: 2114
+10000000
+0
+Cube Count: 2115
+10000100
+4
+Cube Count: 2116
+10010111
+7
+Cube Count: 2117
+10
+2
+Cube Count: 2118
+100100
+4
+Cube Count: 2119
+0
+0
+Cube Count: 2120
+100100
+4
+Cube Count: 2121
+1000000
+0
+Cube Count: 2122
+1000000
+0
+Cube Count: 2123
+10000000
+0
+Cube Count: 2124
+10000000
+0
+Cube Count: 2125
+10000000
+0
+Cube Count: 2126
+10000000
+0
+Cube Count: 2127
+10000100
+4
+Cube Count: 2128
+10010111
+7
+Cube Count: 2129
+10
+2
+Cube Count: 2130
+10000100
+4
+Cube Count: 2131
+10010111
+7
+Cube Count: 2132
+10
+2
+Cube Count: 2133
+100011
+3
+Cube Count: 2134
+10000000
+0
+Cube Count: 2135
+10000000
+0
+Cube Count: 2136
+10000100
+4
+Cube Count: 2137
+10010111
+7
+Cube Count: 2138
+10
+2
+Cube Count: 2139
+10010111
+7
+Cube Count: 2140
+10
+2
+Cube Count: 2141
+10000000
+0
+Cube Count: 2142
+10000000
+0
+Cube Count: 2143
+10000100
+4
+Cube Count: 2144
+10010111
+7
+Cube Count: 2145
+10
+2
+Cube Count: 2146
+10010111
+7
+Cube Count: 2147
+10
+2
+Cube Count: 2148
+10000000
+0
+Cube Count: 2149
+10000100
+4
+Cube Count: 2150
+10010111
+7
+Cube Count: 2151
+10
+2
+Cube Count: 2152
+11110
+6
+Cube Count: 2153
+0
+0
+Cube Count: 2154
+100100
+4
+Cube Count: 2155
+1
+1
+Cube Count: 2156
+10000100
+4
+Cube Count: 2157
+10010111
+7
+Cube Count: 2158
+10
+2
+Cube Count: 2159
+10010111
+7
+Cube Count: 2160
+10
+2
+Cube Count: 2161
+11100011
+3
+Cube Count: 2162
+11000011
+3
+Cube Count: 2163
+1000001
+1
+Cube Count: 2164
+11100011
+3
+Cube Count: 2165
+10
+2
+Cube Count: 2166
+11100011
+3
+Cube Count: 2167
+1100000
+0
+Cube Count: 2168
+11110
+6
+Cube Count: 2169
+1100000
+0
+Cube Count: 2170
+11000
+0
+Cube Count: 2171
+1000001
+1
+Cube Count: 2172
+0
+0
+Cube Count: 2173
+11100011
+3
+Cube Count: 2174
+0
+0
+Cube Count: 2175
+0
+0
+Cube Count: 2176
+1101
+5
+Cube Count: 2177
+100100
+4
+Cube Count: 2178
+10000100
+4
+Cube Count: 2179
+10010111
+7
+Cube Count: 2180
+10
+2
+Cube Count: 2181
+10010111
+7
+Cube Count: 2182
+10
+2
+Cube Count: 2183
+10000000
+0
+Cube Count: 2184
+10000100
+4
+Cube Count: 2185
+10010111
+7
+Cube Count: 2186
+10
+2
+Cube Count: 2187
+100100
+4
+Cube Count: 2188
+0
+0
+Cube Count: 2189
+100100
+4
+Cube Count: 2190
+1101
+5
+Cube Count: 2191
+100100
+4
+Cube Count: 2192
+10
+2
+Cube Count: 2193
+10000000
+0
+Cube Count: 2194
+10000000
+0
+Cube Count: 2195
+10000100
+4
+Cube Count: 2196
+10010111
+7
+Cube Count: 2197
+10
+2
+Cube Count: 2198
+10
+2
+Cube Count: 2199
+10000000
+0
+Cube Count: 2200
+10000000
+0
+Cube Count: 2201
+10000000
+0
+Cube Count: 2202
+10000100
+4
+Cube Count: 2203
+10010111
+7
+Cube Count: 2204
+10
+2
+Cube Count: 2205
+100100
+4
+Cube Count: 2206
+0
+0
+Cube Count: 2207
+100100
+4
+Cube Count: 2208
+1000000
+0
+Cube Count: 2209
+1000000
+0
+Cube Count: 2210
+10000000
+0
+Cube Count: 2211
+10000000
+0
+Cube Count: 2212
+10000000
+0
+Cube Count: 2213
+10000000
+0
+Cube Count: 2214
+10000100
+4
+Cube Count: 2215
+10010111
+7
+Cube Count: 2216
+10
+2
+Cube Count: 2217
+10000100
+4
+Cube Count: 2218
+10010111
+7
+Cube Count: 2219
+10
+2
+Cube Count: 2220
+100011
+3
+Cube Count: 2221
+0
+0
+Cube Count: 2222
+110011
+3
+Cube Count: 2223
+11000011
+3
+Cube Count: 2224
+11000011
+3
+Cube Count: 2225
+0
+0
+Cube Count: 2226
+11000011
+3
+Cube Count: 2227
+1000001
+1
+Cube Count: 2228
+11100011
+3
+Cube Count: 2229
+0
+0
+Cube Count: 2230
+0
+0
+Cube Count: 2231
+1101
+5
+Cube Count: 2232
+100100
+4
+Cube Count: 2233
+10000100
+4
+Cube Count: 2234
+10010111
+7
+Cube Count: 2235
+10
+2
+Cube Count: 2236
+10000100
+4
+Cube Count: 2237
+10010111
+7
+Cube Count: 2238
+10
+2
+Cube Count: 2239
+10000100
+4
+Cube Count: 2240
+10010111
+7
+Cube Count: 2241
+10
+2
+Cube Count: 2242
+11110
+6
+Cube Count: 2243
+0
+0
+Cube Count: 2244
+100100
+4
+Cube Count: 2245
+10
+2
+Cube Count: 2246
+11110
+6
+Cube Count: 2247
+0
+0
+Cube Count: 2248
+100100
+4
+Cube Count: 2249
+10010111
+7
+Cube Count: 2250
+10
+2
+Cube Count: 2251
+10000000
+0
+Cube Count: 2252
+10000100
+4
+Cube Count: 2253
+10010111
+7
+Cube Count: 2254
+10
+2
+Cube Count: 2255
+10010111
+7
+Cube Count: 2256
+10
+2
+Cube Count: 2257
+10000000
+0
+Cube Count: 2258
+10000100
+4
+Cube Count: 2259
+10010111
+7
+Cube Count: 2260
+10
+2
+Cube Count: 2261
+11110
+6
+Cube Count: 2262
+0
+0
+Cube Count: 2263
+100100
+4
+Cube Count: 2264
+11000011
+3
+Cube Count: 2265
+11000011
+3
+Cube Count: 2266
+11100011
+3
+Cube Count: 2267
+1100000
+0
+Cube Count: 2268
+11110
+6
+Cube Count: 2269
+11100000
+0
+Cube Count: 2270
+11000
+0
+Cube Count: 2271
+11100011
+3
+Cube Count: 2272
+1101
+5
+Cube Count: 2273
+100100
+4
+Cube Count: 2274
+0
+0
+Cube Count: 2275
+1
+1
+Cube Count: 2276
+10010111
+7
+Cube Count: 2277
+10
+2
+Cube Count: 2278
+10
+2
+Cube Count: 2279
+10
+2
+Cube Count: 2280
+10000100
+4
+Cube Count: 2281
+11
+3
+Cube Count: 2282
+0
+0
+Cube Count: 2283
+1
+1
+Cube Count: 2284
+1
+1
+Cube Count: 2285
+1
+1
+Cube Count: 2286
+1
+1
+Cube Count: 2287
+1
+1
+Cube Count: 2288
+1
+1
+Cube Count: 2289
+10000000
+0
+Cube Count: 2290
+10000000
+0
+Cube Count: 2291
+10000000
+0
+Cube Count: 2292
+10000011
+3
+Cube Count: 2293
+10000011
+3
+Cube Count: 2294
+10000011
+3
+Cube Count: 2295
+0
+0
+Cube Count: 2296
+100010
+2
+Cube Count: 2297
+0
+0
+Cube Count: 2298
+1
+1
+Cube Count: 2299
+1
+1
+Cube Count: 2300
+1
+1
+Cube Count: 2301
+10000000
+0
+Cube Count: 2302
+10000000
+0
+Cube Count: 2303
+10000000
+0
+Cube Count: 2304
+10000000
+0
+Cube Count: 2305
+10000000
+0
+Cube Count: 2306
+10000011
+3
+Cube Count: 2307
+10000011
+3
+Cube Count: 2308
+0
+0
+Cube Count: 2309
+1
+1
+Cube Count: 2310
+1
+1
+Cube Count: 2311
+0
+0
+Cube Count: 2312
+1
+1
+Cube Count: 2313
+1
+1
+Cube Count: 2314
+1
+1
+Cube Count: 2315
+11
+3
+Cube Count: 2316
+1
+1
+Cube Count: 2317
+1
+1
+Cube Count: 2318
+1
+1
+Cube Count: 2319
+1
+1
+Cube Count: 2320
+1
+1
+Cube Count: 2321
+0
+0
+Cube Count: 2322
+0
+0
+Cube Count: 2323
+1
+1
+Cube Count: 2324
+1
+1
+Cube Count: 2325
+1
+1
+Cube Count: 2326
+11
+3
+Cube Count: 2327
+1
+1
+Cube Count: 2328
+1
+1
+Cube Count: 2329
+1
+1
+Cube Count: 2330
+1
+1
+Cube Count: 2331
+0
+0
+Cube Count: 2332
+1
+1
+Cube Count: 2333
+1
+1
+Cube Count: 2334
+10000011
+3
+Cube Count: 2335
+10100010
+2
+Cube Count: 2336
+0
+0
+Cube Count: 2337
+11100
+4
+Cube Count: 2338
+10
+2
+Cube Count: 2339
+10
+2
+Cube Count: 2340
+10
+2
+Cube Count: 2341
+10
+2
+Cube Count: 2342
+10010111
+7
+Cube Count: 2343
+10
+2
+Cube Count: 2344
+10000000
+0
+Cube Count: 2345
+10000000
+0
+Cube Count: 2346
+10000000
+0
+Cube Count: 2347
+10000000
+0
+Cube Count: 2348
+10000000
+0
+Cube Count: 2349
+110000
+0
+Cube Count: 2350
+110000
+0
+Cube Count: 2351
+110000
+0
+Cube Count: 2352
+110000
+0
+Cube Count: 2353
+10010110
+6
+Cube Count: 2354
+10
+2
+Cube Count: 2355
+0
+0
+Cube Count: 2356
+10010111
+7
+Cube Count: 2357
+10
+2
+Cube Count: 2358
+10
+2
+Cube Count: 2359
+10
+2
+Cube Count: 2360
+10
+2
+Cube Count: 2361
+10
+2
+Cube Count: 2362
+10
+2
+Cube Count: 2363
+10000000
+0
+Cube Count: 2364
+10000000
+0
+Cube Count: 2365
+10000000
+0
+Cube Count: 2366
+10000000
+0
+Cube Count: 2367
+10000000
+0
+Cube Count: 2368
+10000000
+0
+Cube Count: 2369
+110000
+0
+Cube Count: 2370
+10000000
+0
+Cube Count: 2371
+110000
+0
+Cube Count: 2372
+10000000
+0
+Cube Count: 2373
+10010111
+7
+Cube Count: 2374
+10
+2
+Cube Count: 2375
+10010111
+7
+Cube Count: 2376
+10
+2
+Cube Count: 2377
+101
+5
+Cube Count: 2378
+0
+0
+Cube Count: 2379
+0
+0
+Cube Count: 2380
+1100
+4
+Cube Count: 2381
+11100
+4
+Cube Count: 2382
+10
+2
+Cube Count: 2383
+10
+2
+Cube Count: 2384
+10
+2
+Cube Count: 2385
+10
+2
+Cube Count: 2386
+10
+2
+Cube Count: 2387
+10
+2
+Cube Count: 2388
+0
+0
+Cube Count: 2389
+1
+1
+Cube Count: 2390
+1
+1
+Cube Count: 2391
+1
+1
+Cube Count: 2392
+1
+1
+Cube Count: 2393
+10010111
+7
+Cube Count: 2394
+10
+2
+Cube Count: 2395
+0
+0
+Cube Count: 2396
+1
+1
+Cube Count: 2397
+1
+1
+Cube Count: 2398
+10
+2
+Cube Count: 2399
+10010111
+7
+Cube Count: 2400
+10
+2
+Cube Count: 2401
+10000000
+0
+Cube Count: 2402
+10000000
+0
+Cube Count: 2403
+10000000
+0
+Cube Count: 2404
+1000011
+3
+Cube Count: 2405
+1110110
+6
+Cube Count: 2406
+11
+3
+Cube Count: 2407
+1110110
+6
+Cube Count: 2408
+11
+3
+Cube Count: 2409
+1110110
+6
+Cube Count: 2410
+11
+3
+Cube Count: 2411
+1110110
+6
+Cube Count: 2412
+11
+3
+Cube Count: 2413
+1110110
+6
+Cube Count: 2414
+11
+3
+Cube Count: 2415
+1110110
+6
+Cube Count: 2416
+11
+3
+Cube Count: 2417
+1
+1
+Cube Count: 2418
+11
+3
+Cube Count: 2419
+10010111
+7
+Cube Count: 2420
+10
+2
+Cube Count: 2421
+10
+2
+Cube Count: 2422
+10
+2
+Cube Count: 2423
+10
+2
+Cube Count: 2424
+10000100
+4
+Cube Count: 2425
+11
+3
+Cube Count: 2426
+11
+3
+Cube Count: 2427
+11
+3
+Cube Count: 2428
+11
+3
+Cube Count: 2429
+1110110
+6
+Cube Count: 2430
+11
+3
+Cube Count: 2431
+10000100
+4
+Cube Count: 2432
+11
+3
+Cube Count: 2433
+11
+3
+Cube Count: 2434
+11
+3
+Cube Count: 2435
+11
+3
+Cube Count: 2436
+10000100
+4
+Cube Count: 2437
+10
+2
+Cube Count: 2438
+1110110
+6
+Cube Count: 2439
+11
+3
+Cube Count: 2440
+0
+0
+Cube Count: 2441
+1
+1
+Cube Count: 2442
+1
+1
+Cube Count: 2443
+1
+1
+Cube Count: 2444
+1
+1
+Cube Count: 2445
+1
+1
+Cube Count: 2446
+1
+1
+Cube Count: 2447
+1
+1
+Cube Count: 2448
+1
+1
+Cube Count: 2449
+0
+0
+Cube Count: 2450
+0
+0
+Cube Count: 2451
+1
+1
+Cube Count: 2452
+0
+0
+Cube Count: 2453
+0
+0
+Cube Count: 2454
+0
+0
+Cube Count: 2455
+10100011
+3
+Cube Count: 2456
+1000000
+0
+Cube Count: 2457
+101000
+0
+Cube Count: 2458
+0
+0
+Cube Count: 2459
+10
+2
+Cube Count: 2460
+0
+0
+Cube Count: 2461
+10100011
+3
+Cube Count: 2462
+1000000
+0
+Cube Count: 2463
+101000
+0
+Cube Count: 2464
+0
+0
+Cube Count: 2465
+0
+0
+Cube Count: 2466
+1
+1
+Cube Count: 2467
+10100011
+3
+Cube Count: 2468
+0
+0
+Cube Count: 2469
+0
+0
+Cube Count: 2470
+1101
+5
+Cube Count: 2471
+100100
+4
+Cube Count: 2472
+0
+0
+Cube Count: 2473
+1
+1
+Cube Count: 2474
+10000100
+4
+Cube Count: 2475
+10000100
+4
+Cube Count: 2476
+100010
+2
+Cube Count: 2477
+10000000
+0
+Cube Count: 2478
+100001
+1
+Cube Count: 2479
+1
+1
+Cube Count: 2480
+10100011
+3
+Cube Count: 2481
+1000000
+0
+Cube Count: 2482
+101000
+0
+Cube Count: 2483
+0
+0
+Cube Count: 2484
+10
+2
+Cube Count: 2485
+0
+0
+Cube Count: 2486
+10100011
+3
+Cube Count: 2487
+1000000
+0
+Cube Count: 2488
+101000
+0
+Cube Count: 2489
+0
+0
+Cube Count: 2490
+0
+0
+Cube Count: 2491
+1
+1
+Cube Count: 2492
+10100011
+3
+Cube Count: 2493
+0
+0
+Cube Count: 2494
+0
+0
+Cube Count: 2495
+1101
+5
+Cube Count: 2496
+100100
+4
+Cube Count: 2497
+0
+0
+Cube Count: 2498
+1
+1
+Cube Count: 2499
+10000100
+4
+Cube Count: 2500
+10000100
+4
+Cube Count: 2501
+100100
+4
+Cube Count: 2502
+10000000
+0
+Cube Count: 2503
+100011
+3
+Cube Count: 2504
+100000
+0
+Cube Count: 2505
+100000
+0
+Cube Count: 2506
+1000000
+0
+Cube Count: 2507
+1000000
+0
+Cube Count: 2508
+1000000
+0
+Cube Count: 2509
+1000000
+0
+Cube Count: 2510
+10000000
+0
+Cube Count: 2511
+10000000
+0
+Cube Count: 2512
+10000000
+0
+Cube Count: 2513
+10000000
+0
+Cube Count: 2514
+10000100
+4
+Cube Count: 2515
+100
+4
+Cube Count: 2516
+1
+1
+Cube Count: 2517
+10100011
+3
+Cube Count: 2518
+1000000
+0
+Cube Count: 2519
+101000
+0
+Cube Count: 2520
+0
+0
+Cube Count: 2521
+10
+2
+Cube Count: 2522
+0
+0
+Cube Count: 2523
+10100011
+3
+Cube Count: 2524
+0
+0
+Cube Count: 2525
+0
+0
+Cube Count: 2526
+1101
+5
+Cube Count: 2527
+100100
+4
+Cube Count: 2528
+0
+0
+Cube Count: 2529
+1
+1
+Cube Count: 2530
+10000100
+4
+Cube Count: 2531
+10000100
+4
+Cube Count: 2532
+100010
+2
+Cube Count: 2533
+10000000
+0
+Cube Count: 2534
+100001
+1
+Cube Count: 2535
+1
+1
+Cube Count: 2536
+10100011
+3
+Cube Count: 2537
+1000000
+0
+Cube Count: 2538
+101000
+0
+Cube Count: 2539
+0
+0
+Cube Count: 2540
+100
+4
+Cube Count: 2541
+0
+0
+Cube Count: 2542
+10100011
+3
+Cube Count: 2543
+1000000
+0
+Cube Count: 2544
+101000
+0
+Cube Count: 2545
+0
+0
+Cube Count: 2546
+10
+2
+Cube Count: 2547
+0
+0
+Cube Count: 2548
+10100011
+3
+Cube Count: 2549
+0
+0
+Cube Count: 2550
+0
+0
+Cube Count: 2551
+1101
+5
+Cube Count: 2552
+100100
+4
+Cube Count: 2553
+0
+0
+Cube Count: 2554
+1
+1
+Cube Count: 2555
+10000100
+4
+Cube Count: 2556
+10000100
+4
+Cube Count: 2557
+100100
+4
+Cube Count: 2558
+10000000
+0
+Cube Count: 2559
+100011
+3
+Cube Count: 2560
+0
+0
+Cube Count: 2561
+1
+1
+Cube Count: 2562
+10000
+0
+Cube Count: 2563
+100000
+0
+Cube Count: 2564
+100000
+0
+Cube Count: 2565
+100000
+0
+Cube Count: 2566
+100000
+0
+Cube Count: 2567
+10000000
+0
+Cube Count: 2568
+10000000
+0
+Cube Count: 2569
+10000000
+0
+Cube Count: 2570
+10000000
+0
+Cube Count: 2571
+10000100
+4
+Cube Count: 2572
+0
+0
+Cube Count: 2573
+1
+1
+Cube Count: 2574
+1
+1
+Cube Count: 2575
+1
+1
+Cube Count: 2576
+10000
+0
+Cube Count: 2577
+10000
+0
+Cube Count: 2578
+100000
+0
+Cube Count: 2579
+100000
+0
+Cube Count: 2580
+100000
+0
+Cube Count: 2581
+100000
+0
+Cube Count: 2582
+10000000
+0
+Cube Count: 2583
+10000000
+0
+Cube Count: 2584
+10000000
+0
+Cube Count: 2585
+10000000
+0
+Cube Count: 2586
+10000100
+4
+Cube Count: 2587
+0
+0
+Cube Count: 2588
+1
+1
+Cube Count: 2589
+1
+1
+Cube Count: 2590
+1
+1
+Cube Count: 2591
+1
+1
+Cube Count: 2592
+100000
+0
+Cube Count: 2593
+100000
+0
+Cube Count: 2594
+100000
+0
+Cube Count: 2595
+100000
+0
+Cube Count: 2596
+1000000
+0
+Cube Count: 2597
+1000000
+0
+Cube Count: 2598
+1000000
+0
+Cube Count: 2599
+1000000
+0
+Cube Count: 2600
+10000000
+0
+Cube Count: 2601
+10000000
+0
+Cube Count: 2602
+10000000
+0
+Cube Count: 2603
+10000000
+0
+Cube Count: 2604
+10000100
+4
+Cube Count: 2605
+100
+4
+Cube Count: 2606
+1
+1
+Cube Count: 2607
+10100011
+3
+Cube Count: 2608
+1000000
+0
+Cube Count: 2609
+101000
+0
+Cube Count: 2610
+0
+0
+Cube Count: 2611
+100
+4
+Cube Count: 2612
+0
+0
+Cube Count: 2613
+10100011
+3
+Cube Count: 2614
+0
+0
+Cube Count: 2615
+0
+0
+Cube Count: 2616
+1101
+5
+Cube Count: 2617
+100100
+4
+Cube Count: 2618
+0
+0
+Cube Count: 2619
+1
+1
+Cube Count: 2620
+10000100
+4
+Cube Count: 2621
+10000100
+4
+Cube Count: 2622
+100010
+2
+Cube Count: 2623
+10000000
+0
+Cube Count: 2624
+100001
+1
+Cube Count: 2625
+1
+1
+Cube Count: 2626
+10100011
+3
+Cube Count: 2627
+1000000
+0
+Cube Count: 2628
+101000
+0
+Cube Count: 2629
+0
+0
+Cube Count: 2630
+110
+6
+Cube Count: 2631
+1
+1
+Cube Count: 2632
+10100011
+3
+Cube Count: 2633
+1000000
+0
+Cube Count: 2634
+101000
+0
+Cube Count: 2635
+0
+0
+Cube Count: 2636
+100
+4
+Cube Count: 2637
+0
+0
+Cube Count: 2638
+10100011
+3
+Cube Count: 2639
+0
+0
+Cube Count: 2640
+0
+0
+Cube Count: 2641
+1101
+5
+Cube Count: 2642
+100100
+4
+Cube Count: 2643
+0
+0
+Cube Count: 2644
+1
+1
+Cube Count: 2645
+10000100
+4
+Cube Count: 2646
+10000100
+4
+Cube Count: 2647
+100100
+4
+Cube Count: 2648
+10000000
+0
+Cube Count: 2649
+100011
+3
+Cube Count: 2650
+100000
+0
+Cube Count: 2651
+100000
+0
+Cube Count: 2652
+1000000
+0
+Cube Count: 2653
+1000000
+0
+Cube Count: 2654
+1000000
+0
+Cube Count: 2655
+1000000
+0
+Cube Count: 2656
+10000000
+0
+Cube Count: 2657
+10000000
+0
+Cube Count: 2658
+10000000
+0
+Cube Count: 2659
+10000000
+0
+Cube Count: 2660
+10000100
+4
+Cube Count: 2661
+100
+4
+Cube Count: 2662
+1
+1
+Cube Count: 2663
+10100011
+3
+Cube Count: 2664
+1000000
+0
+Cube Count: 2665
+101000
+0
+Cube Count: 2666
+0
+0
+Cube Count: 2667
+110
+6
+Cube Count: 2668
+1
+1
+Cube Count: 2669
+10100011
+3
+Cube Count: 2670
+0
+0
+Cube Count: 2671
+0
+0
+Cube Count: 2672
+1101
+5
+Cube Count: 2673
+100100
+4
+Cube Count: 2674
+0
+0
+Cube Count: 2675
+1
+1
+Cube Count: 2676
+10000100
+4
+Cube Count: 2677
+10000100
+4
+Cube Count: 2678
+100010
+2
+Cube Count: 2679
+10000000
+0
+Cube Count: 2680
+100001
+1
+Cube Count: 2681
+1
+1
+Cube Count: 2682
+10100011
+3
+Cube Count: 2683
+1000000
+0
+Cube Count: 2684
+101000
+0
+Cube Count: 2685
+0
+0
+Cube Count: 2686
+1000
+0
+Cube Count: 2687
+1
+1
+Cube Count: 2688
+10100011
+3
+Cube Count: 2689
+1000000
+0
+Cube Count: 2690
+101000
+0
+Cube Count: 2691
+0
+0
+Cube Count: 2692
+110
+6
+Cube Count: 2693
+1
+1
+Cube Count: 2694
+10100011
+3
+Cube Count: 2695
+0
+0
+Cube Count: 2696
+0
+0
+Cube Count: 2697
+1101
+5
+Cube Count: 2698
+100100
+4
+Cube Count: 2699
+0
+0
+Cube Count: 2700
+1
+1
+Cube Count: 2701
+10000100
+4
+Cube Count: 2702
+10000100
+4
+Cube Count: 2703
+100100
+4
+Cube Count: 2704
+10000000
+0
+Cube Count: 2705
+100011
+3
+Cube Count: 2706
+0
+0
+Cube Count: 2707
+1
+1
+Cube Count: 2708
+10000
+0
+Cube Count: 2709
+100000
+0
+Cube Count: 2710
+100000
+0
+Cube Count: 2711
+100000
+0
+Cube Count: 2712
+100000
+0
+Cube Count: 2713
+10000000
+0
+Cube Count: 2714
+10000000
+0
+Cube Count: 2715
+10000000
+0
+Cube Count: 2716
+10000000
+0
+Cube Count: 2717
+10000100
+4
+Cube Count: 2718
+0
+0
+Cube Count: 2719
+1
+1
+Cube Count: 2720
+1
+1
+Cube Count: 2721
+1
+1
+Cube Count: 2722
+10000
+0
+Cube Count: 2723
+10000
+0
+Cube Count: 2724
+100000
+0
+Cube Count: 2725
+100000
+0
+Cube Count: 2726
+100000
+0
+Cube Count: 2727
+100000
+0
+Cube Count: 2728
+10000000
+0
+Cube Count: 2729
+10000000
+0
+Cube Count: 2730
+10000000
+0
+Cube Count: 2731
+10000000
+0
+Cube Count: 2732
+10000100
+4
+Cube Count: 2733
+0
+0
+Cube Count: 2734
+1
+1
+Cube Count: 2735
+1
+1
+Cube Count: 2736
+1
+1
+Cube Count: 2737
+1
+1
+Cube Count: 2738
+1
+1
+Cube Count: 2739
+1
+1
+Cube Count: 2740
+1
+1
+Cube Count: 2741
+10100011
+3
+Cube Count: 2742
+1000000
+0
+Cube Count: 2743
+101000
+0
+Cube Count: 2744
+0
+0
+Cube Count: 2745
+1010
+2
+Cube Count: 2746
+0
+0
+Cube Count: 2747
+10100011
+3
+Cube Count: 2748
+1000000
+0
+Cube Count: 2749
+101000
+0
+Cube Count: 2750
+0
+0
+Cube Count: 2751
+1000
+0
+Cube Count: 2752
+1
+1
+Cube Count: 2753
+10100011
+3
+Cube Count: 2754
+0
+0
+Cube Count: 2755
+0
+0
+Cube Count: 2756
+1101
+5
+Cube Count: 2757
+100100
+4
+Cube Count: 2758
+0
+0
+Cube Count: 2759
+1
+1
+Cube Count: 2760
+10000100
+4
+Cube Count: 2761
+10000100
+4
+Cube Count: 2762
+100010
+2
+Cube Count: 2763
+10000000
+0
+Cube Count: 2764
+100001
+1
+Cube Count: 2765
+1
+1
+Cube Count: 2766
+10100011
+3
+Cube Count: 2767
+1000000
+0
+Cube Count: 2768
+101000
+0
+Cube Count: 2769
+0
+0
+Cube Count: 2770
+1010
+2
+Cube Count: 2771
+0
+0
+Cube Count: 2772
+10100011
+3
+Cube Count: 2773
+1000000
+0
+Cube Count: 2774
+101000
+0
+Cube Count: 2775
+0
+0
+Cube Count: 2776
+1000
+0
+Cube Count: 2777
+1
+1
+Cube Count: 2778
+10100011
+3
+Cube Count: 2779
+0
+0
+Cube Count: 2780
+0
+0
+Cube Count: 2781
+1101
+5
+Cube Count: 2782
+100100
+4
+Cube Count: 2783
+0
+0
+Cube Count: 2784
+1
+1
+Cube Count: 2785
+10000100
+4
+Cube Count: 2786
+10000100
+4
+Cube Count: 2787
+100100
+4
+Cube Count: 2788
+10000000
+0
+Cube Count: 2789
+100011
+3
+Cube Count: 2790
+100000
+0
+Cube Count: 2791
+100000
+0
+Cube Count: 2792
+1000000
+0
+Cube Count: 2793
+1000000
+0
+Cube Count: 2794
+1000000
+0
+Cube Count: 2795
+1000000
+0
+Cube Count: 2796
+10000000
+0
+Cube Count: 2797
+10000000
+0
+Cube Count: 2798
+10000000
+0
+Cube Count: 2799
+10000000
+0
+Cube Count: 2800
+10000100
+4
+Cube Count: 2801
+100
+4
+Cube Count: 2802
+1
+1
+Cube Count: 2803
+10100011
+3
+Cube Count: 2804
+1000000
+0
+Cube Count: 2805
+101000
+0
+Cube Count: 2806
+0
+0
+Cube Count: 2807
+1010
+2
+Cube Count: 2808
+0
+0
+Cube Count: 2809
+10100011
+3
+Cube Count: 2810
+0
+0
+Cube Count: 2811
+0
+0
+Cube Count: 2812
+1101
+5
+Cube Count: 2813
+100100
+4
+Cube Count: 2814
+0
+0
+Cube Count: 2815
+1
+1
+Cube Count: 2816
+10000100
+4
+Cube Count: 2817
+10000100
+4
+Cube Count: 2818
+100010
+2
+Cube Count: 2819
+10000000
+0
+Cube Count: 2820
+100001
+1
+Cube Count: 2821
+1
+1
+Cube Count: 2822
+10100011
+3
+Cube Count: 2823
+1000000
+0
+Cube Count: 2824
+101000
+0
+Cube Count: 2825
+0
+0
+Cube Count: 2826
+1100
+4
+Cube Count: 2827
+0
+0
+Cube Count: 2828
+10100011
+3
+Cube Count: 2829
+1000000
+0
+Cube Count: 2830
+101000
+0
+Cube Count: 2831
+0
+0
+Cube Count: 2832
+1010
+2
+Cube Count: 2833
+0
+0
+Cube Count: 2834
+10100011
+3
+Cube Count: 2835
+0
+0
+Cube Count: 2836
+0
+0
+Cube Count: 2837
+1101
+5
+Cube Count: 2838
+100100
+4
+Cube Count: 2839
+0
+0
+Cube Count: 2840
+1
+1
+Cube Count: 2841
+10000100
+4
+Cube Count: 2842
+10000100
+4
+Cube Count: 2843
+100100
+4
+Cube Count: 2844
+10000000
+0
+Cube Count: 2845
+100011
+3
+Cube Count: 2846
+0
+0
+Cube Count: 2847
+1
+1
+Cube Count: 2848
+10000
+0
+Cube Count: 2849
+100000
+0
+Cube Count: 2850
+100000
+0
+Cube Count: 2851
+100000
+0
+Cube Count: 2852
+100000
+0
+Cube Count: 2853
+10000000
+0
+Cube Count: 2854
+10000000
+0
+Cube Count: 2855
+10000000
+0
+Cube Count: 2856
+10000000
+0
+Cube Count: 2857
+10000100
+4
+Cube Count: 2858
+0
+0
+Cube Count: 2859
+1
+1
+Cube Count: 2860
+1
+1
+Cube Count: 2861
+1
+1
+Cube Count: 2862
+10000
+0
+Cube Count: 2863
+10000
+0
+Cube Count: 2864
+100000
+0
+Cube Count: 2865
+100000
+0
+Cube Count: 2866
+100000
+0
+Cube Count: 2867
+100000
+0
+Cube Count: 2868
+10000000
+0
+Cube Count: 2869
+10000000
+0
+Cube Count: 2870
+10000000
+0
+Cube Count: 2871
+10000000
+0
+Cube Count: 2872
+10000100
+4
+Cube Count: 2873
+0
+0
+Cube Count: 2874
+1
+1
+Cube Count: 2875
+1
+1
+Cube Count: 2876
+1
+1
+Cube Count: 2877
+1
+1
+Cube Count: 2878
+100000
+0
+Cube Count: 2879
+100000
+0
+Cube Count: 2880
+100000
+0
+Cube Count: 2881
+100000
+0
+Cube Count: 2882
+1000000
+0
+Cube Count: 2883
+1000000
+0
+Cube Count: 2884
+1000000
+0
+Cube Count: 2885
+1000000
+0
+Cube Count: 2886
+10000000
+0
+Cube Count: 2887
+10000000
+0
+Cube Count: 2888
+10000000
+0
+Cube Count: 2889
+10000000
+0
+Cube Count: 2890
+10000100
+4
+Cube Count: 2891
+100
+4
+Cube Count: 2892
+1
+1
+Cube Count: 2893
+10100011
+3
+Cube Count: 2894
+1000000
+0
+Cube Count: 2895
+101000
+0
+Cube Count: 2896
+0
+0
+Cube Count: 2897
+1100
+4
+Cube Count: 2898
+0
+0
+Cube Count: 2899
+10100011
+3
+Cube Count: 2900
+0
+0
+Cube Count: 2901
+0
+0
+Cube Count: 2902
+1101
+5
+Cube Count: 2903
+100100
+4
+Cube Count: 2904
+0
+0
+Cube Count: 2905
+1
+1
+Cube Count: 2906
+10000100
+4
+Cube Count: 2907
+10000100
+4
+Cube Count: 2908
+100010
+2
+Cube Count: 2909
+10000000
+0
+Cube Count: 2910
+100001
+1
+Cube Count: 2911
+1
+1
+Cube Count: 2912
+10100011
+3
+Cube Count: 2913
+1000000
+0
+Cube Count: 2914
+101000
+0
+Cube Count: 2915
+0
+0
+Cube Count: 2916
+1110
+6
+Cube Count: 2917
+1
+1
+Cube Count: 2918
+10100011
+3
+Cube Count: 2919
+1000000
+0
+Cube Count: 2920
+101000
+0
+Cube Count: 2921
+0
+0
+Cube Count: 2922
+1100
+4
+Cube Count: 2923
+0
+0
+Cube Count: 2924
+10100011
+3
+Cube Count: 2925
+0
+0
+Cube Count: 2926
+0
+0
+Cube Count: 2927
+1101
+5
+Cube Count: 2928
+100100
+4
+Cube Count: 2929
+0
+0
+Cube Count: 2930
+1
+1
+Cube Count: 2931
+10000100
+4
+Cube Count: 2932
+10000100
+4
+Cube Count: 2933
+100100
+4
+Cube Count: 2934
+10000000
+0
+Cube Count: 2935
+100011
+3
+Cube Count: 2936
+100000
+0
+Cube Count: 2937
+100000
+0
+Cube Count: 2938
+1000000
+0
+Cube Count: 2939
+1000000
+0
+Cube Count: 2940
+1000000
+0
+Cube Count: 2941
+1000000
+0
+Cube Count: 2942
+10000000
+0
+Cube Count: 2943
+10000000
+0
+Cube Count: 2944
+10000000
+0
+Cube Count: 2945
+10000000
+0
+Cube Count: 2946
+10000100
+4
+Cube Count: 2947
+100
+4
+Cube Count: 2948
+1
+1
+Cube Count: 2949
+10100011
+3
+Cube Count: 2950
+1000000
+0
+Cube Count: 2951
+101000
+0
+Cube Count: 2952
+0
+0
+Cube Count: 2953
+1110
+6
+Cube Count: 2954
+1
+1
+Cube Count: 2955
+10100011
+3
+Cube Count: 2956
+0
+0
+Cube Count: 2957
+0
+0
+Cube Count: 2958
+1101
+5
+Cube Count: 2959
+100100
+4
+Cube Count: 2960
+0
+0
+Cube Count: 2961
+1
+1
+Cube Count: 2962
+10000100
+4
+Cube Count: 2963
+10000100
+4
+Cube Count: 2964
+100010
+2
+Cube Count: 2965
+10000000
+0
+Cube Count: 2966
+100001
+1
+Cube Count: 2967
+1
+1
+Cube Count: 2968
+10100011
+3
+Cube Count: 2969
+1000000
+0
+Cube Count: 2970
+101000
+0
+Cube Count: 2971
+0
+0
+Cube Count: 2972
+10000
+0
+Cube Count: 2973
+1
+1
+Cube Count: 2974
+10100011
+3
+Cube Count: 2975
+1000000
+0
+Cube Count: 2976
+101000
+0
+Cube Count: 2977
+0
+0
+Cube Count: 2978
+1110
+6
+Cube Count: 2979
+1
+1
+Cube Count: 2980
+10100011
+3
+Cube Count: 2981
+0
+0
+Cube Count: 2982
+0
+0
+Cube Count: 2983
+1101
+5
+Cube Count: 2984
+100100
+4
+Cube Count: 2985
+0
+0
+Cube Count: 2986
+1
+1
+Cube Count: 2987
+10000100
+4
+Cube Count: 2988
+10000100
+4
+Cube Count: 2989
+100100
+4
+Cube Count: 2990
+10000000
+0
+Cube Count: 2991
+100011
+3
+Cube Count: 2992
+0
+0
+Cube Count: 2993
+1
+1
+Cube Count: 2994
+10000
+0
+Cube Count: 2995
+100000
+0
+Cube Count: 2996
+100000
+0
+Cube Count: 2997
+100000
+0
+Cube Count: 2998
+100000
+0
+Cube Count: 2999
+10000000
+0
+Cube Count: 3000
+10000000
+0
+Cube Count: 3001
+10000000
+0
+Cube Count: 3002
+10000000
+0
+Cube Count: 3003
+10000100
+4
+Cube Count: 3004
+0
+0
+Cube Count: 3005
+1
+1
+Cube Count: 3006
+1
+1
+Cube Count: 3007
+1
+1
+Cube Count: 3008
+10000
+0
+Cube Count: 3009
+10000
+0
+Cube Count: 3010
+100000
+0
+Cube Count: 3011
+100000
+0
+Cube Count: 3012
+100000
+0
+Cube Count: 3013
+100000
+0
+Cube Count: 3014
+10000000
+0
+Cube Count: 3015
+10000000
+0
+Cube Count: 3016
+10000000
+0
+Cube Count: 3017
+10000000
+0
+Cube Count: 3018
+10000100
+4
+Cube Count: 3019
+0
+0
+Cube Count: 3020
+1
+1
+Cube Count: 3021
+1
+1
+Cube Count: 3022
+1
+1
+Cube Count: 3023
+1
+1
+Cube Count: 3024
+1
+1
+Cube Count: 3025
+1
+1
+Cube Count: 3026
+1
+1
+Cube Count: 3027
+1
+1
+Cube Count: 3028
+1
+1
+Cube Count: 3029
+1
+1
+Cube Count: 3030
+1
+1
+Cube Count: 3031
+1
+1
+Cube Count: 3032
+10010111
+7
+Cube Count: 3033
+10
+2
+Cube Count: 3034
+10010111
+7
+Cube Count: 3035
+10
+2
+Cube Count: 3036
+100
+4
+Cube Count: 3037
+10
+2
+Cube Count: 3038
+10100010
+2
+Cube Count: 3039
+0
+0
+Cube Count: 3040
+10110
+6
+Cube Count: 3041
+10000000
+0
+Cube Count: 3042
+100010
+2
+Cube Count: 3043
+11
+3
+Cube Count: 3044
+11
+3
+Cube Count: 3045
+11
+3
+Cube Count: 3046
+10
+2
+Cube Count: 3047
+100000
+0
+Cube Count: 3048
+0
+0
+Cube Count: 3049
+11000
+0
+Cube Count: 3050
+10000000
+0
+Cube Count: 3051
+100000
+0
+Cube Count: 3052
+11000000
+0
+Cube Count: 3053
+10110
+6
+Cube Count: 3054
+10
+2
+Cube Count: 3055
+10
+2
+Cube Count: 3056
+0
+0
+Cube Count: 3057
+10000010
+2
+Cube Count: 3058
+10
+2
+Cube Count: 3059
+10
+2
+Cube Count: 3060
+10
+2
+Cube Count: 3061
+10100010
+2
+Cube Count: 3062
+10000000
+0
+Cube Count: 3063
+100000
+0
+Cube Count: 3064
+0
+0
+Cube Count: 3065
+11000
+0
+Cube Count: 3066
+10
+2
+Cube Count: 3067
+11
+3
+Cube Count: 3068
+10000010
+2
+Cube Count: 3069
+10
+2
+Cube Count: 3070
+0
+0
+Cube Count: 3071
+1
+1
+Cube Count: 3072
+10000010
+2
+Cube Count: 3073
+10000010
+2
+Cube Count: 3074
+10
+2
+Cube Count: 3075
+1
+1
+Cube Count: 3076
+10100010
+2
+Cube Count: 3077
+0
+0
+Cube Count: 3078
+0
+0
+Cube Count: 3079
+1101
+5
+Cube Count: 3080
+100100
+4
+Cube Count: 3081
+11
+3
+Cube Count: 3082
+10010111
+7
+Cube Count: 3083
+10
+2
+Cube Count: 3084
+10111
+7
+Cube Count: 3085
+10000000
+0
+Cube Count: 3086
+100000
+0
+Cube Count: 3087
+0
+0
+Cube Count: 3088
+11000
+0
+Cube Count: 3089
+10000000
+0
+Cube Count: 3090
+100001
+1
+Cube Count: 3091
+1001
+1
+Cube Count: 3092
+11
+3
+Cube Count: 3093
+1101011
+3
+Cube Count: 3094
+1101011
+3
+Cube Count: 3095
+11100011
+3
+Cube Count: 3096
+0
+0
+Cube Count: 3097
+100000
+0
+Cube Count: 3098
+0
+0
+Cube Count: 3099
+100001
+1
+Cube Count: 3100
+1110000
+0
+Cube Count: 3101
+1110000
+0
+Cube Count: 3102
+10010111
+7
+Cube Count: 3103
+10
+2
+Cube Count: 3104
+100000
+0
+Cube Count: 3105
+100000
+0
+Cube Count: 3106
+100
+4
+Cube Count: 3107
+11000011
+3
+Cube Count: 3108
+0
+0
+Cube Count: 3109
+1000010
+2
+Cube Count: 3110
+1000010
+2
+Cube Count: 3111
+1000010
+2
+Cube Count: 3112
+1000010
+2
+Cube Count: 3113
+11000011
+3
+Cube Count: 3114
+11100010
+2
+Cube Count: 3115
+0
+0
+Cube Count: 3116
+11000
+0
+Cube Count: 3117
+0
+0
+Cube Count: 3118
+100001
+1
+Cube Count: 3119
+1101
+5
+Cube Count: 3120
+100100
+4
+Cube Count: 3121
+11
+3
+Cube Count: 3122
+0
+0
+Cube Count: 3123
+1101
+5
+Cube Count: 3124
+100100
+4
+Cube Count: 3125
+1110110
+6
+Cube Count: 3126
+11
+3
+Cube Count: 3127
+10
+2
+Cube Count: 3128
+10000000
+0
+Cube Count: 3129
+1000000
+0
+Cube Count: 3130
+1000000
+0
+Cube Count: 3131
+1000000
+0
+Cube Count: 3132
+1000000
+0
+Cube Count: 3133
+10000110
+6
+Cube Count: 3134
+11
+3
+Cube Count: 3135
+10100010
+2
+Cube Count: 3136
+10000000
+0
+Cube Count: 3137
+100000
+0
+Cube Count: 3138
+11000000
+0
+Cube Count: 3139
+10110
+6
+Cube Count: 3140
+10
+2
+Cube Count: 3141
+10
+2
+Cube Count: 3142
+0
+0
+Cube Count: 3143
+10000010
+2
+Cube Count: 3144
+10
+2
+Cube Count: 3145
+10
+2
+Cube Count: 3146
+10
+2
+Cube Count: 3147
+10100010
+2
+Cube Count: 3148
+10000000
+0
+Cube Count: 3149
+100000
+0
+Cube Count: 3150
+0
+0
+Cube Count: 3151
+11000
+0
+Cube Count: 3152
+10
+2
+Cube Count: 3153
+11
+3
+Cube Count: 3154
+10000010
+2
+Cube Count: 3155
+10
+2
+Cube Count: 3156
+0
+0
+Cube Count: 3157
+1
+1
+Cube Count: 3158
+10000010
+2
+Cube Count: 3159
+10000010
+2
+Cube Count: 3160
+10
+2
+Cube Count: 3161
+1
+1
+Cube Count: 3162
+10100010
+2
+Cube Count: 3163
+0
+0
+Cube Count: 3164
+0
+0
+Cube Count: 3165
+1101
+5
+Cube Count: 3166
+100100
+4
+Cube Count: 3167
+11
+3
+Cube Count: 3168
+10010111
+7
+Cube Count: 3169
+10
+2
+Cube Count: 3170
+10111
+7
+Cube Count: 3171
+10000000
+0
+Cube Count: 3172
+100010
+2
+Cube Count: 3173
+1110000
+0
+Cube Count: 3174
+1110000
+0
+Cube Count: 3175
+1110000
+0
+Cube Count: 3176
+10010111
+7
+Cube Count: 3177
+10
+2
+Cube Count: 3178
+100000
+0
+Cube Count: 3179
+0
+0
+Cube Count: 3180
+10000010
+2
+Cube Count: 3181
+10
+2
+Cube Count: 3182
+1
+1
+Cube Count: 3183
+10000010
+2
+Cube Count: 3184
+10000010
+2
+Cube Count: 3185
+10000010
+2
+Cube Count: 3186
+1
+1
+Cube Count: 3187
+10100010
+2
+Cube Count: 3188
+100100
+4
+Cube Count: 3189
+10000000
+0
+Cube Count: 3190
+10000000
+0
+Cube Count: 3191
+10000000
+0
+Cube Count: 3192
+1110000
+0
+Cube Count: 3193
+1110000
+0
+Cube Count: 3194
+1110000
+0
+Cube Count: 3195
+1110000
+0
+Cube Count: 3196
+10010111
+7
+Cube Count: 3197
+10
+2
+Cube Count: 3198
+100000
+0
+Cube Count: 3199
+100000
+0
+Cube Count: 3200
+100
+4
+Cube Count: 3201
+0
+0
+Cube Count: 3202
+10
+2
+Cube Count: 3203
+10
+2
+Cube Count: 3204
+10
+2
+Cube Count: 3205
+10
+2
+Cube Count: 3206
+0
+0
+Cube Count: 3207
+1000010
+2
+Cube Count: 3208
+1000010
+2
+Cube Count: 3209
+1000010
+2
+Cube Count: 3210
+1000010
+2
+Cube Count: 3211
+11000011
+3
+Cube Count: 3212
+11100010
+2
+Cube Count: 3213
+0
+0
+Cube Count: 3214
+11000
+0
+Cube Count: 3215
+0
+0
+Cube Count: 3216
+100010
+2
+Cube Count: 3217
+1101
+5
+Cube Count: 3218
+100100
+4
+Cube Count: 3219
+11
+3
+Cube Count: 3220
+0
+0
+Cube Count: 3221
+1101
+5
+Cube Count: 3222
+100100
+4
+Cube Count: 3223
+10000000
+0
+Cube Count: 3224
+10000000
+0
+Cube Count: 3225
+10000000
+0
+Cube Count: 3226
+1110000
+0
+Cube Count: 3227
+1110000
+0
+Cube Count: 3228
+1110000
+0
+Cube Count: 3229
+1110000
+0
+Cube Count: 3230
+10010111
+7
+Cube Count: 3231
+10
+2
+Cube Count: 3232
+100000
+0
+Cube Count: 3233
+100000
+0
+Cube Count: 3234
+100
+4
+Cube Count: 3235
+11000011
+3
+Cube Count: 3236
+0
+0
+Cube Count: 3237
+10
+2
+Cube Count: 3238
+10100010
+2
+Cube Count: 3239
+0
+0
+Cube Count: 3240
+10100
+4
+Cube Count: 3241
+11
+3
+Cube Count: 3242
+10000000
+0
+Cube Count: 3243
+100011
+3
+Cube Count: 3244
+11
+3
+Cube Count: 3245
+1110110
+6
+Cube Count: 3246
+11
+3
+Cube Count: 3247
+11
+3
+Cube Count: 3248
+10000000
+0
+Cube Count: 3249
+10000000
+0
+Cube Count: 3250
+1110000
+0
+Cube Count: 3251
+1110000
+0
+Cube Count: 3252
+1110000
+0
+Cube Count: 3253
+1110000
+0
+Cube Count: 3254
+10010111
+7
+Cube Count: 3255
+10
+2
+Cube Count: 3256
+100000
+0
+Cube Count: 3257
+11000010
+2
+Cube Count: 3258
+0
+0
+Cube Count: 3259
+1000010
+2
+Cube Count: 3260
+1000010
+2
+Cube Count: 3261
+1000010
+2
+Cube Count: 3262
+1000010
+2
+Cube Count: 3263
+11100010
+2
+Cube Count: 3264
+0
+0
+Cube Count: 3265
+0
+0
+Cube Count: 3266
+1101
+5
+Cube Count: 3267
+100100
+4
+Cube Count: 3268
+10000000
+0
+Cube Count: 3269
+10000000
+0
+Cube Count: 3270
+10000000
+0
+Cube Count: 3271
+1100000
+0
+Cube Count: 3272
+1100000
+0
+Cube Count: 3273
+1100000
+0
+Cube Count: 3274
+1100000
+0
+Cube Count: 3275
+10010111
+7
+Cube Count: 3276
+10
+2
+Cube Count: 3277
+100000
+0
+Cube Count: 3278
+11000010
+2
+Cube Count: 3279
+11100011
+3
+Cube Count: 3280
+0
+0
+Cube Count: 3281
+100001
+1
+Cube Count: 3282
+10000010
+2
+Cube Count: 3283
+10100010
+2
+Cube Count: 3284
+11000000
+0
+Cube Count: 3285
+10110
+6
+Cube Count: 3286
+0
+0
+Cube Count: 3287
+100000
+0
+Cube Count: 3288
+11
+3
+Cube Count: 3289
+10
+2
+Cube Count: 3290
+10100010
+2
+Cube Count: 3291
+0
+0
+Cube Count: 3292
+1101
+5
+Cube Count: 3293
+100100
+4
+Cube Count: 3294
+11
+3
+Cube Count: 3295
+10
+2
+Cube Count: 3296
+10010111
+7
+Cube Count: 3297
+10
+2
+Cube Count: 3298
+10
+2
+Cube Count: 3299
+10
+2
+Cube Count: 3300
+10
+2
+Cube Count: 3301
+100111
+7
+Cube Count: 3302
+11000000
+0
+Cube Count: 3303
+10110
+6
+Cube Count: 3304
+0
+0
+Cube Count: 3305
+101000
+0
+Cube Count: 3306
+0
+0
+Cube Count: 3307
+10111
+7
+Cube Count: 3308
+10100010
+2
+Cube Count: 3309
+11000000
+0
+Cube Count: 3310
+10110
+6
+Cube Count: 3311
+10000000
+0
+Cube Count: 3312
+100001
+1
+Cube Count: 3313
+11
+3
+Cube Count: 3314
+10
+2
+Cube Count: 3315
+100000
+0
+Cube Count: 3316
+10100010
+2
+Cube Count: 3317
+0
+0
+Cube Count: 3318
+11000
+0
+Cube Count: 3319
+0
+0
+Cube Count: 3320
+100010
+2
+Cube Count: 3321
+10100010
+2
+Cube Count: 3322
+10000000
+0
+Cube Count: 3323
+100001
+1
+Cube Count: 3324
+1000
+0
+Cube Count: 3325
+0
+0
+Cube Count: 3326
+1000010
+2
+Cube Count: 3327
+1000010
+2
+Cube Count: 3328
+1000010
+2
+Cube Count: 3329
+1000010
+2
+Cube Count: 3330
+11100010
+2
+Cube Count: 3331
+0
+0
+Cube Count: 3332
+11000
+0
+Cube Count: 3333
+0
+0
+Cube Count: 3334
+100011
+3
+Cube Count: 3335
+1100000
+0
+Cube Count: 3336
+1100000
+0
+Cube Count: 3337
+10010111
+7
+Cube Count: 3338
+10
+2
+Cube Count: 3339
+100000
+0
+Cube Count: 3340
+100000
+0
+Cube Count: 3341
+100
+4
+Cube Count: 3342
+11100011
+3
+Cube Count: 3343
+0
+0
+Cube Count: 3344
+100100
+4
+Cube Count: 3345
+1110110
+6
+Cube Count: 3346
+11
+3
+Cube Count: 3347
+11
+3
+Cube Count: 3348
+1110110
+6
+Cube Count: 3349
+11
+3
+Cube Count: 3350
+10111
+7
+Cube Count: 3351
+10000000
+0
+Cube Count: 3352
+100010
+2
+Cube Count: 3353
+1000000
+0
+Cube Count: 3354
+1000000
+0
+Cube Count: 3355
+1000000
+0
+Cube Count: 3356
+10000111
+7
+Cube Count: 3357
+11
+3
+Cube Count: 3358
+10010111
+7
+Cube Count: 3359
+10
+2
+Cube Count: 3360
+1000
+0
+Cube Count: 3361
+0
+0
+Cube Count: 3362
+0
+0
+Cube Count: 3363
+1101
+5
+Cube Count: 3364
+100100
+4
+Cube Count: 3365
+0
+0
+Cube Count: 3366
+10111
+7
+Cube Count: 3367
+0
+0
+Cube Count: 3368
+101000
+0
+Cube Count: 3369
+11000000
+0
+Cube Count: 3370
+10110
+6
+Cube Count: 3371
+10
+2
+Cube Count: 3372
+0
+0
+Cube Count: 3373
+10
+2
+Cube Count: 3374
+10000010
+2
+Cube Count: 3375
+10
+2
+Cube Count: 3376
+10
+2
+Cube Count: 3377
+10
+2
+Cube Count: 3378
+10100010
+2
+Cube Count: 3379
+0
+0
+Cube Count: 3380
+101000
+0
+Cube Count: 3381
+0
+0
+Cube Count: 3382
+10111
+7
+Cube Count: 3383
+10100010
+2
+Cube Count: 3384
+11000000
+0
+Cube Count: 3385
+10110
+6
+Cube Count: 3386
+10000000
+0
+Cube Count: 3387
+100011
+3
+Cube Count: 3388
+1110000
+0
+Cube Count: 3389
+1110000
+0
+Cube Count: 3390
+1110000
+0
+Cube Count: 3391
+1110000
+0
+Cube Count: 3392
+10010111
+7
+Cube Count: 3393
+10
+2
+Cube Count: 3394
+100000
+0
+Cube Count: 3395
+10100010
+2
+Cube Count: 3396
+0
+0
+Cube Count: 3397
+11000
+0
+Cube Count: 3398
+0
+0
+Cube Count: 3399
+100100
+4
+Cube Count: 3400
+10100010
+2
+Cube Count: 3401
+10000000
+0
+Cube Count: 3402
+100011
+3
+Cube Count: 3403
+1110110
+6
+Cube Count: 3404
+11
+3
+Cube Count: 3405
+1110110
+6
+Cube Count: 3406
+11
+3
+Cube Count: 3407
+10010111
+7
+Cube Count: 3408
+10
+2
+Cube Count: 3409
+10
+2
+Cube Count: 3410
+10010111
+7
+Cube Count: 3411
+10
+2
+Cube Count: 3412
+10000000
+0
+Cube Count: 3413
+1000000
+0
+Cube Count: 3414
+1000000
+0
+Cube Count: 3415
+1000000
+0
+Cube Count: 3416
+1000000
+0
+Cube Count: 3417
+10000110
+6
+Cube Count: 3418
+11
+3
+Cube Count: 3419
+10100010
+2
+Cube Count: 3420
+10000000
+0
+Cube Count: 3421
+100000
+0
+Cube Count: 3422
+11000000
+0
+Cube Count: 3423
+10110
+6
+Cube Count: 3424
+10
+2
+Cube Count: 3425
+10
+2
+Cube Count: 3426
+10000010
+2
+Cube Count: 3427
+10100010
+2
+Cube Count: 3428
+0
+0
+Cube Count: 3429
+100010
+2
+Cube Count: 3430
+1101011
+3
+Cube Count: 3431
+0
+0
+Cube Count: 3432
+100110
+6
+Cube Count: 3433
+0
+0
+Cube Count: 3434
+11000
+0
+Cube Count: 3435
+10000000
+0
+Cube Count: 3436
+100100
+4
+Cube Count: 3437
+0
+0
+Cube Count: 3438
+100101
+5
+Cube Count: 3439
+11100000
+0
+Cube Count: 3440
+10111
+7
+Cube Count: 3441
+10000000
+0
+Cube Count: 3442
+100100
+4
+Cube Count: 3443
+10010111
+7
+Cube Count: 3444
+10
+2
+Cube Count: 3445
+100
+4
+Cube Count: 3446
+0
+0
+Cube Count: 3447
+10
+2
+Cube Count: 3448
+10
+2
+Cube Count: 3449
+10
+2
+Cube Count: 3450
+10
+2
+Cube Count: 3451
+11100011
+3
+Cube Count: 3452
+0
+0
+Cube Count: 3453
+100101
+5
+Cube Count: 3454
+0
+0
+Cube Count: 3455
+100100
+4
+Cube Count: 3456
+10
+2
+Cube Count: 3457
+100010
+2
+Cube Count: 3458
+10
+2
+Cube Count: 3459
+10
+2
+Cube Count: 3460
+10010111
+7
+Cube Count: 3461
+10
+2
+Cube Count: 3462
+10
+2
+Cube Count: 3463
+10110
+6
+Cube Count: 3464
+0
+0
+Cube Count: 3465
+100110
+6
+Cube Count: 3466
+0
+0
+Cube Count: 3467
+10100
+4
+Cube Count: 3468
+11
+3
+Cube Count: 3469
+10
+2
+Cube Count: 3470
+10
+2
+Cube Count: 3471
+10
+2
+Cube Count: 3472
+10
+2
+Cube Count: 3473
+10000000
+0
+Cube Count: 3474
+1110000
+0
+Cube Count: 3475
+1110000
+0
+Cube Count: 3476
+1110000
+0
+Cube Count: 3477
+1110000
+0
+Cube Count: 3478
+10010111
+7
+Cube Count: 3479
+10
+2
+Cube Count: 3480
+100000
+0
+Cube Count: 3481
+100000
+0
+Cube Count: 3482
+100
+4
+Cube Count: 3483
+11000011
+3
+Cube Count: 3484
+10000010
+2
+Cube Count: 3485
+10100010
+2
+Cube Count: 3486
+0
+0
+Cube Count: 3487
+100110
+6
+Cube Count: 3488
+11100000
+0
+Cube Count: 3489
+10111
+7
+Cube Count: 3490
+0
+0
+Cube Count: 3491
+10
+2
+Cube Count: 3492
+0
+0
+Cube Count: 3493
+10
+2
+Cube Count: 3494
+10
+2
+Cube Count: 3495
+10
+2
+Cube Count: 3496
+10000010
+2
+Cube Count: 3497
+10100010
+2
+Cube Count: 3498
+11000000
+0
+Cube Count: 3499
+10110
+6
+Cube Count: 3500
+0
+0
+Cube Count: 3501
+100100
+4
+Cube Count: 3502
+11
+3
+Cube Count: 3503
+10010111
+7
+Cube Count: 3504
+10
+2
+Cube Count: 3505
+1000
+0
+Cube Count: 3506
+0
+0
+Cube Count: 3507
+0
+0
+Cube Count: 3508
+1101
+5
+Cube Count: 3509
+100100
+4
+Cube Count: 3510
+0
+0
+Cube Count: 3511
+10111
+7
+Cube Count: 3512
+0
+0
+Cube Count: 3513
+101000
+0
+Cube Count: 3514
+11000000
+0
+Cube Count: 3515
+10110
+6
+Cube Count: 3516
+10000010
+2
+Cube Count: 3517
+10100010
+2
+Cube Count: 3518
+0
+0
+Cube Count: 3519
+101000
+0
+Cube Count: 3520
+0
+0
+Cube Count: 3521
+11000
+0
+Cube Count: 3522
+1000011
+3
+Cube Count: 3523
+10100010
+2
+Cube Count: 3524
+0
+0
+Cube Count: 3525
+11000
+0
+Cube Count: 3526
+0
+0
+Cube Count: 3527
+100110
+6
+Cube Count: 3528
+0
+0
+Cube Count: 3529
+0
+0
+Cube Count: 3530
+1101
+5
+Cube Count: 3531
+100100
+4
+Cube Count: 3532
+11
+3
+Cube Count: 3533
+10010111
+7
+Cube Count: 3534
+10
+2
+Cube Count: 3535
+10010111
+7
+Cube Count: 3536
+10
+2
+Cube Count: 3537
+10
+2
+Cube Count: 3538
+1000000
+0
+Cube Count: 3539
+1000000
+0
+Cube Count: 3540
+1000000
+0
+Cube Count: 3541
+1000000
+0
+Cube Count: 3542
+10000000
+0
+Cube Count: 3543
+10000000
+0
+Cube Count: 3544
+10000000
+0
+Cube Count: 3545
+10000000
+0
+Cube Count: 3546
+10000100
+4
+Cube Count: 3547
+100
+4
+Cube Count: 3548
+1
+1
+Cube Count: 3549
+10100011
+3
+Cube Count: 3550
+1000000
+0
+Cube Count: 3551
+101000
+0
+Cube Count: 3552
+0
+0
+Cube Count: 3553
+10000
+0
+Cube Count: 3554
+1
+1
+Cube Count: 3555
+10100011
+3
+Cube Count: 3556
+0
+0
+Cube Count: 3557
+0
+0
+Cube Count: 3558
+1101
+5
+Cube Count: 3559
+100100
+4
+Cube Count: 3560
+0
+0
+Cube Count: 3561
+1
+1
+Cube Count: 3562
+10000100
+4
+Cube Count: 3563
+10000100
+4
+Cube Count: 3564
+100010
+2
+Cube Count: 3565
+10000000
+0
+Cube Count: 3566
+100001
+1
+Cube Count: 3567
+1
+1
+Cube Count: 3568
+10100011
+3
+Cube Count: 3569
+1000000
+0
+Cube Count: 3570
+101000
+0
+Cube Count: 3571
+0
+0
+Cube Count: 3572
+10010
+2
+Cube Count: 3573
+0
+0
+Cube Count: 3574
+10100011
+3
+Cube Count: 3575
+1000000
+0
+Cube Count: 3576
+101000
+0
+Cube Count: 3577
+0
+0
+Cube Count: 3578
+10000
+0
+Cube Count: 3579
+1
+1
+Cube Count: 3580
+10100011
+3
+Cube Count: 3581
+0
+0
+Cube Count: 3582
+0
+0
+Cube Count: 3583
+1101
+5
+Cube Count: 3584
+100100
+4
+Cube Count: 3585
+0
+0
+Cube Count: 3586
+1
+1
+Cube Count: 3587
+10000100
+4
+Cube Count: 3588
+10000100
+4
+Cube Count: 3589
+100100
+4
+Cube Count: 3590
+10000000
+0
+Cube Count: 3591
+100011
+3
+Cube Count: 3592
+100000
+0
+Cube Count: 3593
+100000
+0
+Cube Count: 3594
+1000000
+0
+Cube Count: 3595
+1000000
+0
+Cube Count: 3596
+1000000
+0
+Cube Count: 3597
+1000000
+0
+Cube Count: 3598
+10000000
+0
+Cube Count: 3599
+10000000
+0
+Cube Count: 3600
+10000000
+0
+Cube Count: 3601
+10000000
+0
+Cube Count: 3602
+10000100
+4
+Cube Count: 3603
+100
+4
+Cube Count: 3604
+1
+1
+Cube Count: 3605
+10100011
+3
+Cube Count: 3606
+1000000
+0
+Cube Count: 3607
+101000
+0
+Cube Count: 3608
+0
+0
+Cube Count: 3609
+10010
+2
+Cube Count: 3610
+0
+0
+Cube Count: 3611
+10100011
+3
+Cube Count: 3612
+0
+0
+Cube Count: 3613
+0
+0
+Cube Count: 3614
+1101
+5
+Cube Count: 3615
+100100
+4
+Cube Count: 3616
+0
+0
+Cube Count: 3617
+1
+1
+Cube Count: 3618
+10000100
+4
+Cube Count: 3619
+10000100
+4
+Cube Count: 3620
+100010
+2
+Cube Count: 3621
+10000000
+0
+Cube Count: 3622
+100001
+1
+Cube Count: 3623
+1
+1
+Cube Count: 3624
+10100011
+3
+Cube Count: 3625
+1000000
+0
+Cube Count: 3626
+101000
+0
+Cube Count: 3627
+0
+0
+Cube Count: 3628
+10100
+4
+Cube Count: 3629
+0
+0
+Cube Count: 3630
+10100011
+3
+Cube Count: 3631
+1000000
+0
+Cube Count: 3632
+101000
+0
+Cube Count: 3633
+0
+0
+Cube Count: 3634
+10010
+2
+Cube Count: 3635
+0
+0
+Cube Count: 3636
+10100011
+3
+Cube Count: 3637
+0
+0
+Cube Count: 3638
+0
+0
+Cube Count: 3639
+1101
+5
+Cube Count: 3640
+100100
+4
+Cube Count: 3641
+0
+0
+Cube Count: 3642
+1
+1
+Cube Count: 3643
+10000100
+4
+Cube Count: 3644
+10000100
+4
+Cube Count: 3645
+100100
+4
+Cube Count: 3646
+10000000
+0
+Cube Count: 3647
+100011
+3
+Cube Count: 3648
+0
+0
+Cube Count: 3649
+1
+1
+Cube Count: 3650
+10000
+0
+Cube Count: 3651
+100000
+0
+Cube Count: 3652
+100000
+0
+Cube Count: 3653
+100000
+0
+Cube Count: 3654
+100000
+0
+Cube Count: 3655
+10000000
+0
+Cube Count: 3656
+10000000
+0
+Cube Count: 3657
+10000000
+0
+Cube Count: 3658
+10000000
+0
+Cube Count: 3659
+10000100
+4
+Cube Count: 3660
+0
+0
+Cube Count: 3661
+1
+1
+Cube Count: 3662
+1
+1
+Cube Count: 3663
+1
+1
+Cube Count: 3664
+10000
+0
+Cube Count: 3665
+10000
+0
+Cube Count: 3666
+100000
+0
+Cube Count: 3667
+100000
+0
+Cube Count: 3668
+100000
+0
+Cube Count: 3669
+100000
+0
+Cube Count: 3670
+10000000
+0
+Cube Count: 3671
+10000000
+0
+Cube Count: 3672
+10000000
+0
+Cube Count: 3673
+10000000
+0
+Cube Count: 3674
+10000100
+4
+Cube Count: 3675
+0
+0
+Cube Count: 3676
+1
+1
+Cube Count: 3677
+1
+1
+Cube Count: 3678
+1
+1
+Cube Count: 3679
+1
+1
+Cube Count: 3680
+100000
+0
+Cube Count: 3681
+100000
+0
+Cube Count: 3682
+100000
+0
+Cube Count: 3683
+100000
+0
+Cube Count: 3684
+1000000
+0
+Cube Count: 3685
+1000000
+0
+Cube Count: 3686
+1000000
+0
+Cube Count: 3687
+1000000
+0
+Cube Count: 3688
+10000000
+0
+Cube Count: 3689
+10000000
+0
+Cube Count: 3690
+10000000
+0
+Cube Count: 3691
+10000000
+0
+Cube Count: 3692
+10000100
+4
+Cube Count: 3693
+100
+4
+Cube Count: 3694
+1
+1
+Cube Count: 3695
+10100011
+3
+Cube Count: 3696
+1000000
+0
+Cube Count: 3697
+101000
+0
+Cube Count: 3698
+0
+0
+Cube Count: 3699
+10100
+4
+Cube Count: 3700
+0
+0
+Cube Count: 3701
+10100011
+3
+Cube Count: 3702
+0
+0
+Cube Count: 3703
+10100
+4
+Cube Count: 3704
+0
+0
+Cube Count: 3705
+1
+1
+Cube Count: 3706
+10000000
+0
+Cube Count: 3707
+10000000
+0
+Cube Count: 3708
+10000100
+4
+Cube Count: 3709
+100
+4
+Cube Count: 3710
+1
+1
+Cube Count: 3711
+1
+1
+Cube Count: 3712
+0
+0
+Cube Count: 3713
+10100011
+3
+Cube Count: 3714
+1000000
+0
+Cube Count: 3715
+101000
+0
+Cube Count: 3716
+0
+0
+Cube Count: 3717
+10110
+6
+Cube Count: 3718
+1
+1
+Cube Count: 3719
+10100011
+3
+Cube Count: 3720
+1000000
+0
+Cube Count: 3721
+101000
+0
+Cube Count: 3722
+0
+0
+Cube Count: 3723
+10100
+4
+Cube Count: 3724
+0
+0
+Cube Count: 3725
+10100011
+3
+Cube Count: 3726
+0
+0
+Cube Count: 3727
+10100
+4
+Cube Count: 3728
+0
+0
+Cube Count: 3729
+1
+1
+Cube Count: 3730
+10000000
+0
+Cube Count: 3731
+10000000
+0
+Cube Count: 3732
+10000100
+4
+Cube Count: 3733
+100
+4
+Cube Count: 3734
+1
+1
+Cube Count: 3735
+1
+1
+Cube Count: 3736
+0
+0
+Cube Count: 3737
+0
+0
+Cube Count: 3738
+10100011
+3
+Cube Count: 3739
+0
+0
+Cube Count: 3740
+101000
+0
+Cube Count: 3741
+11000000
+0
+Cube Count: 3742
+10110
+6
+Cube Count: 3743
+100000
+0
+Cube Count: 3744
+101000
+0
+Cube Count: 3745
+10000000
+0
+Cube Count: 3746
+10110
+6
+Cube Count: 3747
+1
+1
+Cube Count: 3748
+1
+1
+Cube Count: 3749
+1
+1
+Cube Count: 3750
+0
+0
+Cube Count: 3751
+10100011
+3
+Cube Count: 3752
+11000000
+0
+Cube Count: 3753
+10110
+6
+Cube Count: 3754
+10000000
+0
+Cube Count: 3755
+100000
+0
+Cube Count: 3756
+1
+1
+Cube Count: 3757
+10000011
+3
+Cube Count: 3758
+1
+1
+Cube Count: 3759
+1
+1
+Cube Count: 3760
+1
+1
+Cube Count: 3761
+1
+1
+Cube Count: 3762
+1
+1
+Cube Count: 3763
+1
+1
+Cube Count: 3764
+1
+1
+Cube Count: 3765
+1
+1
+Cube Count: 3766
+1
+1
+Cube Count: 3767
+0
+0
+Cube Count: 3768
+1
+1
+Cube Count: 3769
+1
+1
+Cube Count: 3770
+10100011
+3
+Cube Count: 3771
+0
+0
+Cube Count: 3772
+101000
+0
+Cube Count: 3773
+0
+0
+Cube Count: 3774
+10110
+6
+Cube Count: 3775
+1000000
+0
+Cube Count: 3776
+101000
+0
+Cube Count: 3777
+0
+0
+Cube Count: 3778
+10110
+6
+Cube Count: 3779
+1
+1
+Cube Count: 3780
+1
+1
+Cube Count: 3781
+1
+1
+Cube Count: 3782
+0
+0
+Cube Count: 3783
+10100011
+3
+Cube Count: 3784
+11000000
+0
+Cube Count: 3785
+10110
+6
+Cube Count: 3786
+0
+0
+Cube Count: 3787
+100010
+2
+Cube Count: 3788
+10000000
+0
+Cube Count: 3789
+10000000
+0
+Cube Count: 3790
+10000000
+0
+Cube Count: 3791
+10000000
+0
+Cube Count: 3792
+10000100
+4
+Cube Count: 3793
+10010111
+7
+Cube Count: 3794
+10
+2
+Cube Count: 3795
+10
+2
+Cube Count: 3796
+10
+2
+Cube Count: 3797
+10
+2
+Cube Count: 3798
+10
+2
+Cube Count: 3799
+10
+2
+Cube Count: 3800
+0
+0
+Cube Count: 3801
+1
+1
+Cube Count: 3802
+1
+1
+Cube Count: 3803
+10010111
+7
+Cube Count: 3804
+10
+2
+Cube Count: 3805
+0
+0
+Cube Count: 3806
+1
+1
+Cube Count: 3807
+10010111
+7
+Cube Count: 3808
+10
+2
+Cube Count: 3809
+0
+0
+Cube Count: 3810
+1
+1
+Cube Count: 3811
+10000000
+0
+Cube Count: 3812
+10000000
+0
+Cube Count: 3813
+10000000
+0
+Cube Count: 3814
+10000000
+0
+Cube Count: 3815
+10000000
+0
+Cube Count: 3816
+10000000
+0
+Cube Count: 3817
+10000000
+0
+Cube Count: 3818
+10000000
+0
+Cube Count: 3819
+10000100
+4
+Cube Count: 3820
+100
+4
+Cube Count: 3821
+0
+0
+Cube Count: 3822
+101000
+0
+Cube Count: 3823
+11000000
+0
+Cube Count: 3824
+10110
+6
+Cube Count: 3825
+100000
+0
+Cube Count: 3826
+101000
+0
+Cube Count: 3827
+10000000
+0
+Cube Count: 3828
+10110
+6
+Cube Count: 3829
+1
+1
+Cube Count: 3830
+1
+1
+Cube Count: 3831
+1
+1
+Cube Count: 3832
+0
+0
+Cube Count: 3833
+10100011
+3
+Cube Count: 3834
+11000000
+0
+Cube Count: 3835
+10110
+6
+Cube Count: 3836
+10000000
+0
+Cube Count: 3837
+100010
+2
+Cube Count: 3838
+10000000
+0
+Cube Count: 3839
+10000000
+0
+Cube Count: 3840
+10000000
+0
+Cube Count: 3841
+10000000
+0
+Cube Count: 3842
+10000100
+4
+Cube Count: 3843
+10010111
+7
+Cube Count: 3844
+10
+2
+Cube Count: 3845
+10
+2
+Cube Count: 3846
+10
+2
+Cube Count: 3847
+10
+2
+Cube Count: 3848
+10
+2
+Cube Count: 3849
+10
+2
+Cube Count: 3850
+10
+2
+Cube Count: 3851
+10
+2
+Cube Count: 3852
+0
+0
+Cube Count: 3853
+1
+1
+Cube Count: 3854
+10
+2
+Cube Count: 3855
+10
+2
+Cube Count: 3856
+1000000
+0
+Cube Count: 3857
+100000
+0
+Cube Count: 3858
+100000
+0
+Cube Count: 3859
+10000000
+0
+Cube Count: 3860
+10000000
+0
+Cube Count: 3861
+10000000
+0
+Cube Count: 3862
+10000000
+0
+Cube Count: 3863
+10000000
+0
+Cube Count: 3864
+10000000
+0
+Cube Count: 3865
+10000000
+0
+Cube Count: 3866
+10000000
+0
+Cube Count: 3867
+10000100
+4
+Cube Count: 3868
+100
+4
+Cube Count: 3869
+0
+0
+Cube Count: 3870
+101000
+0
+Cube Count: 3871
+0
+0
+Cube Count: 3872
+10110
+6
+Cube Count: 3873
+1000000
+0
+Cube Count: 3874
+101000
+0
+Cube Count: 3875
+0
+0
+Cube Count: 3876
+10110
+6
+Cube Count: 3877
+1
+1
+Cube Count: 3878
+1
+1
+Cube Count: 3879
+1
+1
+Cube Count: 3880
+0
+0
+Cube Count: 3881
+10100011
+3
+Cube Count: 3882
+11000000
+0
+Cube Count: 3883
+10110
+6
+Cube Count: 3884
+0
+0
+Cube Count: 3885
+100100
+4
+Cube Count: 3886
+10000000
+0
+Cube Count: 3887
+10000000
+0
+Cube Count: 3888
+10000000
+0
+Cube Count: 3889
+10000000
+0
+Cube Count: 3890
+10000100
+4
+Cube Count: 3891
+10010111
+7
+Cube Count: 3892
+10
+2
+Cube Count: 3893
+10
+2
+Cube Count: 3894
+10
+2
+Cube Count: 3895
+10
+2
+Cube Count: 3896
+10
+2
+Cube Count: 3897
+10
+2
+Cube Count: 3898
+10
+2
+Cube Count: 3899
+0
+0
+Cube Count: 3900
+1
+1
+Cube Count: 3901
+10010111
+7
+Cube Count: 3902
+10
+2
+Cube Count: 3903
+0
+0
+Cube Count: 3904
+1
+1
+Cube Count: 3905
+10010111
+7
+Cube Count: 3906
+10
+2
+Cube Count: 3907
+0
+0
+Cube Count: 3908
+1
+1
+Cube Count: 3909
+1
+1
+Cube Count: 3910
+100000
+0
+Cube Count: 3911
+100000
+0
+Cube Count: 3912
+100000
+0
+Cube Count: 3913
+10000000
+0
+Cube Count: 3914
+10000000
+0
+Cube Count: 3915
+10000000
+0
+Cube Count: 3916
+10000000
+0
+Cube Count: 3917
+10000100
+4
+Cube Count: 3918
+0
+0
+Cube Count: 3919
+1
+1
+Cube Count: 3920
+1
+1
+Cube Count: 3921
+1
+1
+Cube Count: 3922
+1000000
+0
+Cube Count: 3923
+1000000
+0
+Cube Count: 3924
+100000
+0
+Cube Count: 3925
+100000
+0
+Cube Count: 3926
+10000000
+0
+Cube Count: 3927
+10000000
+0
+Cube Count: 3928
+10000000
+0
+Cube Count: 3929
+10000000
+0
+Cube Count: 3930
+10000000
+0
+Cube Count: 3931
+10000000
+0
+Cube Count: 3932
+10000000
+0
+Cube Count: 3933
+10000000
+0
+Cube Count: 3934
+10000100
+4
+Cube Count: 3935
+100
+4
+Cube Count: 3936
+0
+0
+Cube Count: 3937
+101000
+0
+Cube Count: 3938
+11000000
+0
+Cube Count: 3939
+10110
+6
+Cube Count: 3940
+100000
+0
+Cube Count: 3941
+101000
+0
+Cube Count: 3942
+10000000
+0
+Cube Count: 3943
+10110
+6
+Cube Count: 3944
+1
+1
+Cube Count: 3945
+1
+1
+Cube Count: 3946
+1
+1
+Cube Count: 3947
+0
+0
+Cube Count: 3948
+10100011
+3
+Cube Count: 3949
+11000000
+0
+Cube Count: 3950
+10110
+6
+Cube Count: 3951
+10000000
+0
+Cube Count: 3952
+100100
+4
+Cube Count: 3953
+10000000
+0
+Cube Count: 3954
+10000000
+0
+Cube Count: 3955
+10000000
+0
+Cube Count: 3956
+10000000
+0
+Cube Count: 3957
+10000100
+4
+Cube Count: 3958
+10010111
+7
+Cube Count: 3959
+10
+2
+Cube Count: 3960
+10
+2
+Cube Count: 3961
+10
+2
+Cube Count: 3962
+10
+2
+Cube Count: 3963
+10
+2
+Cube Count: 3964
+10
+2
+Cube Count: 3965
+10
+2
+Cube Count: 3966
+10
+2
+Cube Count: 3967
+0
+0
+Cube Count: 3968
+1
+1
+Cube Count: 3969
+1
+1
+Cube Count: 3970
+1
+1
+Cube Count: 3971
+1
+1
+Cube Count: 3972
+1
+1
+Cube Count: 3973
+1
+1
+Cube Count: 3974
+1
+1
+Cube Count: 3975
+1
+1
+Cube Count: 3976
+1
+1
+Cube Count: 3977
+1
+1
+Cube Count: 3978
+1
+1
+Cube Count: 3979
+10
+2
+Cube Count: 3980
+10
+2
+Cube Count: 3981
+100000
+0
+Cube Count: 3982
+100000
+0
+Cube Count: 3983
+100000
+0
+Cube Count: 3984
+1000010
+2
+Cube Count: 3985
+10
+2
+Cube Count: 3986
+0
+0
+Cube Count: 3987
+1
+1
+Cube Count: 3988
+10
+2
+Cube Count: 3989
+10
+2
+Cube Count: 3990
+10
+2
+Cube Count: 3991
+10
+2
+Cube Count: 3992
+10
+2
+Cube Count: 3993
+10
+2
+Cube Count: 3994
+10
+2
+Cube Count: 3995
+10
+2
+Cube Count: 3996
+10010111
+7
+Cube Count: 3997
+10
+2
+Cube Count: 3998
+10
+2
+Cube Count: 3999
+10
+2
+Cube Count: 4000
+10
+2
+Cube Count: 4001
+10
+2
+Cube Count: 4002
+10
+2
+Cube Count: 4003
+10
+2
+Cube Count: 4004
+10
+2
+Cube Count: 4005
+10
+2
+Cube Count: 4006
+10100
+4
+Cube Count: 4007
+10
+2
+Cube Count: 4008
+10010111
+7
+Cube Count: 4009
+10
+2
+Cube Count: 4010
+10
+2
+Cube Count: 4011
+10
+2
+Cube Count: 4012
+10
+2
+Cube Count: 4013
+0
+0
+Cube Count: 4014
+1
+1
+Cube Count: 4015
+10010111
+7
+Cube Count: 4016
+10
+2
+Cube Count: 4017
+10001000
+0
+Cube Count: 4018
+10001000
+0
+Cube Count: 4019
+10000000
+0
+Cube Count: 4020
+10000000
+0
+Cube Count: 4021
+10000000
+0
+Cube Count: 4022
+10000000
+0
+Cube Count: 4023
+10010111
+7
+Cube Count: 4024
+10
+2
+Cube Count: 4025
+10
+2
+Cube Count: 4026
+10
+2
+Cube Count: 4027
+10000000
+0
+Cube Count: 4028
+10000000
+0
+Cube Count: 4029
+10000000
+0
+Cube Count: 4030
+10000000
+0
+Cube Count: 4031
+10000000
+0
+Cube Count: 4032
+10001000
+0
+Cube Count: 4033
+10001000
+0
+Cube Count: 4034
+10000000
+0
+Cube Count: 4035
+10000000
+0
+Cube Count: 4036
+10000000
+0
+Cube Count: 4037
+10000000
+0
+Cube Count: 4038
+10010111
+7
+Cube Count: 4039
+10
+2
+Cube Count: 4040
+10000000
+0
+Cube Count: 4041
+10000000
+0
+Cube Count: 4042
+10000000
+0
+Cube Count: 4043
+10000000
+0
+Cube Count: 4044
+10000000
+0
+Cube Count: 4045
+10001000
+0
+Cube Count: 4046
+10001000
+0
+Cube Count: 4047
+10000000
+0
+Cube Count: 4048
+10000000
+0
+Cube Count: 4049
+10000000
+0
+Cube Count: 4050
+10000000
+0
+Cube Count: 4051
+10010111
+7
+Cube Count: 4052
+10
+2
+Cube Count: 4053
+10
+2
+Cube Count: 4054
+10
+2
+Cube Count: 4055
+10000000
+0
+Cube Count: 4056
+10000000
+0
+Cube Count: 4057
+10000000
+0
+Cube Count: 4058
+10000000
+0
+Cube Count: 4059
+10000000
+0
+Cube Count: 4060
+10001000
+0
+Cube Count: 4061
+10001000
+0
+Cube Count: 4062
+10000000
+0
+Cube Count: 4063
+10000000
+0
+Cube Count: 4064
+10000000
+0
+Cube Count: 4065
+10000000
+0
+Cube Count: 4066
+10010111
+7
+Cube Count: 4067
+10
+2
+Cube Count: 4068
+10
+2
+Cube Count: 4069
+0
+0
+Cube Count: 4070
+10100010
+2
+Cube Count: 4071
+0
+0
+Cube Count: 4072
+11001
+1
+Cube Count: 4073
+0
+0
+Cube Count: 4074
+100000
+0
+Cube Count: 4075
+1
+1
+Cube Count: 4076
+10100010
+2
+Cube Count: 4077
+10000000
+0
+Cube Count: 4078
+100001
+1
+Cube Count: 4079
+10
+2
+Cube Count: 4080
+10
+2
+Cube Count: 4081
+10
+2
+Cube Count: 4082
+10010111
+7
+Cube Count: 4083
+10
+2
+Cube Count: 4084
+10
+2
+Cube Count: 4085
+10000000
+0
+Cube Count: 4086
+1001100
+4
+Cube Count: 4087
+11
+3
+Cube Count: 4088
+11010
+2
+Cube Count: 4089
+1
+1
+Cube Count: 4090
+1
+1
+Cube Count: 4091
+10000011
+3
+Cube Count: 4092
+10000010
+2
+Cube Count: 4093
+0
+0
+Cube Count: 4094
+10100010
+2
+Cube Count: 4095
+0
+0
+Cube Count: 4096
+11001
+1
+Cube Count: 4097
+0
+0
+Cube Count: 4098
+100000
+0
+Cube Count: 4099
+1
+1
+Cube Count: 4100
+10100010
+2
+Cube Count: 4101
+10000000
+0
+Cube Count: 4102
+100011
+3
+Cube Count: 4103
+10010111
+7
+Cube Count: 4104
+10
+2
+Cube Count: 4105
+11
+3
+Cube Count: 4106
+1001100
+4
+Cube Count: 4107
+11
+3
+Cube Count: 4108
+11000
+0
+Cube Count: 4109
+10000000
+0
+Cube Count: 4110
+100010
+2
+Cube Count: 4111
+10000000
+0
+Cube Count: 4112
+10000000
+0
+Cube Count: 4113
+10000000
+0
+Cube Count: 4114
+10000000
+0
+Cube Count: 4115
+10000000
+0
+Cube Count: 4116
+10000000
+0
+Cube Count: 4117
+10000000
+0
+Cube Count: 4118
+1001100
+4
+Cube Count: 4119
+11
+3
+Cube Count: 4120
+1
+1
+Cube Count: 4121
+0
+0
+Cube Count: 4122
+10100010
+2
+Cube Count: 4123
+0
+0
+Cube Count: 4124
+0
+0
+Cube Count: 4125
+1100
+4
+Cube Count: 4126
+11010
+2
+Cube Count: 4127
+10
+2
+Cube Count: 4128
+10000000
+0
+Cube Count: 4129
+10000000
+0
+Cube Count: 4130
+10000011
+3
+Cube Count: 4131
+11
+3
+Cube Count: 4132
+0
+0
+Cube Count: 4133
+100001
+1
+Cube Count: 4134
+10010111
+7
+Cube Count: 4135
+10
+2
+Cube Count: 4136
+100100
+4
+Cube Count: 4137
+11
+3
+Cube Count: 4138
+10
+2
+Cube Count: 4139
+10
+2
+Cube Count: 4140
+10
+2
+Cube Count: 4141
+10
+2
+Cube Count: 4142
+10
+2
+Cube Count: 4143
+10000000
+0
+Cube Count: 4144
+10000000
+0
+Cube Count: 4145
+10000000
+0
+Cube Count: 4146
+10000000
+0
+Cube Count: 4147
+10000000
+0
+Cube Count: 4148
+1001100
+4
+Cube Count: 4149
+11
+3
+Cube Count: 4150
+11011
+3
+Cube Count: 4151
+10010111
+7
+Cube Count: 4152
+10
+2
+Cube Count: 4153
+0
+0
+Cube Count: 4154
+1101
+5
+Cube Count: 4155
+100100
+4
+Cube Count: 4156
+11
+3
+Cube Count: 4157
+1100000
+0
+Cube Count: 4158
+11010
+2
+Cube Count: 4159
+1
+1
+Cube Count: 4160
+10100010
+2
+Cube Count: 4161
+1100000
+0
+Cube Count: 4162
+11010
+2
+Cube Count: 4163
+11
+3
+Cube Count: 4164
+0
+0
+Cube Count: 4165
+100100
+4
+Cube Count: 4166
+1
+1
+Cube Count: 4167
+1
+1
+Cube Count: 4168
+1
+1
+Cube Count: 4169
+1
+1
+Cube Count: 4170
+10000011
+3
+Cube Count: 4171
+10100010
+2
+Cube Count: 4172
+0
+0
+Cube Count: 4173
+100011
+3
+Cube Count: 4174
+11
+3
+Cube Count: 4175
+1001100
+4
+Cube Count: 4176
+0
+0
+Cube Count: 4177
+11001
+1
+Cube Count: 4178
+10000000
+0
+Cube Count: 4179
+100101
+5
+Cube Count: 4180
+0
+0
+Cube Count: 4181
+11000
+0
+Cube Count: 4182
+1
+1
+Cube Count: 4183
+1
+1
+Cube Count: 4184
+10000010
+2
+Cube Count: 4185
+10000011
+3
+Cube Count: 4186
+0
+0
+Cube Count: 4187
+1
+1
+Cube Count: 4188
+10100010
+2
+Cube Count: 4189
+0
+0
+Cube Count: 4190
+0
+0
+Cube Count: 4191
+1101
+5
+Cube Count: 4192
+100100
+4
+Cube Count: 4193
+11
+3
+Cube Count: 4194
+10
+2
+Cube Count: 4195
+10
+2
+Cube Count: 4196
+10
+2
+Cube Count: 4197
+10
+2
+Cube Count: 4198
+1001100
+4
+Cube Count: 4199
+10000000
+0
+Cube Count: 4200
+10000000
+0
+Cube Count: 4201
+10000000
+0
+Cube Count: 4202
+10000000
+0
+Cube Count: 4203
+10000000
+0
+Cube Count: 4204
+1001100
+4
+Cube Count: 4205
+0
+0
+Cube Count: 4206
+0
+0
+Cube Count: 4207
+1100
+4
+Cube Count: 4208
+11010
+2
+Cube Count: 4209
+10
+2
+Cube Count: 4210
+10
+2
+Cube Count: 4211
+11
+3
+Cube Count: 4212
+1001100
+4
+Cube Count: 4213
+10
+2
+Cube Count: 4214
+10
+2
+Cube Count: 4215
+10010111
+7
+Cube Count: 4216
+10
+2
+Cube Count: 4217
+10
+2
+Cube Count: 4218
+0
+0
+Cube Count: 4219
+1101
+5
+Cube Count: 4220
+100100
+4
+Cube Count: 4221
+0
+0
+Cube Count: 4222
+100010
+2
+Cube Count: 4223
+10010111
+7
+Cube Count: 4224
+10
+2
+Cube Count: 4225
+1110110
+6
+Cube Count: 4226
+11
+3
+Cube Count: 4227
+1110110
+6
+Cube Count: 4228
+11
+3
+Cube Count: 4229
+10
+2
+Cube Count: 4230
+10
+2
+Cube Count: 4231
+10
+2
+Cube Count: 4232
+10
+2
+Cube Count: 4233
+10
+2
+Cube Count: 4234
+10
+2
+Cube Count: 4235
+11
+3
+Cube Count: 4236
+1001100
+4
+Cube Count: 4237
+1100
+4
+Cube Count: 4238
+11011
+3
+Cube Count: 4239
+10
+2
+Cube Count: 4240
+100100
+4
+Cube Count: 4241
+1100000
+0
+Cube Count: 4242
+11010
+2
+Cube Count: 4243
+1
+1
+Cube Count: 4244
+10000011
+3
+Cube Count: 4245
+1
+1
+Cube Count: 4246
+10100010
+2
+Cube Count: 4247
+0
+0
+Cube Count: 4248
+11100
+4
+Cube Count: 4249
+11
+3
+Cube Count: 4250
+0
+0
+Cube Count: 4251
+100010
+2
+Cube Count: 4252
+11
+3
+Cube Count: 4253
+10000000
+0
+Cube Count: 4254
+10000000
+0
+Cube Count: 4255
+10000000
+0
+Cube Count: 4256
+10000000
+0
+Cube Count: 4257
+10000000
+0
+Cube Count: 4258
+1001100
+4
+Cube Count: 4259
+0
+0
+Cube Count: 4260
+0
+0
+Cube Count: 4261
+1100
+4
+Cube Count: 4262
+11011
+3
+Cube Count: 4263
+10010111
+7
+Cube Count: 4264
+10
+2
+Cube Count: 4265
+10010111
+7
+Cube Count: 4266
+10
+2
+Cube Count: 4267
+10000000
+0
+Cube Count: 4268
+10000011
+3
+Cube Count: 4269
+100010
+2
+Cube Count: 4270
+10010111
+7
+Cube Count: 4271
+10
+2
+Cube Count: 4272
+100100
+4
+Cube Count: 4273
+10010111
+7
+Cube Count: 4274
+10
+2
+Cube Count: 4275
+0
+0
+Cube Count: 4276
+1101
+5
+Cube Count: 4277
+100100
+4
+Cube Count: 4278
+11
+3
+Cube Count: 4279
+0
+0
+Cube Count: 4280
+100100
+4
+Cube Count: 4281
+11
+3
+Cube Count: 4282
+1110110
+6
+Cube Count: 4283
+11
+3
+Cube Count: 4284
+10
+2
+Cube Count: 4285
+100001
+1
+Cube Count: 4286
+0
+0
+Cube Count: 4287
+100010
+2
+Cube Count: 4288
+0
+0
+Cube Count: 4289
+11010
+2
+Cube Count: 4290
+0
+0
+Cube Count: 4291
+100100
+4
+Cube Count: 4292
+1110110
+6
+Cube Count: 4293
+11
+3
+Cube Count: 4294
+10000000
+0
+Cube Count: 4295
+10000000
+0
+Cube Count: 4296
+10000000
+0
+Cube Count: 4297
+10000000
+0
+Cube Count: 4298
+10010111
+7
+Cube Count: 4299
+10
+2
+Cube Count: 4300
+0
+0
+Cube Count: 4301
+10010111
+7
+Cube Count: 4302
+10
+2
+Cube Count: 4303
+10
+2
+Cube Count: 4304
+10010111
+7
+Cube Count: 4305
+10
+2
+Cube Count: 4306
+10010111
+7
+Cube Count: 4307
+10
+2
+Cube Count: 4308
+10
+2
+Cube Count: 4309
+10010111
+7
+Cube Count: 4310
+10
+2
+Cube Count: 4311
+0
+0
+Cube Count: 4312
+1101
+5
+Cube Count: 4313
+100100
+4
+Cube Count: 4314
+0
+0
+Cube Count: 4315
+11010
+2
+Cube Count: 4316
+10
+2
+Cube Count: 4317
+11010
+2
+Cube Count: 4318
+0
+0
+Cube Count: 4319
+100101
+5
+Cube Count: 4320
+0
+0
+Cube Count: 4321
+11010
+2
+Cube Count: 4322
+11
+3
+Cube Count: 4323
+0
+0
+Cube Count: 4324
+100001
+1
+Cube Count: 4325
+10100011
+3
+Cube Count: 4326
+0
+0
+Cube Count: 4327
+100101
+5
+Cube Count: 4328
+0
+0
+Cube Count: 4329
+100100
+4
+Cube Count: 4330
+1
+1
+Cube Count: 4331
+11
+3
+Cube Count: 4332
+0
+0
+Cube Count: 4333
+1
+1
+Cube Count: 4334
+10000010
+2
+Cube Count: 4335
+10100010
+2
+Cube Count: 4336
+0
+0
+Cube Count: 4337
+100111
+7
+Cube Count: 4338
+0
+0
+Cube Count: 4339
+11000
+0
+Cube Count: 4340
+10100010
+2
+Cube Count: 4341
+0
+0
+Cube Count: 4342
+101000
+0
+Cube Count: 4343
+0
+0
+Cube Count: 4344
+11010
+2
+Cube Count: 4345
+10
+2
+Cube Count: 4346
+11
+3
+Cube Count: 4347
+11000
+0
+Cube Count: 4348
+0
+0
+Cube Count: 4349
+100100
+4
+Cube Count: 4350
+1
+1
+Cube Count: 4351
+10000000
+0
+Cube Count: 4352
+10000000
+0
+Cube Count: 4353
+10000000
+0
+Cube Count: 4354
+10000000
+0
+Cube Count: 4355
+10010111
+7
+Cube Count: 4356
+10
+2
+Cube Count: 4357
+100
+4
+Cube Count: 4358
+0
+0
+Cube Count: 4359
+1
+1
+Cube Count: 4360
+10000010
+2
+Cube Count: 4361
+10100010
+2
+Cube Count: 4362
+0
+0
+Cube Count: 4363
+100111
+7
+Cube Count: 4364
+0
+0
+Cube Count: 4365
+11010
+2
+Cube Count: 4366
+11
+3
+Cube Count: 4367
+1110110
+6
+Cube Count: 4368
+11
+3
+Cube Count: 4369
+0
+0
+Cube Count: 4370
+100101
+5
+Cube Count: 4371
+0
+0
+Cube Count: 4372
+11100
+4
+Cube Count: 4373
+0
+0
+Cube Count: 4374
+100100
+4
+Cube Count: 4375
+100000
+0
+Cube Count: 4376
+100
+4
+Cube Count: 4377
+10000010
+2
+Cube Count: 4378
+1
+1
+Cube Count: 4379
+1
+1
+Cube Count: 4380
+10100011
+3
+Cube Count: 4381
+0
+0
+Cube Count: 4382
+100001
+1
+Cube Count: 4383
+1101
+5
+Cube Count: 4384
+100100
+4
+Cube Count: 4385
+0
+0
+Cube Count: 4386
+1
+1
+Cube Count: 4387
+1
+1
+Cube Count: 4388
+10000000
+0
+Cube Count: 4389
+10000000
+0
+Cube Count: 4390
+10000000
+0
+Cube Count: 4391
+10000000
+0
+Cube Count: 4392
+10000000
+0
+Cube Count: 4393
+10000100
+4
+Cube Count: 4394
+1110111
+7
+Cube Count: 4395
+11
+3
+Cube Count: 4396
+10010111
+7
+Cube Count: 4397
+10
+2
+Cube Count: 4398
+11000
+0
+Cube Count: 4399
+0
+0
+Cube Count: 4400
+100001
+1
+Cube Count: 4401
+0
+0
+Cube Count: 4402
+100001
+1
+Cube Count: 4403
+10010111
+7
+Cube Count: 4404
+10
+2
+Cube Count: 4405
+10010111
+7
+Cube Count: 4406
+10
+2
+Cube Count: 4407
+10
+2
+Cube Count: 4408
+10000000
+0
+Cube Count: 4409
+10000000
+0
+Cube Count: 4410
+10000000
+0
+Cube Count: 4411
+10000100
+4
+Cube Count: 4412
+10010111
+7
+Cube Count: 4413
+10
+2
+Cube Count: 4414
+100001
+1
+Cube Count: 4415
+0
+0
+Cube Count: 4416
+11000011
+3
+Cube Count: 4417
+0
+0
+Cube Count: 4418
+1000001
+1
+Cube Count: 4419
+11100011
+3
+Cube Count: 4420
+0
+0
+Cube Count: 4421
+0
+0
+Cube Count: 4422
+1101
+5
+Cube Count: 4423
+100100
+4
+Cube Count: 4424
+10000100
+4
+Cube Count: 4425
+10010111
+7
+Cube Count: 4426
+10
+2
+Cube Count: 4427
+10000100
+4
+Cube Count: 4428
+10010111
+7
+Cube Count: 4429
+10
+2
+Cube Count: 4430
+100000
+0
+Cube Count: 4431
+10000000
+0
+Cube Count: 4432
+11000
+0
+Cube Count: 4433
+0
+0
+Cube Count: 4434
+100001
+1
+Cube Count: 4435
+10000000
+0
+Cube Count: 4436
+10000000
+0
+Cube Count: 4437
+10000000
+0
+Cube Count: 4438
+10000000
+0
+Cube Count: 4439
+10000100
+4
+Cube Count: 4440
+10010111
+7
+Cube Count: 4441
+10
+2
+Cube Count: 4442
+1
+1
+Cube Count: 4443
+10000000
+0
+Cube Count: 4444
+10000000
+0
+Cube Count: 4445
+10000000
+0
+Cube Count: 4446
+10000100
+4
+Cube Count: 4447
+10010111
+7
+Cube Count: 4448
+10
+2
+Cube Count: 4449
+10010111
+7
+Cube Count: 4450
+10
+2
+Cube Count: 4451
+10000000
+0
+Cube Count: 4452
+10000100
+4
+Cube Count: 4453
+10010111
+7
+Cube Count: 4454
+10
+2
+Cube Count: 4455
+101001
+1
+Cube Count: 4456
+100000
+0
+Cube Count: 4457
+101001
+1
+Cube Count: 4458
+10010111
+7
+Cube Count: 4459
+10
+2
+Cube Count: 4460
+10000000
+0
+Cube Count: 4461
+10000100
+4
+Cube Count: 4462
+10010111
+7
+Cube Count: 4463
+10
+2
+Cube Count: 4464
+10010111
+7
+Cube Count: 4465
+10
+2
+Cube Count: 4466
+10000000
+0
+Cube Count: 4467
+10000100
+4
+Cube Count: 4468
+10010111
+7
+Cube Count: 4469
+10
+2
+Cube Count: 4470
+101001
+1
+Cube Count: 4471
+10100000
+0
+Cube Count: 4472
+101001
+1
+Cube Count: 4473
+0
+0
+Cube Count: 4474
+110011
+3
+Cube Count: 4475
+10010111
+7
+Cube Count: 4476
+10
+2
+Cube Count: 4477
+100000
+0
+Cube Count: 4478
+11100000
+0
+Cube Count: 4479
+101001
+1
+Cube Count: 4480
+11000000
+0
+Cube Count: 4481
+101001
+1
+Cube Count: 4482
+0
+0
+Cube Count: 4483
+1
+1
+Cube Count: 4484
+1000000
+0
+Cube Count: 4485
+1000000
+0
+Cube Count: 4486
+10000000
+0
+Cube Count: 4487
+10000000
+0
+Cube Count: 4488
+10000000
+0
+Cube Count: 4489
+10000000
+0
+Cube Count: 4490
+10000100
+4
+Cube Count: 4491
+10010111
+7
+Cube Count: 4492
+10
+2
+Cube Count: 4493
+1
+1
+Cube Count: 4494
+10000000
+0
+Cube Count: 4495
+10000000
+0
+Cube Count: 4496
+10000000
+0
+Cube Count: 4497
+10000100
+4
+Cube Count: 4498
+10010111
+7
+Cube Count: 4499
+10
+2
+Cube Count: 4500
+100001
+1
+Cube Count: 4501
+0
+0
+Cube Count: 4502
+100001
+1
+Cube Count: 4503
+10010111
+7
+Cube Count: 4504
+10
+2
+Cube Count: 4505
+10010111
+7
+Cube Count: 4506
+10
+2
+Cube Count: 4507
+10000000
+0
+Cube Count: 4508
+10000100
+4
+Cube Count: 4509
+10010111
+7
+Cube Count: 4510
+10
+2
+Cube Count: 4511
+100001
+1
+Cube Count: 4512
+0
+0
+Cube Count: 4513
+100001
+1
+Cube Count: 4514
+1101
+5
+Cube Count: 4515
+100100
+4
+Cube Count: 4516
+10
+2
+Cube Count: 4517
+10000000
+0
+Cube Count: 4518
+10000000
+0
+Cube Count: 4519
+10000100
+4
+Cube Count: 4520
+10010111
+7
+Cube Count: 4521
+10
+2
+Cube Count: 4522
+10
+2
+Cube Count: 4523
+10000000
+0
+Cube Count: 4524
+10000000
+0
+Cube Count: 4525
+10000000
+0
+Cube Count: 4526
+10000100
+4
+Cube Count: 4527
+10010111
+7
+Cube Count: 4528
+10
+2
+Cube Count: 4529
+100001
+1
+Cube Count: 4530
+0
+0
+Cube Count: 4531
+100001
+1
+Cube Count: 4532
+1000000
+0
+Cube Count: 4533
+1000000
+0
+Cube Count: 4534
+10000000
+0
+Cube Count: 4535
+10000000
+0
+Cube Count: 4536
+10000000
+0
+Cube Count: 4537
+10000000
+0
+Cube Count: 4538
+10000100
+4
+Cube Count: 4539
+10010111
+7
+Cube Count: 4540
+10
+2
+Cube Count: 4541
+10000100
+4
+Cube Count: 4542
+10010111
+7
+Cube Count: 4543
+10
+2
+Cube Count: 4544
+100000
+0
+Cube Count: 4545
+0
+0
+Cube Count: 4546
+11001
+1
+Cube Count: 4547
+11100000
+0
+Cube Count: 4548
+11000
+0
+Cube Count: 4549
+11100011
+3
+Cube Count: 4550
+0
+0
+Cube Count: 4551
+0
+0
+Cube Count: 4552
+1101
+5
+Cube Count: 4553
+100100
+4
+Cube Count: 4554
+10000000
+0
+Cube Count: 4555
+10000000
+0
+Cube Count: 4556
+10000000
+0
+Cube Count: 4557
+10000100
+4
+Cube Count: 4558
+10010111
+7
+Cube Count: 4559
+10
+2
+Cube Count: 4560
+10000100
+4
+Cube Count: 4561
+10010111
+7
+Cube Count: 4562
+10
+2
+Cube Count: 4563
+10000000
+0
+Cube Count: 4564
+10000100
+4
+Cube Count: 4565
+10010111
+7
+Cube Count: 4566
+10
+2
+Cube Count: 4567
+10010111
+7
+Cube Count: 4568
+10
+2
+Cube Count: 4569
+10000000
+0
+Cube Count: 4570
+10000100
+4
+Cube Count: 4571
+10010111
+7
+Cube Count: 4572
+10
+2
+Cube Count: 4573
+101001
+1
+Cube Count: 4574
+100000
+0
+Cube Count: 4575
+101001
+1
+Cube Count: 4576
+10010111
+7
+Cube Count: 4577
+10
+2
+Cube Count: 4578
+10000100
+4
+Cube Count: 4579
+10010111
+7
+Cube Count: 4580
+10
+2
+Cube Count: 4581
+10000100
+4
+Cube Count: 4582
+10010111
+7
+Cube Count: 4583
+10
+2
+Cube Count: 4584
+101001
+1
+Cube Count: 4585
+100000
+0
+Cube Count: 4586
+101001
+1
+Cube Count: 4587
+1101
+5
+Cube Count: 4588
+100100
+4
+Cube Count: 4589
+1100000
+0
+Cube Count: 4590
+101001
+1
+Cube Count: 4591
+10000000
+0
+Cube Count: 4592
+10000000
+0
+Cube Count: 4593
+10000100
+4
+Cube Count: 4594
+10010111
+7
+Cube Count: 4595
+10
+2
+Cube Count: 4596
+101001
+1
+Cube Count: 4597
+11000000
+0
+Cube Count: 4598
+101001
+1
+Cube Count: 4599
+1000000
+0
+Cube Count: 4600
+10000000
+0
+Cube Count: 4601
+10000000
+0
+Cube Count: 4602
+10000000
+0
+Cube Count: 4603
+10000000
+0
+Cube Count: 4604
+10000100
+4
+Cube Count: 4605
+10010111
+7
+Cube Count: 4606
+10
+2
+Cube Count: 4607
+10000100
+4
+Cube Count: 4608
+10010111
+7
+Cube Count: 4609
+10
+2
+Cube Count: 4610
+10000100
+4
+Cube Count: 4611
+10010111
+7
+Cube Count: 4612
+10
+2
+Cube Count: 4613
+101001
+1
+Cube Count: 4614
+11000000
+0
+Cube Count: 4615
+101001
+1
+Cube Count: 4616
+11
+3
+Cube Count: 4617
+100100
+4
+Cube Count: 4618
+11
+3
+Cube Count: 4619
+100001
+1
+Cube Count: 4620
+1
+1
+Cube Count: 4621
+1110110
+6
+Cube Count: 4622
+11
+3
+Cube Count: 4623
+1000010
+2
+Cube Count: 4624
+11
+3
+Cube Count: 4625
+10000000
+0
+Cube Count: 4626
+10000100
+4
+Cube Count: 4627
+1110111
+7
+Cube Count: 4628
+11
+3
+Cube Count: 4629
+1110111
+7
+Cube Count: 4630
+11
+3
+Cube Count: 4631
+100011
+3
+Cube Count: 4632
+1101
+5
+Cube Count: 4633
+100100
+4
+Cube Count: 4634
+10000000
+0
+Cube Count: 4635
+10000100
+4
+Cube Count: 4636
+10010111
+7
+Cube Count: 4637
+10
+2
+Cube Count: 4638
+100100
+4
+Cube Count: 4639
+0
+0
+Cube Count: 4640
+100100
+4
+Cube Count: 4641
+10010111
+7
+Cube Count: 4642
+10
+2
+Cube Count: 4643
+10010111
+7
+Cube Count: 4644
+10
+2
+Cube Count: 4645
+10
+2
+Cube Count: 4646
+10000000
+0
+Cube Count: 4647
+10000000
+0
+Cube Count: 4648
+10000000
+0
+Cube Count: 4649
+10000100
+4
+Cube Count: 4650
+10010111
+7
+Cube Count: 4651
+10
+2
+Cube Count: 4652
+100100
+4
+Cube Count: 4653
+0
+0
+Cube Count: 4654
+11000011
+3
+Cube Count: 4655
+0
+0
+Cube Count: 4656
+1000001
+1
+Cube Count: 4657
+11100011
+3
+Cube Count: 4658
+0
+0
+Cube Count: 4659
+0
+0
+Cube Count: 4660
+1101
+5
+Cube Count: 4661
+100100
+4
+Cube Count: 4662
+10000100
+4
+Cube Count: 4663
+10010111
+7
+Cube Count: 4664
+10
+2
+Cube Count: 4665
+10000100
+4
+Cube Count: 4666
+10010111
+7
+Cube Count: 4667
+10
+2
+Cube Count: 4668
+100011
+3
+Cube Count: 4669
+10000000
+0
+Cube Count: 4670
+10000000
+0
+Cube Count: 4671
+10000100
+4
+Cube Count: 4672
+10010111
+7
+Cube Count: 4673
+10
+2
+Cube Count: 4674
+1
+1
+Cube Count: 4675
+10000000
+0
+Cube Count: 4676
+10000000
+0
+Cube Count: 4677
+10000000
+0
+Cube Count: 4678
+10000100
+4
+Cube Count: 4679
+10010111
+7
+Cube Count: 4680
+10
+2
+Cube Count: 4681
+10010111
+7
+Cube Count: 4682
+10
+2
+Cube Count: 4683
+10000000
+0
+Cube Count: 4684
+10000100
+4
+Cube Count: 4685
+10010111
+7
+Cube Count: 4686
+10
+2
+Cube Count: 4687
+101001
+1
+Cube Count: 4688
+100000
+0
+Cube Count: 4689
+101001
+1
+Cube Count: 4690
+10010111
+7
+Cube Count: 4691
+10
+2
+Cube Count: 4692
+10000000
+0
+Cube Count: 4693
+10000100
+4
+Cube Count: 4694
+10010111
+7
+Cube Count: 4695
+10
+2
+Cube Count: 4696
+10010111
+7
+Cube Count: 4697
+10
+2
+Cube Count: 4698
+10000000
+0
+Cube Count: 4699
+10000100
+4
+Cube Count: 4700
+10010111
+7
+Cube Count: 4701
+10
+2
+Cube Count: 4702
+101001
+1
+Cube Count: 4703
+10100000
+0
+Cube Count: 4704
+101001
+1
+Cube Count: 4705
+0
+0
+Cube Count: 4706
+110011
+3
+Cube Count: 4707
+10010111
+7
+Cube Count: 4708
+10
+2
+Cube Count: 4709
+100011
+3
+Cube Count: 4710
+10000000
+0
+Cube Count: 4711
+10000100
+4
+Cube Count: 4712
+10010111
+7
+Cube Count: 4713
+10
+2
+Cube Count: 4714
+1
+1
+Cube Count: 4715
+10000000
+0
+Cube Count: 4716
+10000000
+0
+Cube Count: 4717
+10000100
+4
+Cube Count: 4718
+10010111
+7
+Cube Count: 4719
+10
+2
+Cube Count: 4720
+11000
+0
+Cube Count: 4721
+1100000
+0
+Cube Count: 4722
+101001
+1
+Cube Count: 4723
+11100011
+3
+Cube Count: 4724
+0
+0
+Cube Count: 4725
+0
+0
+Cube Count: 4726
+1101
+5
+Cube Count: 4727
+100100
+4
+Cube Count: 4728
+10000100
+4
+Cube Count: 4729
+10010111
+7
+Cube Count: 4730
+10
+2
+Cube Count: 4731
+10010111
+7
+Cube Count: 4732
+10
+2
+Cube Count: 4733
+10000000
+0
+Cube Count: 4734
+10000100
+4
+Cube Count: 4735
+10010111
+7
+Cube Count: 4736
+10
+2
+Cube Count: 4737
+100100
+4
+Cube Count: 4738
+0
+0
+Cube Count: 4739
+100100
+4
+Cube Count: 4740
+1101
+5
+Cube Count: 4741
+100100
+4
+Cube Count: 4742
+10
+2
+Cube Count: 4743
+10000000
+0
+Cube Count: 4744
+10000000
+0
+Cube Count: 4745
+10000100
+4
+Cube Count: 4746
+10010111
+7
+Cube Count: 4747
+10
+2
+Cube Count: 4748
+10
+2
+Cube Count: 4749
+10000000
+0
+Cube Count: 4750
+10000000
+0
+Cube Count: 4751
+10000000
+0
+Cube Count: 4752
+10000100
+4
+Cube Count: 4753
+10010111
+7
+Cube Count: 4754
+10
+2
+Cube Count: 4755
+100100
+4
+Cube Count: 4756
+0
+0
+Cube Count: 4757
+100100
+4
+Cube Count: 4758
+1000000
+0
+Cube Count: 4759
+1000000
+0
+Cube Count: 4760
+10000000
+0
+Cube Count: 4761
+10000000
+0
+Cube Count: 4762
+10000000
+0
+Cube Count: 4763
+10000000
+0
+Cube Count: 4764
+10000100
+4
+Cube Count: 4765
+10010111
+7
+Cube Count: 4766
+10
+2
+Cube Count: 4767
+10000100
+4
+Cube Count: 4768
+10010111
+7
+Cube Count: 4769
+10
+2
+Cube Count: 4770
+100011
+3
+Cube Count: 4771
+0
+0
+Cube Count: 4772
+110011
+3
+Cube Count: 4773
+11000011
+3
+Cube Count: 4774
+11000011
+3
+Cube Count: 4775
+0
+0
+Cube Count: 4776
+11000011
+3
+Cube Count: 4777
+1000001
+1
+Cube Count: 4778
+11100011
+3
+Cube Count: 4779
+0
+0
+Cube Count: 4780
+0
+0
+Cube Count: 4781
+1101
+5
+Cube Count: 4782
+100100
+4
+Cube Count: 4783
+10000100
+4
+Cube Count: 4784
+10010111
+7
+Cube Count: 4785
+10
+2
+Cube Count: 4786
+10000100
+4
+Cube Count: 4787
+10010111
+7
+Cube Count: 4788
+10
+2
+Cube Count: 4789
+10000100
+4
+Cube Count: 4790
+10010111
+7
+Cube Count: 4791
+10
+2
+Cube Count: 4792
+101001
+1
+Cube Count: 4793
+100000
+0
+Cube Count: 4794
+101001
+1
+Cube Count: 4795
+1101
+5
+Cube Count: 4796
+100100
+4
+Cube Count: 4797
+1100000
+0
+Cube Count: 4798
+101001
+1
+Cube Count: 4799
+10000000
+0
+Cube Count: 4800
+10000000
+0
+Cube Count: 4801
+10000100
+4
+Cube Count: 4802
+10010111
+7
+Cube Count: 4803
+10
+2
+Cube Count: 4804
+101001
+1
+Cube Count: 4805
+11000000
+0
+Cube Count: 4806
+101001
+1
+Cube Count: 4807
+1000000
+0
+Cube Count: 4808
+10000000
+0
+Cube Count: 4809
+10000000
+0
+Cube Count: 4810
+10000000
+0
+Cube Count: 4811
+10000000
+0
+Cube Count: 4812
+10000100
+4
+Cube Count: 4813
+10010111
+7
+Cube Count: 4814
+10
+2
+Cube Count: 4815
+10000100
+4
+Cube Count: 4816
+10010111
+7
+Cube Count: 4817
+10
+2
+Cube Count: 4818
+11001
+1
+Cube Count: 4819
+10000000
+0
+Cube Count: 4820
+10000100
+4
+Cube Count: 4821
+10010111
+7
+Cube Count: 4822
+10
+2
+Cube Count: 4823
+101001
+1
+Cube Count: 4824
+11000000
+0
+Cube Count: 4825
+101001
+1
+Cube Count: 4826
+1
+1
+Cube Count: 4827
+1110110
+6
+Cube Count: 4828
+11
+3
+Cube Count: 4829
+1000010
+2
+Cube Count: 4830
+11
+3
+Cube Count: 4831
+0
+0
+Cube Count: 4832
+1
+1
+Cube Count: 4833
+1
+1
+Cube Count: 4834
+1
+1
+Cube Count: 4835
+1
+1
+Cube Count: 4836
+1
+1
+Cube Count: 4837
+1
+1
+Cube Count: 4838
+10000000
+0
+Cube Count: 4839
+10000011
+3
+Cube Count: 4840
+10000011
+3
+Cube Count: 4841
+10000011
+3
+Cube Count: 4842
+0
+0
+Cube Count: 4843
+100001
+1
+Cube Count: 4844
+0
+0
+Cube Count: 4845
+1
+1
+Cube Count: 4846
+1
+1
+Cube Count: 4847
+1
+1
+Cube Count: 4848
+10000000
+0
+Cube Count: 4849
+10000000
+0
+Cube Count: 4850
+10000000
+0
+Cube Count: 4851
+10000000
+0
+Cube Count: 4852
+10000000
+0
+Cube Count: 4853
+10000011
+3
+Cube Count: 4854
+10000011
+3
+Cube Count: 4855
+0
+0
+Cube Count: 4856
+1
+1
+Cube Count: 4857
+10100011
+3
+Cube Count: 4858
+0
+0
+Cube Count: 4859
+11011
+3
+Cube Count: 4860
+10
+2
+Cube Count: 4861
+10
+2
+Cube Count: 4862
+10000100
+4
+Cube Count: 4863
+0
+0
+Cube Count: 4864
+11000
+0
+Cube Count: 4865
+11
+3
+Cube Count: 4866
+1110110
+6
+Cube Count: 4867
+11
+3
+Cube Count: 4868
+1110110
+6
+Cube Count: 4869
+11
+3
+Cube Count: 4870
+1
+1
+Cube Count: 4871
+1
+1
+Cube Count: 4872
+1
+1
+Cube Count: 4873
+1110110
+6
+Cube Count: 4874
+11
+3
+Cube Count: 4875
+1110110
+6
+Cube Count: 4876
+11
+3
+Cube Count: 4877
+11100
+4
+Cube Count: 4878
+10
+2
+Cube Count: 4879
+10
+2
+Cube Count: 4880
+10
+2
+Cube Count: 4881
+10
+2
+Cube Count: 4882
+10010111
+7
+Cube Count: 4883
+10
+2
+Cube Count: 4884
+10
+2
+Cube Count: 4885
+10000000
+0
+Cube Count: 4886
+110000
+0
+Cube Count: 4887
+110000
+0
+Cube Count: 4888
+110000
+0
+Cube Count: 4889
+110000
+0
+Cube Count: 4890
+10010111
+7
+Cube Count: 4891
+10
+2
+Cube Count: 4892
+10
+2
+Cube Count: 4893
+10
+2
+Cube Count: 4894
+10
+2
+Cube Count: 4895
+10
+2
+Cube Count: 4896
+10
+2
+Cube Count: 4897
+10010111
+7
+Cube Count: 4898
+10
+2
+Cube Count: 4899
+10000000
+0
+Cube Count: 4900
+10000000
+0
+Cube Count: 4901
+10000000
+0
+Cube Count: 4902
+10000000
+0
+Cube Count: 4903
+10000000
+0
+Cube Count: 4904
+10000000
+0
+Cube Count: 4905
+10000000
+0
+Cube Count: 4906
+10000000
+0
+Cube Count: 4907
+10000000
+0
+Cube Count: 4908
+110000
+0
+Cube Count: 4909
+10000000
+0
+Cube Count: 4910
+110000
+0
+Cube Count: 4911
+10010111
+7
+Cube Count: 4912
+10
+2
+Cube Count: 4913
+101
+5
+Cube Count: 4914
+0
+0
+Cube Count: 4915
+0
+0
+Cube Count: 4916
+1100
+4
+Cube Count: 4917
+11100
+4
+Cube Count: 4918
+0
+0
+Cube Count: 4919
+1
+1
+Cube Count: 4920
+1
+1
+Cube Count: 4921
+1
+1
+Cube Count: 4922
+1
+1
+Cube Count: 4923
+1
+1
+Cube Count: 4924
+1
+1
+Cube Count: 4925
+10000000
+0
+Cube Count: 4926
+10000000
+0
+Cube Count: 4927
+10000000
+0
+Cube Count: 4928
+10000000
+0
+Cube Count: 4929
+10000000
+0
+Cube Count: 4930
+110000
+0
+Cube Count: 4931
+110000
+0
+Cube Count: 4932
+110000
+0
+Cube Count: 4933
+110000
+0
+Cube Count: 4934
+10010111
+7
+Cube Count: 4935
+10
+2
+Cube Count: 4936
+10
+2
+Cube Count: 4937
+10
+2
+Cube Count: 4938
+10
+2
+Cube Count: 4939
+10
+2
+Cube Count: 4940
+10
+2
+Cube Count: 4941
+10
+2
+Cube Count: 4942
+10
+2
+Cube Count: 4943
+0
+0
+Cube Count: 4944
+1
+1
+Cube Count: 4945
+1
+1
+Cube Count: 4946
+1
+1
+Cube Count: 4947
+1
+1
+Cube Count: 4948
+1
+1
+Cube Count: 4949
+1
+1
+Cube Count: 4950
+10010111
+7
+Cube Count: 4951
+10
+2
+Cube Count: 4952
+1
+1
+Cube Count: 4953
+1
+1
+Cube Count: 4954
+1000000
+0
+Cube Count: 4955
+1000000
+0
+Cube Count: 4956
+1000000
+0
+Cube Count: 4957
+10000100
+4
+Cube Count: 4958
+10010110
+6
+Cube Count: 4959
+10
+2
+Cube Count: 4960
+0
+0
+Cube Count: 4961
+10101
+5
+Cube Count: 4962
+0
+0
+Cube Count: 4963
+10101
+5
+Cube Count: 4964
+0
+0
+Cube Count: 4965
+0
+0
+Cube Count: 4966
+10100010
+2
+Cube Count: 4967
+0
+0
+Cube Count: 4968
+101110
+6
+Cube Count: 4969
+0
+0
+Cube Count: 4970
+11000
+0
+Cube Count: 4971
+0
+0
+Cube Count: 4972
+101110
+6
+Cube Count: 4973
+0
+0
+Cube Count: 4974
+11000
+0
+Cube Count: 4975
+10010000
+0
+Cube Count: 4976
+101110
+6
+Cube Count: 4977
+0
+0
+Cube Count: 4978
+0
+0
+Cube Count: 4979
+10000010
+2
+Cube Count: 4980
+10100010
+2
+Cube Count: 4981
+11000000
+0
+Cube Count: 4982
+100001
+1
+Cube Count: 4983
+10000000
+0
+Cube Count: 4984
+10000000
+0
+Cube Count: 4985
+10000000
+0
+Cube Count: 4986
+10010110
+6
+Cube Count: 4987
+10
+2
+Cube Count: 4988
+10
+2
+Cube Count: 4989
+10000000
+0
+Cube Count: 4990
+10000000
+0
+Cube Count: 4991
+10000000
+0
+Cube Count: 4992
+1100000
+0
+Cube Count: 4993
+10000000
+0
+Cube Count: 4994
+10000000
+0
+Cube Count: 4995
+10000000
+0
+Cube Count: 4996
+10000011
+3
+Cube Count: 4997
+11001
+1
+Cube Count: 4998
+11
+3
+Cube Count: 4999
+10000010
+2
+Cube Count: 5000
+10
+2
+Cube Count: 5001
+0
+0
+Cube Count: 5002
+10000010
+2
+Cube Count: 5003
+10100010
+2
+Cube Count: 5004
+0
+0
+Cube Count: 5005
+100010
+2
+Cube Count: 5006
+0
+0
+Cube Count: 5007
+10
+2
+Cube Count: 5008
+10000011
+3
+Cube Count: 5009
+10100011
+3
+Cube Count: 5010
+1000000
+0
+Cube Count: 5011
+11000
+0
+Cube Count: 5012
+0
+0
+Cube Count: 5013
+100010
+2
+Cube Count: 5014
+0
+0
+Cube Count: 5015
+10
+2
+Cube Count: 5016
+0
+0
+Cube Count: 5017
+11
+3
+Cube Count: 5018
+10
+2
+Cube Count: 5019
+10000010
+2
+Cube Count: 5020
+10000010
+2
+Cube Count: 5021
+10100010
+2
+Cube Count: 5022
+0
+0
+Cube Count: 5023
+100001
+1
+Cube Count: 5024
+10010110
+6
+Cube Count: 5025
+10
+2
+Cube Count: 5026
+10010110
+6
+Cube Count: 5027
+10
+2
+Cube Count: 5028
+10010110
+6
+Cube Count: 5029
+10
+2
+Cube Count: 5030
+100100
+4
+Cube Count: 5031
+10101
+5
+Cube Count: 5032
+0
+0
+Cube Count: 5033
+10101
+5
+Cube Count: 5034
+0
+0
+Cube Count: 5035
+100
+4
+Cube Count: 5036
+10000000
+0
+Cube Count: 5037
+11001
+1
+Cube Count: 5038
+10000000
+0
+Cube Count: 5039
+10000010
+2
+Cube Count: 5040
+10010110
+6
+Cube Count: 5041
+10
+2
+Cube Count: 5042
+10
+2
+Cube Count: 5043
+10
+2
+Cube Count: 5044
+10010110
+6
+Cube Count: 5045
+10
+2
+Cube Count: 5046
+10010110
+6
+Cube Count: 5047
+10
+2
+Cube Count: 5048
+10
+2
+Cube Count: 5049
+10000000
+0
+Cube Count: 5050
+10000000
+0
+Cube Count: 5051
+10000011
+3
+Cube Count: 5052
+10000000
+0
+Cube Count: 5053
+10000010
+2
+Cube Count: 5054
+0
+0
+Cube Count: 5055
+100
+4
+Cube Count: 5056
+10000000
+0
+Cube Count: 5057
+11001
+1
+Cube Count: 5058
+10
+2
+Cube Count: 5059
+10
+2
+Cube Count: 5060
+10000010
+2
+Cube Count: 5061
+10000010
+2
+Cube Count: 5062
+10
+2
+Cube Count: 5063
+10
+2
+Cube Count: 5064
+10000010
+2
+Cube Count: 5065
+10000010
+2
+Cube Count: 5066
+10100010
+2
+Cube Count: 5067
+0
+0
+Cube Count: 5068
+100001
+1
+Cube Count: 5069
+0
+0
+Cube Count: 5070
+10100010
+2
+Cube Count: 5071
+0
+0
+Cube Count: 5072
+0
+0
+Cube Count: 5073
+1101
+5
+Cube Count: 5074
+100100
+4
+Cube Count: 5075
+10
+2
+Cube Count: 5076
+10010110
+6
+Cube Count: 5077
+10
+2
+Cube Count: 5078
+10
+2
+Cube Count: 5079
+10000000
+0
+Cube Count: 5080
+10000000
+0
+Cube Count: 5081
+10000000
+0
+Cube Count: 5082
+1100000
+0
+Cube Count: 5083
+10000000
+0
+Cube Count: 5084
+10000000
+0
+Cube Count: 5085
+10000000
+0
+Cube Count: 5086
+10010110
+6
+Cube Count: 5087
+10
+2
+Cube Count: 5088
+10000000
+0
+Cube Count: 5089
+10000000
+0
+Cube Count: 5090
+10000000
+0
+Cube Count: 5091
+10000000
+0
+Cube Count: 5092
+10000000
+0
+Cube Count: 5093
+10000000
+0
+Cube Count: 5094
+10000000
+0
+Cube Count: 5095
+10000000
+0
+Cube Count: 5096
+10000000
+0
+Cube Count: 5097
+1010000
+0
+Cube Count: 5098
+10000000
+0
+Cube Count: 5099
+10000000
+0
+Cube Count: 5100
+11000
+0
+Cube Count: 5101
+11
+3
+Cube Count: 5102
+10
+2
+Cube Count: 5103
+0
+0
+Cube Count: 5104
+10000010
+2
+Cube Count: 5105
+10100010
+2
+Cube Count: 5106
+1000000
+0
+Cube Count: 5107
+11001
+1
+Cube Count: 5108
+0
+0
+Cube Count: 5109
+10101
+5
+Cube Count: 5110
+0
+0
+Cube Count: 5111
+10000010
+2
+Cube Count: 5112
+10000010
+2
+Cube Count: 5113
+10000010
+2
+Cube Count: 5114
+10
+2
+Cube Count: 5115
+11
+3
+Cube Count: 5116
+10000010
+2
+Cube Count: 5117
+10000010
+2
+Cube Count: 5118
+0
+0
+Cube Count: 5119
+10000011
+3
+Cube Count: 5120
+10100011
+3
+Cube Count: 5121
+10000000
+0
+Cube Count: 5122
+11001
+1
+Cube Count: 5123
+10
+2
+Cube Count: 5124
+10
+2
+Cube Count: 5125
+10
+2
+Cube Count: 5126
+10010110
+6
+Cube Count: 5127
+10
+2
+Cube Count: 5128
+0
+0
+Cube Count: 5129
+1100
+4
+Cube Count: 5130
+100001
+1
+Cube Count: 5131
+100000
+0
+Cube Count: 5132
+101
+5
+Cube Count: 5133
+0
+0
+Cube Count: 5134
+0
+0
+Cube Count: 5135
+1100
+4
+Cube Count: 5136
+100001
+1
+Cube Count: 5137
+0
+0
+Cube Count: 5138
+10101
+5
+Cube Count: 5139
+0
+0
+Cube Count: 5140
+100000
+0
+Cube Count: 5141
+0
+0
+Cube Count: 5142
+11
+3
+Cube Count: 5143
+10100011
+3
+Cube Count: 5144
+0
+0
+Cube Count: 5145
+101110
+6
+Cube Count: 5146
+1000000
+0
+Cube Count: 5147
+11001
+1
+Cube Count: 5148
+10
+2
+Cube Count: 5149
+11
+3
+Cube Count: 5150
+10010110
+6
+Cube Count: 5151
+10
+2
+Cube Count: 5152
+10010110
+6
+Cube Count: 5153
+10
+2
+Cube Count: 5154
+0
+0
+Cube Count: 5155
+1100
+4
+Cube Count: 5156
+101110
+6
+Cube Count: 5157
+0
+0
+Cube Count: 5158
+11010
+2
+Cube Count: 5159
+11000000
+0
+Cube Count: 5160
+11001
+1
+Cube Count: 5161
+0
+0
+Cube Count: 5162
+100000
+0
+Cube Count: 5163
+10000011
+3
+Cube Count: 5164
+10100010
+2
+Cube Count: 5165
+11000000
+0
+Cube Count: 5166
+100001
+1
+Cube Count: 5167
+10
+2
+Cube Count: 5168
+10000000
+0
+Cube Count: 5169
+10000000
+0
+Cube Count: 5170
+10000000
+0
+Cube Count: 5171
+10000000
+0
+Cube Count: 5172
+10000010
+2
+Cube Count: 5173
+10101
+5
+Cube Count: 5174
+0
+0
+Cube Count: 5175
+10101
+5
+Cube Count: 5176
+0
+0
+Cube Count: 5177
+100010
+2
+Cube Count: 5178
+10000010
+2
+Cube Count: 5179
+10000010
+2
+Cube Count: 5180
+10100010
+2
+Cube Count: 5181
+0
+0
+Cube Count: 5182
+11000
+0
+Cube Count: 5183
+0
+0
+Cube Count: 5184
+101111
+7
+Cube Count: 5185
+1
+1
+Cube Count: 5186
+0
+0
+Cube Count: 5187
+0
+0
+Cube Count: 5188
+10100010
+2
+Cube Count: 5189
+10000000
+0
+Cube Count: 5190
+100010
+2
+Cube Count: 5191
+0
+0
+Cube Count: 5192
+1101
+5
+Cube Count: 5193
+100100
+4
+Cube Count: 5194
+1110000
+0
+Cube Count: 5195
+11000
+0
+Cube Count: 5196
+11000000
+0
+Cube Count: 5197
+100010
+2
+Cube Count: 5198
+10
+2
+Cube Count: 5199
+10000010
+2
+Cube Count: 5200
+10000010
+2
+Cube Count: 5201
+10100011
+3
+Cube Count: 5202
+10000000
+0
+Cube Count: 5203
+101110
+6
+Cube Count: 5204
+1101000
+0
+Cube Count: 5205
+11000
+0
+Cube Count: 5206
+10000000
+0
+Cube Count: 5207
+101110
+6
+Cube Count: 5208
+10000000
+0
+Cube Count: 5209
+11000
+0
+Cube Count: 5210
+1000000
+0
+Cube Count: 5211
+101110
+6
+Cube Count: 5212
+10
+2
+Cube Count: 5213
+10000011
+3
+Cube Count: 5214
+10
+2
+Cube Count: 5215
+0
+0
+Cube Count: 5216
+10
+2
+Cube Count: 5217
+10000010
+2
+Cube Count: 5218
+10000010
+2
+Cube Count: 5219
+10100010
+2
+Cube Count: 5220
+10000000
+0
+Cube Count: 5221
+100010
+2
+Cube Count: 5222
+0
+0
+Cube Count: 5223
+10100010
+2
+Cube Count: 5224
+10000000
+0
+Cube Count: 5225
+11000
+0
+Cube Count: 5226
+0
+0
+Cube Count: 5227
+101111
+7
+Cube Count: 5228
+11
+3
+Cube Count: 5229
+10100010
+2
+Cube Count: 5230
+10000000
+0
+Cube Count: 5231
+11000
+0
+Cube Count: 5232
+11010000
+0
+Cube Count: 5233
+100010
+2
+Cube Count: 5234
+0
+0
+Cube Count: 5235
+100101
+5
+Cube Count: 5236
+1
+1
+Cube Count: 5237
+101110
+6
+Cube Count: 5238
+0
+0
+Cube Count: 5239
+10000010
+2
+Cube Count: 5240
+10100011
+3
+Cube Count: 5241
+1100
+4
+Cube Count: 5242
+11000
+0
+Cube Count: 5243
+11000000
+0
+Cube Count: 5244
+100010
+2
+Cube Count: 5245
+0
+0
+Cube Count: 5246
+10000011
+3
+Cube Count: 5247
+10000010
+2
+Cube Count: 5248
+10100010
+2
+Cube Count: 5249
+0
+0
+Cube Count: 5250
+11001
+1
+Cube Count: 5251
+0
+0
+Cube Count: 5252
+10101
+5
+Cube Count: 5253
+0
+0
+Cube Count: 5254
+100000
+0
+Cube Count: 5255
+10000010
+2
+Cube Count: 5256
+0
+0
+Cube Count: 5257
+10
+2
+Cube Count: 5258
+10
+2
+Cube Count: 5259
+10000010
+2
+Cube Count: 5260
+10100010
+2
+Cube Count: 5261
+10000000
+0
+Cube Count: 5262
+100010
+2
+Cube Count: 5263
+100000
+0
+Cube Count: 5264
+100
+4
+Cube Count: 5265
+10000010
+2
+Cube Count: 5266
+10100010
+2
+Cube Count: 5267
+11000000
+0
+Cube Count: 5268
+101110
+6
+Cube Count: 5269
+10000000
+0
+Cube Count: 5270
+100010
+2
+Cube Count: 5271
+10000000
+0
+Cube Count: 5272
+10000000
+0
+Cube Count: 5273
+10000000
+0
+Cube Count: 5274
+10010110
+6
+Cube Count: 5275
+10
+2
+Cube Count: 5276
+100
+4
+Cube Count: 5277
+0
+0
+Cube Count: 5278
+10
+2
+Cube Count: 5279
+11
+3
+Cube Count: 5280
+10100010
+2
+Cube Count: 5281
+0
+0
+Cube Count: 5282
+100010
+2
+Cube Count: 5283
+11
+3
+Cube Count: 5284
+110010
+2
+Cube Count: 5285
+11000000
+0
+Cube Count: 5286
+101110
+6
+Cube Count: 5287
+0
+0
+Cube Count: 5288
+100011
+3
+Cube Count: 5289
+100000
+0
+Cube Count: 5290
+100
+4
+Cube Count: 5291
+11000000
+0
+Cube Count: 5292
+101110
+6
+Cube Count: 5293
+0
+0
+Cube Count: 5294
+100011
+3
+Cube Count: 5295
+0
+0
+Cube Count: 5296
+11001
+1
+Cube Count: 5297
+1
+1
+Cube Count: 5298
+1
+1
+Cube Count: 5299
+1
+1
+Cube Count: 5300
+1
+1
+Cube Count: 5301
+1
+1
+Cube Count: 5302
+1
+1
+Cube Count: 5303
+1
+1
+Cube Count: 5304
+11
+3
+Cube Count: 5305
+1
+1
+Cube Count: 5306
+0
+0
+Cube Count: 5307
+10100010
+2
+Cube Count: 5308
+0
+0
+Cube Count: 5309
+11011
+3
+Cube Count: 5310
+10101
+5
+Cube Count: 5311
+0
+0
+Cube Count: 5312
+10101
+5
+Cube Count: 5313
+0
+0
+Cube Count: 5314
+100001
+1
+Cube Count: 5315
+10
+2
+Cube Count: 5316
+1
+1
+Cube Count: 5317
+1
+1
+Cube Count: 5318
+1
+1
+Cube Count: 5319
+1
+1
+Cube Count: 5320
+1
+1
+Cube Count: 5321
+0
+0
+Cube Count: 5322
+1
+1
+Cube Count: 5323
+11
+3
+Cube Count: 5324
+0
+0
+Cube Count: 5325
+1
+1
+Cube Count: 5326
+0
+0
+Cube Count: 5327
+0
+0
+Cube Count: 5328
+10100010
+2
+Cube Count: 5329
+1000000
+0
+Cube Count: 5330
+11000
+0
+Cube Count: 5331
+0
+0
+Cube Count: 5332
+101110
+6
+Cube Count: 5333
+10100010
+2
+Cube Count: 5334
+10000000
+0
+Cube Count: 5335
+100101
+5
+Cube Count: 5336
+0
+0
+Cube Count: 5337
+11000
+0
+Cube Count: 5338
+10000010
+2
+Cube Count: 5339
+10
+2
+Cube Count: 5340
+10100010
+2
+Cube Count: 5341
+0
+0
+Cube Count: 5342
+0
+0
+Cube Count: 5343
+1100
+4
+Cube Count: 5344
+11000
+0
+Cube Count: 5345
+0
+0
+Cube Count: 5346
+100101
+5
+Cube Count: 5347
+1000000
+0
+Cube Count: 5348
+11000
+0
+Cube Count: 5349
+1000000
+0
+Cube Count: 5350
+100101
+5
+Cube Count: 5351
+1000000
+0
+Cube Count: 5352
+11000
+0
+Cube Count: 5353
+11
+3
+Cube Count: 5354
+10000010
+2
+Cube Count: 5355
+10
+2
+Cube Count: 5356
+10
+2
+Cube Count: 5357
+0
+0
+Cube Count: 5358
+10000010
+2
+Cube Count: 5359
+10
+2
+Cube Count: 5360
+10000010
+2
+Cube Count: 5361
+10100010
+2
+Cube Count: 5362
+1110000
+0
+Cube Count: 5363
+11000
+0
+Cube Count: 5364
+1000000
+0
+Cube Count: 5365
+100101
+5
+Cube Count: 5366
+10000000
+0
+Cube Count: 5367
+11000
+0
+Cube Count: 5368
+10000000
+0
+Cube Count: 5369
+100101
+5
+Cube Count: 5370
+10000000
+0
+Cube Count: 5371
+11000
+0
+Cube Count: 5372
+10100011
+3
+Cube Count: 5373
+0
+0
+Cube Count: 5374
+101111
+7
+Cube Count: 5375
+1000000
+0
+Cube Count: 5376
+11000
+0
+Cube Count: 5377
+10000000
+0
+Cube Count: 5378
+101110
+6
+Cube Count: 5379
+1101000
+0
+Cube Count: 5380
+11000
+0
+Cube Count: 5381
+10000000
+0
+Cube Count: 5382
+101110
+6
+Cube Count: 5383
+10
+2
+Cube Count: 5384
+10000011
+3
+Cube Count: 5385
+10000010
+2
+Cube Count: 5386
+10100010
+2
+Cube Count: 5387
+10000000
+0
+Cube Count: 5388
+10000000
+0
+Cube Count: 5389
+1100000
+0
+Cube Count: 5390
+10000000
+0
+Cube Count: 5391
+10000000
+0
+Cube Count: 5392
+10000000
+0
+Cube Count: 5393
+10000000
+0
+Cube Count: 5394
+10000000
+0
+Cube Count: 5395
+1010000
+0
+Cube Count: 5396
+1010000
+0
+Cube Count: 5397
+1010000
+0
+Cube Count: 5398
+1010000
+0
+Cube Count: 5399
+10010110
+6
+Cube Count: 5400
+10
+2
+Cube Count: 5401
+11000
+0
+Cube Count: 5402
+11
+3
+Cube Count: 5403
+100101
+5
+Cube Count: 5404
+1000000
+0
+Cube Count: 5405
+101110
+6
+Cube Count: 5406
+10000000
+0
+Cube Count: 5407
+100101
+5
+Cube Count: 5408
+11
+3
+Cube Count: 5409
+10
+2
+Cube Count: 5410
+10100010
+2
+Cube Count: 5411
+0
+0
+Cube Count: 5412
+0
+0
+Cube Count: 5413
+1100
+4
+Cube Count: 5414
+100101
+5
+Cube Count: 5415
+1000000
+0
+Cube Count: 5416
+101110
+6
+Cube Count: 5417
+10000000
+0
+Cube Count: 5418
+100101
+5
+Cube Count: 5419
+10100011
+3
+Cube Count: 5420
+1111000
+0
+Cube Count: 5421
+100101
+5
+Cube Count: 5422
+11000000
+0
+Cube Count: 5423
+11000
+0
+Cube Count: 5424
+1100000
+0
+Cube Count: 5425
+100101
+5
+Cube Count: 5426
+0
+0
+Cube Count: 5427
+11001
+1
+Cube Count: 5428
+0
+0
+Cube Count: 5429
+110001
+1
+Cube Count: 5430
+0
+0
+Cube Count: 5431
+10000010
+2
+Cube Count: 5432
+10100010
+2
+Cube Count: 5433
+0
+0
+Cube Count: 5434
+0
+0
+Cube Count: 5435
+1101
+5
+Cube Count: 5436
+100100
+4
+Cube Count: 5437
+0
+0
+Cube Count: 5438
+10101
+5
+Cube Count: 5439
+0
+0
+Cube Count: 5440
+10000010
+2
+Cube Count: 5441
+10100011
+3
+Cube Count: 5442
+0
+0
+Cube Count: 5443
+101110
+6
+Cube Count: 5444
+0
+0
+Cube Count: 5445
+100110
+6
+Cube Count: 5446
+1000000
+0
+Cube Count: 5447
+101110
+6
+Cube Count: 5448
+0
+0
+Cube Count: 5449
+100110
+6
+Cube Count: 5450
+10100010
+2
+Cube Count: 5451
+0
+0
+Cube Count: 5452
+100110
+6
+Cube Count: 5453
+11000000
+0
+Cube Count: 5454
+11000
+0
+Cube Count: 5455
+10000010
+2
+Cube Count: 5456
+10000010
+2
+Cube Count: 5457
+0
+0
+Cube Count: 5458
+10100011
+3
+Cube Count: 5459
+11000000
+0
+Cube Count: 5460
+101110
+6
+Cube Count: 5461
+10000000
+0
+Cube Count: 5462
+11000
+0
+Cube Count: 5463
+10100000
+0
+Cube Count: 5464
+101110
+6
+Cube Count: 5465
+11000000
+0
+Cube Count: 5466
+11000
+0
+Cube Count: 5467
+10001000
+0
+Cube Count: 5468
+101110
+6
+Cube Count: 5469
+10
+2
+Cube Count: 5470
+10000011
+3
+Cube Count: 5471
+10100010
+2
+Cube Count: 5472
+10010000
+0
+Cube Count: 5473
+11000
+0
+Cube Count: 5474
+0
+0
+Cube Count: 5475
+100101
+5
+Cube Count: 5476
+0
+0
+Cube Count: 5477
+11001
+1
+Cube Count: 5478
+10
+2
+Cube Count: 5479
+101110
+6
+Cube Count: 5480
+1000000
+0
+Cube Count: 5481
+100101
+5
+Cube Count: 5482
+1000000
+0
+Cube Count: 5483
+101110
+6
+Cube Count: 5484
+0
+0
+Cube Count: 5485
+100101
+5
+Cube Count: 5486
+11000000
+0
+Cube Count: 5487
+101110
+6
+Cube Count: 5488
+0
+0
+Cube Count: 5489
+100101
+5
+Cube Count: 5490
+10000010
+2
+Cube Count: 5491
+10100010
+2
+Cube Count: 5492
+1000000
+0
+Cube Count: 5493
+101110
+6
+Cube Count: 5494
+0
+0
+Cube Count: 5495
+100101
+5
+Cube Count: 5496
+10000010
+2
+Cube Count: 5497
+10000010
+2
+Cube Count: 5498
+1
+1
+Cube Count: 5499
+1
+1
+Cube Count: 5500
+1
+1
+Cube Count: 5501
+1
+1
+Cube Count: 5502
+1
+1
+Cube Count: 5503
+1
+1
+Cube Count: 5504
+0
+0
+Cube Count: 5505
+0
+0
+Cube Count: 5506
+0
+0
+Cube Count: 5507
+10000010
+2
+Cube Count: 5508
+10100010
+2
+Cube Count: 5509
+10000000
+0
+Cube Count: 5510
+100110
+6
+Cube Count: 5511
+0
+0
+Cube Count: 5512
+11000
+0
+Cube Count: 5513
+10
+2
+Cube Count: 5514
+10
+2
+Cube Count: 5515
+10100010
+2
+Cube Count: 5516
+10101000
+0
+Cube Count: 5517
+11000
+0
+Cube Count: 5518
+0
+0
+Cube Count: 5519
+100110
+6
+Cube Count: 5520
+1000000
+0
+Cube Count: 5521
+11000
+0
+Cube Count: 5522
+1000000
+0
+Cube Count: 5523
+100110
+6
+Cube Count: 5524
+1000000
+0
+Cube Count: 5525
+11000
+0
+Cube Count: 5526
+11
+3
+Cube Count: 5527
+10
+2
+Cube Count: 5528
+10
+2
+Cube Count: 5529
+10
+2
+Cube Count: 5530
+0
+0
+Cube Count: 5531
+10
+2
+Cube Count: 5532
+10
+2
+Cube Count: 5533
+10000010
+2
+Cube Count: 5534
+10100010
+2
+Cube Count: 5535
+1110000
+0
+Cube Count: 5536
+11000
+0
+Cube Count: 5537
+1000000
+0
+Cube Count: 5538
+100110
+6
+Cube Count: 5539
+10000000
+0
+Cube Count: 5540
+11000
+0
+Cube Count: 5541
+10000000
+0
+Cube Count: 5542
+100110
+6
+Cube Count: 5543
+10000000
+0
+Cube Count: 5544
+11000
+0
+Cube Count: 5545
+11
+3
+Cube Count: 5546
+10
+2
+Cube Count: 5547
+10000011
+3
+Cube Count: 5548
+10000010
+2
+Cube Count: 5549
+10100010
+2
+Cube Count: 5550
+10000000
+0
+Cube Count: 5551
+11001
+1
+Cube Count: 5552
+1100000
+0
+Cube Count: 5553
+10000000
+0
+Cube Count: 5554
+10000000
+0
+Cube Count: 5555
+10000000
+0
+Cube Count: 5556
+10000000
+0
+Cube Count: 5557
+10000000
+0
+Cube Count: 5558
+1010000
+0
+Cube Count: 5559
+1010000
+0
+Cube Count: 5560
+1010000
+0
+Cube Count: 5561
+1010000
+0
+Cube Count: 5562
+10010110
+6
+Cube Count: 5563
+10
+2
+Cube Count: 5564
+11000
+0
+Cube Count: 5565
+11
+3
+Cube Count: 5566
+100110
+6
+Cube Count: 5567
+1000000
+0
+Cube Count: 5568
+101110
+6
+Cube Count: 5569
+10000000
+0
+Cube Count: 5570
+100110
+6
+Cube Count: 5571
+11
+3
+Cube Count: 5572
+10
+2
+Cube Count: 5573
+10000010
+2
+Cube Count: 5574
+10100011
+3
+Cube Count: 5575
+1111000
+0
+Cube Count: 5576
+100110
+6
+Cube Count: 5577
+11000000
+0
+Cube Count: 5578
+11000
+0
+Cube Count: 5579
+1100000
+0
+Cube Count: 5580
+100110
+6
+Cube Count: 5581
+0
+0
+Cube Count: 5582
+11001
+1
+Cube Count: 5583
+0
+0
+Cube Count: 5584
+10000
+0
+Cube Count: 5585
+10
+2
+Cube Count: 5586
+0
+0
+Cube Count: 5587
+10000010
+2
+Cube Count: 5588
+10100010
+2
+Cube Count: 5589
+0
+0
+Cube Count: 5590
+100111
+7
+Cube Count: 5591
+10000000
+0
+Cube Count: 5592
+11000
+0
+Cube Count: 5593
+10
+2
+Cube Count: 5594
+10
+2
+Cube Count: 5595
+10000011
+3
+Cube Count: 5596
+10100010
+2
+Cube Count: 5597
+0
+0
+Cube Count: 5598
+100111
+7
+Cube Count: 5599
+11000000
+0
+Cube Count: 5600
+11000
+0
+Cube Count: 5601
+10
+2
+Cube Count: 5602
+10
+2
+Cube Count: 5603
+0
+0
+Cube Count: 5604
+11
+3
+Cube Count: 5605
+10
+2
+Cube Count: 5606
+10000011
+3
+Cube Count: 5607
+10100010
+2
+Cube Count: 5608
+10010000
+0
+Cube Count: 5609
+11000
+0
+Cube Count: 5610
+0
+0
+Cube Count: 5611
+100110
+6
+Cube Count: 5612
+0
+0
+Cube Count: 5613
+11010
+2
+Cube Count: 5614
+10
+2
+Cube Count: 5615
+101110
+6
+Cube Count: 5616
+1000000
+0
+Cube Count: 5617
+100110
+6
+Cube Count: 5618
+1000000
+0
+Cube Count: 5619
+101110
+6
+Cube Count: 5620
+0
+0
+Cube Count: 5621
+100110
+6
+Cube Count: 5622
+11000000
+0
+Cube Count: 5623
+101110
+6
+Cube Count: 5624
+0
+0
+Cube Count: 5625
+100110
+6
+Cube Count: 5626
+10
+2
+Cube Count: 5627
+10000010
+2
+Cube Count: 5628
+10000010
+2
+Cube Count: 5629
+10000010
+2
+Cube Count: 5630
+10000010
+2
+Cube Count: 5631
+1
+1
+Cube Count: 5632
+10100010
+2
+Cube Count: 5633
+0
+0
+Cube Count: 5634
+101000
+0
+Cube Count: 5635
+0
+0
+Cube Count: 5636
+11010
+2
+Cube Count: 5637
+0
+0
+Cube Count: 5638
+10101
+5
+Cube Count: 5639
+0
+0
+Cube Count: 5640
+101
+5
+Cube Count: 5641
+10100011
+3
+Cube Count: 5642
+1110000
+0
+Cube Count: 5643
+100110
+6
+Cube Count: 5644
+0
+0
+Cube Count: 5645
+11001
+1
+Cube Count: 5646
+0
+0
+Cube Count: 5647
+1
+1
+Cube Count: 5648
+0
+0
+Cube Count: 5649
+10000010
+2
+Cube Count: 5650
+10100010
+2
+Cube Count: 5651
+11000000
+0
+Cube Count: 5652
+100110
+6
+Cube Count: 5653
+0
+0
+Cube Count: 5654
+101110
+6
+Cube Count: 5655
+1000000
+0
+Cube Count: 5656
+100110
+6
+Cube Count: 5657
+10000010
+2
+Cube Count: 5658
+10
+2
+Cube Count: 5659
+0
+0
+Cube Count: 5660
+10000011
+3
+Cube Count: 5661
+10100010
+2
+Cube Count: 5662
+0
+0
+Cube Count: 5663
+100111
+7
+Cube Count: 5664
+0
+0
+Cube Count: 5665
+11001
+1
+Cube Count: 5666
+10
+2
+Cube Count: 5667
+10
+2
+Cube Count: 5668
+10010110
+6
+Cube Count: 5669
+10
+2
+Cube Count: 5670
+100110
+6
+Cube Count: 5671
+10000000
+0
+Cube Count: 5672
+11001
+1
+Cube Count: 5673
+10000000
+0
+Cube Count: 5674
+10000011
+3
+Cube Count: 5675
+11010
+2
+Cube Count: 5676
+0
+0
+Cube Count: 5677
+100111
+7
+Cube Count: 5678
+1011000
+0
+Cube Count: 5679
+11001
+1
+Cube Count: 5680
+0
+0
+Cube Count: 5681
+11
+3
+Cube Count: 5682
+10000010
+2
+Cube Count: 5683
+0
+0
+Cube Count: 5684
+10
+2
+Cube Count: 5685
+10100010
+2
+Cube Count: 5686
+11000000
+0
+Cube Count: 5687
+100110
+6
+Cube Count: 5688
+1000000
+0
+Cube Count: 5689
+101110
+6
+Cube Count: 5690
+0
+0
+Cube Count: 5691
+100111
+7
+Cube Count: 5692
+10000010
+2
+Cube Count: 5693
+10000010
+2
+Cube Count: 5694
+10
+2
+Cube Count: 5695
+11
+3
+Cube Count: 5696
+10000010
+2
+Cube Count: 5697
+10000011
+3
+Cube Count: 5698
+10100010
+2
+Cube Count: 5699
+0
+0
+Cube Count: 5700
+11010
+2
+Cube Count: 5701
+10000000
+0
+Cube Count: 5702
+10000000
+0
+Cube Count: 5703
+10000000
+0
+Cube Count: 5704
+10000000
+0
+Cube Count: 5705
+10010110
+6
+Cube Count: 5706
+10
+2
+Cube Count: 5707
+101
+5
+Cube Count: 5708
+0
+0
+Cube Count: 5709
+0
+0
+Cube Count: 5710
+1100
+4
+Cube Count: 5711
+11001
+1
+Cube Count: 5712
+10
+2
+Cube Count: 5713
+10010110
+6
+Cube Count: 5714
+10
+2
+Cube Count: 5715
+10
+2
+Cube Count: 5716
+10
+2
+Cube Count: 5717
+10010110
+6
+Cube Count: 5718
+10
+2
+Cube Count: 5719
+10010110
+6
+Cube Count: 5720
+10
+2
+Cube Count: 5721
+10010110
+6
+Cube Count: 5722
+10
+2
+Cube Count: 5723
+10010110
+6
+Cube Count: 5724
+10
+2
+Cube Count: 5725
+0
+0
+Cube Count: 5726
+1101
+5
+Cube Count: 5727
+100100
+4
+Cube Count: 5728
+10000011
+3
+Cube Count: 5729
+10101
+5
+Cube Count: 5730
+0
+0
+Cube Count: 5731
+1000
+0
+Cube Count: 5732
+10100011
+3
+Cube Count: 5733
+10000000
+0
+Cube Count: 5734
+11001
+1
+Cube Count: 5735
+10
+2
+Cube Count: 5736
+10010110
+6
+Cube Count: 5737
+10
+2
+Cube Count: 5738
+10010110
+6
+Cube Count: 5739
+10
+2
+Cube Count: 5740
+10010110
+6
+Cube Count: 5741
+10
+2
+Cube Count: 5742
+10010110
+6
+Cube Count: 5743
+10
+2
+Cube Count: 5744
+0
+0
+Cube Count: 5745
+1101
+5
+Cube Count: 5746
+100100
+4
+Cube Count: 5747
+0
+0
+Cube Count: 5748
+110000
+0
+Cube Count: 5749
+0
+0
+Cube Count: 5750
+11000
+0
+Cube Count: 5751
+0
+0
+Cube Count: 5752
+101110
+6
+Cube Count: 5753
+1
+1
+Cube Count: 5754
+10100010
+2
+Cube Count: 5755
+0
+0
+Cube Count: 5756
+11010
+2
+Cube Count: 5757
+0
+0
+Cube Count: 5758
+10101
+5
+Cube Count: 5759
+0
+0
+Cube Count: 5760
+11
+3
+Cube Count: 5761
+1
+1
+Cube Count: 5762
+11
+3
+Cube Count: 5763
+1
+1
+Cube Count: 5764
+1
+1
+Cube Count: 5765
+1
+1
+Cube Count: 5766
+1
+1
+Cube Count: 5767
+0
+0
+Cube Count: 5768
+0
+0
+Cube Count: 5769
+11
+3
+Cube Count: 5770
+1
+1
+Cube Count: 5771
+1
+1
+Cube Count: 5772
+1
+1
+Cube Count: 5773
+1
+1
+Cube Count: 5774
+1
+1
+Cube Count: 5775
+1
+1
+Cube Count: 5776
+1
+1
+Cube Count: 5777
+1
+1
+Cube Count: 5778
+1
+1
+Cube Count: 5779
+1
+1
+Cube Count: 5780
+1
+1
+Cube Count: 5781
+1
+1
+Cube Count: 5782
+1
+1
+Cube Count: 5783
+1
+1
+Cube Count: 5784
+1
+1
+Cube Count: 5785
+0
+0
+Cube Count: 5786
+10100011
+3
+Cube Count: 5787
+0
+0
+Cube Count: 5788
+10111
+7
+Cube Count: 5789
+0
+0
+Cube Count: 5790
+110000
+0
+Cube Count: 5791
+0
+0
+Cube Count: 5792
+1
+1
+Cube Count: 5793
+1
+1
+Cube Count: 5794
+1
+1
+Cube Count: 5795
+1
+1
+Cube Count: 5796
+0
+0
+Cube Count: 5797
+10
+2
+Cube Count: 5798
+11
+3
+Cube Count: 5799
+11
+3
+Cube Count: 5800
+1
+1
+Cube Count: 5801
+10
+2
+Cube Count: 5802
+11
+3
+Cube Count: 5803
+11
+3
+Cube Count: 5804
+1
+1
+Cube Count: 5805
+1
+1
+Cube Count: 5806
+1
+1
+Cube Count: 5807
+1
+1
+Cube Count: 5808
+1
+1
+Cube Count: 5809
+1
+1
+Cube Count: 5810
+0
+0
+Cube Count: 5811
+0
+0
+Cube Count: 5812
+11
+3
+Cube Count: 5813
+1
+1
+Cube Count: 5814
+1
+1
+Cube Count: 5815
+1
+1
+Cube Count: 5816
+11
+3
+Cube Count: 5817
+1
+1
+Cube Count: 5818
+1
+1
+Cube Count: 5819
+1
+1
+Cube Count: 5820
+1
+1
+Cube Count: 5821
+1
+1
+Cube Count: 5822
+1
+1
+Cube Count: 5823
+1
+1
+Cube Count: 5824
+1
+1
+Cube Count: 5825
+1
+1
+Cube Count: 5826
+1
+1
+Cube Count: 5827
+1
+1
+Cube Count: 5828
+1
+1
+Cube Count: 5829
+1
+1
+Cube Count: 5830
+1
+1
+Cube Count: 5831
+1
+1
+Cube Count: 5832
+1
+1
+Cube Count: 5833
+1
+1
+Cube Count: 5834
+1
+1
+Cube Count: 5835

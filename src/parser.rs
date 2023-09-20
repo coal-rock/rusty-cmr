@@ -4,6 +4,7 @@ use std::{borrow::Cow, num};
 pub struct Parser {
     pub input: Vec<u8>,
     pub position: usize,
+    pub cube_count: i32,
 }
 
 #[derive(Debug)]
@@ -158,7 +159,11 @@ pub struct Geometry {
 
 impl Parser {
     pub fn new(input: Vec<u8>) -> Self {
-        Parser { input, position: 0 }
+        Parser {
+            input,
+            position: 0,
+            cube_count: 0,
+        }
     }
 
     pub fn parse_map(&mut self) {
@@ -193,8 +198,15 @@ impl Parser {
             entities.push(entity);
         }
 
-        let world_root =
-            self.parse_children(&IVector { x: 0, y: 0, z: 0 }, header.world_size as i32 >> 1);
+        for _ in 0..68 {
+            self.read_byte();
+        }
+
+        let world_root = self.parse_children(
+            &IVector { x: 0, y: 0, z: 0 },
+            header.world_size as i32 >> 1,
+            &mut false,
+        );
         println!("{}", serde_json::to_string_pretty(&world_root).unwrap());
 
         // self.parse_cube(None, None);
@@ -248,7 +260,7 @@ impl Parser {
 
     fn parse_texture_mru(&mut self) -> Vec<u16> {
         let texture_mru_len = self.parse_to_u16();
-        println!("{}", texture_mru_len);
+
         let mut texture_mru = vec![];
 
         for _ in 0..texture_mru_len {
@@ -303,7 +315,7 @@ impl Parser {
                 29 => EntityType::PH16,
                 30 => EntityType::Flag,
                 31 => EntityType::MaxEntTypes,
-                _ => todo!("{:#?}", self.input[self.position - 3]),
+                _ => todo!("{:#?}", self.input[self.position - 1]),
             },
         };
 
@@ -319,17 +331,20 @@ impl Parser {
         cube: Box<Option<Cube>>,
         co: &IVector,
         size: u32,
+        failed: &mut bool,
     ) -> Box<Option<Cube>> {
         let mut has_children = false;
         let oct_sav = self.read_byte();
 
+        let position = self.position;
         let mut cube = cube.unwrap();
 
-        println!("{}", oct_sav & 0x7);
+        println!("{}", oct_sav);
+        // println!("Cube Count: {}", self.cube_count);
         match oct_sav & 0x7 {
             // Children
             0 => {
-                cube.children = self.parse_children(co, size as i32 >> 1);
+                cube.children = self.parse_children(co, size as i32 >> 1, failed);
                 return Box::new(Some(cube));
             }
             // Empty
@@ -348,7 +363,10 @@ impl Parser {
             }
             // LODCube
             4 => has_children = true,
-            _ => return Box::new(Some(cube)),
+            _ => {
+                *failed = false;
+                return Box::new(Some(cube));
+            }
         }
 
         for i in 0..6 {
@@ -407,24 +425,24 @@ impl Parser {
 
                     if layer_verts == 4 {
                         if has_xyz && (vert_mask & 0x01) != 0 {
-                            self.read_byte();
-                            self.read_byte();
-                            self.read_byte();
-                            self.read_byte();
+                            self.parse_to_u16();
+                            self.parse_to_u16();
+                            self.parse_to_u16();
+                            self.parse_to_u16();
 
                             has_xyz = false;
                         }
                         if has_uv && (vert_mask & 0x02) != 0 {
-                            self.read_byte();
-                            self.read_byte();
-                            self.read_byte();
-                            self.read_byte();
+                            self.parse_to_u16();
+                            self.parse_to_u16();
+                            self.parse_to_u16();
+                            self.parse_to_u16();
 
                             if surf_num_verts & (1 << 7) != 0 {
-                                self.read_byte();
-                                self.read_byte();
-                                self.read_byte();
-                                self.read_byte();
+                                self.parse_to_u16();
+                                self.parse_to_u16();
+                                self.parse_to_u16();
+                                self.parse_to_u16();
                             }
 
                             has_uv = false;
@@ -432,22 +450,22 @@ impl Parser {
                     }
 
                     if has_norm && (vert_mask & 0x08) != 0 {
-                        self.read_byte();
+                        self.parse_to_u16();
                         has_norm = false;
                     }
 
                     if has_xyz || has_uv || has_norm {
                         for _ in 0..layer_verts {
                             if has_xyz {
-                                self.read_byte();
-                                self.read_byte();
+                                self.parse_to_u16();
+                                self.parse_to_u16();
                             }
                             if has_uv {
-                                self.read_byte();
-                                self.read_byte();
+                                self.parse_to_u16();
+                                self.parse_to_u16();
                             }
                             if has_norm {
-                                self.read_byte();
+                                self.parse_to_u16();
                             }
                         }
                     }
@@ -462,7 +480,7 @@ impl Parser {
         }
 
         cube.children = if has_children {
-            self.parse_children(co, size as i32 >> 1)
+            self.parse_children(co, size as i32 >> 1, failed)
         } else {
             vec![
                 Box::new(None),
@@ -495,7 +513,7 @@ impl Parser {
         ];
 
         for i in 0..8 {
-            let mut cube = Cube {
+            let cube = Cube {
                 children: vec![
                     Box::new(None),
                     Box::new(None),
@@ -520,7 +538,12 @@ impl Parser {
         cubes
     }
 
-    fn parse_children<'a>(&mut self, co: &IVector, size: i32) -> Vec<Box<Option<Cube>>> {
+    fn parse_children<'a>(
+        &mut self,
+        co: &IVector,
+        size: i32,
+        failed: &mut bool,
+    ) -> Vec<Box<Option<Cube>>> {
         let cubes = Parser::new_cubes(None, None);
 
         let mut parsed_cubes: Vec<Box<Option<Cube>>> = vec![
@@ -535,7 +558,11 @@ impl Parser {
         ];
 
         for (i, cube) in cubes.into_iter().enumerate() {
-            parsed_cubes[i] = self.parse_cube(cube, co, size.try_into().unwrap());
+            self.cube_count += 1;
+            parsed_cubes[i] = self.parse_cube(cube, co, size.try_into().unwrap(), failed);
+            if *failed {
+                break;
+            };
         }
 
         parsed_cubes
@@ -574,8 +601,19 @@ impl Parser {
     }
 
     fn read_byte(&mut self) -> u8 {
+        if self.position >= self.input.len() {
+            return 169;
+        }
+
         let byte = self.input[self.position];
         self.position += 1;
+        println!("read");
         byte
+    }
+
+    fn break_here(&self) {}
+
+    fn is_at_end(&mut self) -> bool {
+        self.position >= self.input.len()
     }
 }
