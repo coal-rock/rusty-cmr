@@ -101,10 +101,9 @@ pub enum EntityType {
     Flag,
     MaxEntTypes,
 }
-
 #[derive(Debug)]
 pub struct VSlot {
-    // slot: &Slot,
+    slot: Slot,
     next: Box<Option<VSlot>>,
     index: i32,
     changed: i32,
@@ -125,8 +124,40 @@ pub struct VSlot {
 pub struct Slot {
     slot: Box<Option<Slot>>,
     index: i32,
-    sts: Vec<Texture>,
+    sts: Vec<Tex>,
     shader: Shader,
+    params: Vec<SlotShaderParam>,
+    variants: Vec<VSlot>,
+    loaded: bool,
+    tex_mask: u32,
+    auto_grass: i8,
+    grass_tex: Texture,
+    thumbnail: Texture,
+    layer_mask_name: String,
+    layer_mask_mode: i32,
+    layer_mask_scale: f32,
+    layer_mask: ImageData,
+}
+
+#[derive(Debug)]
+pub struct ImageData {
+    width: i32,
+    h: i32,
+    bpp: i32,
+    levels: i32,
+    align: i32,
+    pitch: i32,
+    compressed: u32,
+    // void *owner;
+    // void (*freefunc)(void *);
+}
+
+#[derive(Debug)]
+pub struct Tex {
+    tex_type: i32,
+    texture: Texture,
+    name: String,
+    combined: i32,
 }
 
 #[derive(Debug)]
@@ -156,9 +187,97 @@ pub struct Shader {
     program: u32, // GLuint
     vs_obj: u32,  // GLuint
     ps_obj: u32,  // GLuint
+    default_params: Vec<SlotShaderParamState>,
+    global_params: Vec<GlobalShaderParamUse>,
+    local_params: Vec<LocalShaderParamState>,
+    local_param_remap: Vec<u8>,
+    detail_shader: Box<Option<Shader>>,
+    variant_shader: Box<Option<Shader>>,
+    alt_shader: Box<Option<Shader>>,
+    fast_shader: (
+        Box<Option<Shader>>,
+        Box<Option<Shader>>,
+        Box<Option<Shader>>,
+    ), // 3 fields because MAXSHADERDETAIL = 3
+    variants: Vec<Box<Option<Shader>>>,
+    variant_rows: u16,
+    standard: bool,
+    forced: bool,
+    used: bool,
+    reuse_vs: Box<Option<Shader>>,
+    reuse_ps: Box<Option<Shader>>,
+    uniform_locs: Vec<Box<Option<UniformLoc>>>,
+    attrib_locs: Vec<Box<Option<AttribLoc>>>,
+    //const void *owner;
 }
 
-pub struct 
+#[derive(Debug)]
+pub struct SlotShaderParamState {
+    value: (f32, f32, f32, f32),
+    name: String,
+    location: i32,
+    size: i32,
+    format: u32, // GLenum
+}
+
+#[derive(Debug)]
+pub struct GlobalShaderParamState {
+    name: String,
+    value: GlobalShaderParamStateValue,
+    version: i32,
+    next_version: i32,
+}
+
+#[derive(Debug)]
+pub enum GlobalShaderParamStateValue {
+    Float(Vec<f32>), // 32
+    Int(Vec<i32>),   // 31
+    UInt(Vec<u32>),  // 32
+    UChar(Vec<u8>),  // 32 * sizeof(float)
+}
+
+#[derive(Debug)]
+pub struct GlobalShaderParamUse {
+    param: GlobalShaderParamState,
+    version: i32,
+    location: i32,
+    size: i32,
+    format: u32, // GLenum
+}
+
+#[derive(Debug)]
+struct LocalShaderParamState {
+    name: String,
+    location: i32,
+    size: i32,
+    format: u32, // GLenum
+}
+
+#[derive(Debug)]
+pub struct ShaderParamBinding {
+    location: i32,
+    size: i32,
+    format: u32, // GLenum
+}
+
+#[derive(Debug)]
+struct AttribLoc {
+    name: String,
+    loc: i32,
+}
+
+#[derive(Debug)]
+struct UniformLoc {
+    name: String,
+    block_name: String,
+    loc: i32,
+    verison: i32,
+    binding: i32,
+    stride: i32,
+    offset: i32,
+    size: i32,
+    //void *data;
+}
 
 pub enum TextureType {
     Image,
