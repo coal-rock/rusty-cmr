@@ -711,11 +711,13 @@ impl Parser {
         for i in 0..lightmap_count {
             let mut lightmap = LightMap::new();
 
-            lightmap.map_type = (self.read_byte() & 0x7F) as i32;
+            let map_type = self.read_byte();
+
+            lightmap.map_type = (map_type & 0x7F) as i32;
             lightmap.unlit_x = 0;
             lightmap.unlit_y = 0;
 
-            if lightmap.map_type & 0x80 != 0 {
+            if (map_type & 0x80) != 0 {
                 lightmap.unlit_x = self.parse_to_u16() as i32;
                 lightmap.unlit_y = self.parse_to_u16() as i32;
             }
@@ -738,6 +740,8 @@ impl Parser {
 
         lightmaps
     }
+
+    fn parse_pvs(&mut self, pvs_count: i32) {}
 
     // FIXME:
     // baggage from cardboard, looks weird bc works around odd
