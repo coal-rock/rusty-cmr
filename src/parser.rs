@@ -585,8 +585,10 @@ impl Parser {
                 println!("Changed: {}", changed);
                 for _ in 0..changed.abs() {
                     vslots.push(Box::new(VSlot::new(None, vslots.len() as i32)));
-                    *vslot_count += changed;
                 }
+                *vslot_count += changed;
+                println!("vslot_count: {}", vslot_count);
+                self.break_here();
             } else {
                 println!("Unchanged: {}", vslot_count);
                 prev[vslots.len()] = self.parse_to_i32();
