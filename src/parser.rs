@@ -1,10 +1,11 @@
 use serde::{Deserialize, Serialize};
-use std::{borrow::Cow, num};
+use std::collections::HashSet;
 
 pub struct Parser {
     pub input: Vec<u8>,
     pub position: usize,
     pub cube_count: i32,
+    pub shader_param_names: HashSet<String>,
 }
 
 #[derive(Debug)]
@@ -53,14 +54,14 @@ pub struct Position {
     z: f32,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Vector3<T> {
     x: T,
     y: T,
     z: T,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Vector2<T> {
     x: T,
     y: T,
@@ -101,9 +102,9 @@ pub enum EntityType {
     Flag,
     MaxEntTypes,
 }
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct VSlot {
-    slot: Slot,
+    slot: Option<Slot>,
     next: Box<Option<VSlot>>,
     index: i32,
     changed: i32,
@@ -120,7 +121,37 @@ pub struct VSlot {
     glow_color: Vector3<f32>,
 }
 
-#[derive(Debug)]
+impl VSlot {
+    pub fn new(slot: Option<Slot>, index: i32) -> VSlot {
+        VSlot {
+            slot,
+            next: Box::new(None),
+            index,
+            changed: 0,
+            params: vec![],
+            linked: false,
+            scale: 1.0,
+            rotation: 0,
+            offset: Vector2::<i32> { x: 0, y: 0 },
+            scroll: Vector2::<f32> { x: 0.0, y: 0.0 },
+            layer: 0,
+            alpha_front: 0.5,
+            alpha_back: 0.0,
+            color_scale: Vector3 {
+                x: 1.0,
+                y: 1.0,
+                z: 1.0,
+            },
+            glow_color: Vector3 {
+                x: 1.0,
+                y: 1.0,
+                z: 1.0,
+            },
+        }
+    }
+}
+
+#[derive(Debug, Clone)]
 pub struct Slot {
     slot: Box<Option<Slot>>,
     index: i32,
@@ -139,7 +170,7 @@ pub struct Slot {
     layer_mask: ImageData,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct ImageData {
     width: i32,
     h: i32,
@@ -152,7 +183,7 @@ pub struct ImageData {
     // void (*freefunc)(void *);
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Tex {
     tex_type: i32,
     texture: Texture,
@@ -160,7 +191,7 @@ pub struct Tex {
     combined: i32,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Texture {
     name: String,
     tex_type: i32,
@@ -176,7 +207,7 @@ pub struct Texture {
     alpha_mask: String,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Shader {
     last_shader: Box<Option<Shader>>,
     name: String,
@@ -211,7 +242,7 @@ pub struct Shader {
     //const void *owner;
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct SlotShaderParamState {
     value: (f32, f32, f32, f32),
     name: String,
@@ -220,7 +251,7 @@ pub struct SlotShaderParamState {
     format: u32, // GLenum
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct GlobalShaderParamState {
     name: String,
     value: GlobalShaderParamStateValue,
@@ -228,7 +259,7 @@ pub struct GlobalShaderParamState {
     next_version: i32,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub enum GlobalShaderParamStateValue {
     Float(Vec<f32>), // 32
     Int(Vec<i32>),   // 31
@@ -236,7 +267,7 @@ pub enum GlobalShaderParamStateValue {
     UChar(Vec<u8>),  // 32 * sizeof(float)
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct GlobalShaderParamUse {
     param: GlobalShaderParamState,
     version: i32,
@@ -245,7 +276,7 @@ pub struct GlobalShaderParamUse {
     format: u32, // GLenum
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 struct LocalShaderParamState {
     name: String,
     location: i32,
@@ -260,13 +291,13 @@ pub struct ShaderParamBinding {
     format: u32, // GLenum
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 struct AttribLoc {
     name: String,
     loc: i32,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 struct UniformLoc {
     name: String,
     block_name: String,
@@ -292,7 +323,7 @@ pub enum TextureType {
     Flags,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct SlotShaderParam {
     name: String,
     loc: i32,
@@ -366,14 +397,19 @@ impl Parser {
             input,
             position: 0,
             cube_count: 0,
+            shader_param_names: HashSet::new(),
         }
     }
 
     pub fn parse_map(&mut self) {
+        println!("{}", self.position);
+
         let header = self.parse_header();
         // println!("{:#?}", header);
 
         let mut vars = Vec::new();
+
+        println!("{}", self.position);
 
         for _ in 0..header.number_vars {
             let variable = self.parse_variable();
@@ -381,20 +417,26 @@ impl Parser {
             vars.push(variable);
         }
 
+        println!("{}", self.position);
+
         let game_ident = self.parse_game_ident();
         // println!("{:#?}", game_ident);
 
-        // load bearing printlns
-        println!("{}", self.read_byte());
-        println!("{}", self.read_byte());
-        println!("{}", self.read_byte());
-        println!("{}", self.read_byte());
+        self.read_byte();
+        self.read_byte();
+        self.read_byte();
+        self.read_byte();
 
         let texture_mru = self.parse_texture_mru();
         // println!("{:#?}", texture_mru);
 
+        self.break_here();
+        let position = self.position;
+
         println!("{:#?}", header);
         let mut entities = vec![];
+
+        println!("{}", self.position);
 
         for _ in 0..header.number_ents {
             let entity = self.parse_entity();
@@ -402,9 +444,12 @@ impl Parser {
             entities.push(entity);
         }
 
-        for _ in 0..68 {
-            self.read_byte();
-        }
+        println!("{}", self.position);
+
+        let mut vslot_num = header.number_vslots.clone() as i32;
+        println!("{:#?}", self.parse_vslots(&mut vslot_num).len());
+
+        println!("{}", self.position);
 
         let world_root = self.parse_children(
             &Vector3::<i32> { x: 0, y: 0, z: 0 },
@@ -529,9 +574,130 @@ impl Parser {
         ent
     }
 
-    fn parse_vslots(&mut self, vslot_count: i32) -> Vec<VSlot> {}
+    fn parse_vslots(&mut self, vslot_count: &mut i32) -> Vec<Box<VSlot>> {
+        let mut prev = vec![-1; *vslot_count as usize];
+        let mut vslots: Vec<Box<VSlot>> = vec![];
 
-    fn parse_vslot(&mut self, changed: i32) -> VSlot {}
+        while vslot_count > &mut 0 {
+            let changed = self.parse_to_i32();
+
+            if changed < 0 {
+                println!("Changed: {}", changed);
+                for _ in 0..changed.abs() {
+                    vslots.push(Box::new(VSlot::new(None, vslots.len() as i32)));
+                    *vslot_count += changed;
+                }
+            } else {
+                println!("Unchanged: {}", vslot_count);
+                prev[vslots.len()] = self.parse_to_i32();
+                vslots.push(self.parse_vslot(vslots.len() as i32, changed));
+                *vslot_count -= 1;
+            }
+        }
+
+        for pos in 0..vslots.len() {
+            if prev[pos] >= 0 && prev[pos] < vslots.len() as i32 {
+                vslots[prev[pos as usize] as usize].next =
+                    Box::new(Some(*vslots[pos as usize].clone()));
+                // FIXME: calling clone on a possibly recursive struct doesn't sound very
+                // O(log(n)) to me :(
+            }
+        }
+
+        vslots
+    }
+
+    fn parse_vslot(&mut self, vslot_length: i32, changed: i32) -> Box<VSlot> {
+        let mut vslot = VSlot::new(None, vslot_length);
+        vslot.changed = changed;
+
+        // VSLOT_SHPARAM = 0
+        if vslot.changed & (1 << 0) != 0 {
+            let num_params = self.parse_to_u16();
+            let mut name = String::new();
+
+            for _ in 0..num_params {
+                // TODO: implement MAXSTRLEN
+                let nlen = self.parse_to_u16();
+                name = self.parse_to_string(nlen);
+                // name.push('\0');
+
+                name = self.get_shader_param_name(name, true);
+
+                println!("{:#?}", name);
+                let param = SlotShaderParam {
+                    name,
+                    loc: -1,
+                    values: (
+                        self.parse_to_f32(),
+                        self.parse_to_f32(),
+                        self.parse_to_f32(),
+                        self.parse_to_f32(),
+                    ),
+                };
+
+                vslot.params.push(param);
+            }
+        }
+
+        // VSLOT_SCALE = 1
+        if vslot.changed & (1 << 1) != 0 {
+            vslot.scale = self.parse_to_f32();
+        }
+
+        // VSLOT_ROTATION = 2
+        if vslot.changed & (1 << 2) != 0 {
+            vslot.rotation = self.parse_to_i32().clamp(0, 7);
+        }
+
+        // VSLOT_OFFSET = 3
+        if vslot.changed & (1 << 3) != 0 {
+            vslot.offset.x = self.parse_to_i32();
+            vslot.offset.y = self.parse_to_i32();
+        }
+
+        // VSLOT_SCROLL = 4
+        if vslot.changed & (1 << 4) != 0 {
+            vslot.scroll.x = self.parse_to_f32();
+            vslot.scroll.y = self.parse_to_f32();
+        }
+
+        // VSLOT_LAYER = 5
+        if vslot.changed & (1 << 5) != 0 {
+            vslot.layer = self.parse_to_i32();
+        }
+
+        // VSLOT_ALPHA = 6
+        if vslot.changed & (1 << 6) != 0 {
+            vslot.alpha_front = self.parse_to_f32();
+            vslot.alpha_back = self.parse_to_f32();
+        }
+
+        // VSLOT_COLOR = 7
+        if vslot.changed & (1 << 7) != 0 {
+            vslot.color_scale = Vector3::<f32> {
+                x: self.parse_to_f32(),
+                y: self.parse_to_f32(),
+                z: self.parse_to_f32(),
+            }
+        }
+
+        Box::new(vslot)
+    }
+
+    // FIXME:
+    // baggage from cardboard, looks weird bc works around odd
+    // behaivior of HashSets in cardboard
+    fn get_shader_param_name(&mut self, name: String, insert: bool) -> String {
+        let exists = self.shader_param_names.get(&name.clone());
+
+        if exists.is_some() || !insert {
+            return exists.unwrap().to_string();
+        } else {
+            self.shader_param_names.insert(name.clone());
+            name.clone()
+        }
+    }
 
     // copied almost verbatim from cardboard
     fn parse_cube<'a>(
@@ -544,7 +710,6 @@ impl Parser {
         let mut has_children = false;
         let oct_sav = self.read_byte();
 
-        let position = self.position;
         let mut cube = cube.unwrap();
 
         match oct_sav & 0x7 {
@@ -782,6 +947,17 @@ impl Parser {
         }
 
         string
+    }
+
+    // TODO:
+    // make these generic
+    fn parse_to_i32(&mut self) -> i32 {
+        i32::from_le_bytes([
+            self.read_byte(),
+            self.read_byte(),
+            self.read_byte(),
+            self.read_byte(),
+        ])
     }
 
     fn parse_to_u32(&mut self) -> u32 {
