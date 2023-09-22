@@ -332,7 +332,6 @@ pub struct SlotShaderParam {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Cube {
-    #[serde(skip_serializing_if = "Vec::is_empty", default)]
     children: Vec<Box<Option<Cube>>>, // "points to 8 cube structures which are its children, or NULL. -Z first, then -Y, -X"
     edge_face: EdgeFace,
     textures: [u16; 6], // "one for each face. same order as orient." (6 entries)
@@ -402,14 +401,9 @@ impl Parser {
     }
 
     pub fn parse_map(&mut self) {
-        println!("{}", self.position);
-
         let header = self.parse_header();
-        // println!("{:#?}", header);
 
         let mut vars = Vec::new();
-
-        println!("{}", self.position);
 
         for _ in 0..header.number_vars {
             let variable = self.parse_variable();
@@ -417,10 +411,7 @@ impl Parser {
             vars.push(variable);
         }
 
-        println!("{}", self.position);
-
         let game_ident = self.parse_game_ident();
-        // println!("{:#?}", game_ident);
 
         self.read_byte();
         self.read_byte();
@@ -428,15 +419,8 @@ impl Parser {
         self.read_byte();
 
         let texture_mru = self.parse_texture_mru();
-        // println!("{:#?}", texture_mru);
 
-        self.break_here();
-        let position = self.position;
-
-        println!("{:#?}", header);
         let mut entities = vec![];
-
-        println!("{}", self.position);
 
         for _ in 0..header.number_ents {
             let entity = self.parse_entity();
@@ -444,21 +428,13 @@ impl Parser {
             entities.push(entity);
         }
 
-        println!("{}", self.position);
-
         let mut vslot_num = header.number_vslots.clone() as i32;
-        println!("{:#?}", self.parse_vslots(&mut vslot_num).len());
-
-        println!("{}", self.position);
 
         let world_root = self.parse_children(
             &Vector3::<i32> { x: 0, y: 0, z: 0 },
             header.world_size as i32 >> 1,
             &mut false,
         );
-        // println!("{}", serde_json::to_string_pretty(&world_root).unwrap());
-
-        // self.parse_cube(None, None);
     }
 
     fn parse_header(&mut self) -> MapHeader {
@@ -587,10 +563,8 @@ impl Parser {
                     vslots.push(Box::new(VSlot::new(None, vslots.len() as i32)));
                 }
                 *vslot_count += changed;
-                println!("vslot_count: {}", vslot_count);
                 self.break_here();
             } else {
-                println!("Unchanged: {}", vslot_count);
                 prev[vslots.len()] = self.parse_to_i32();
                 vslots.push(self.parse_vslot(vslots.len() as i32, changed));
                 *vslot_count -= 1;
@@ -626,7 +600,6 @@ impl Parser {
 
                 name = self.get_shader_param_name(name, true);
 
-                println!("{:#?}", name);
                 let param = SlotShaderParam {
                     name,
                     loc: -1,
@@ -988,11 +961,5 @@ impl Parser {
         let byte = self.input[self.position];
         self.position += 1;
         byte
-    }
-
-    fn break_here(&self) {}
-
-    fn is_at_end(&mut self) -> bool {
-        self.position >= self.input.len()
     }
 }
