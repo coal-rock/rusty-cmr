@@ -9,6 +9,17 @@ pub struct Parser {
 }
 
 #[derive(Debug)]
+pub struct Map {
+    header: MapHeader,
+    vars: Vec<Variable>,
+    game_ident: String,
+    texture_mru: Vec<u16>,
+    entities: Vec<Entity>,
+    vslots: Vec<VSlot>,
+    map: Vec<Box<Option<Cube>>>,
+}
+
+#[derive(Debug)]
 pub struct MapHeader {
     pub magic_field: String,
     pub version: u32,
@@ -16,7 +27,7 @@ pub struct MapHeader {
     pub world_size: u32,
     pub number_ents: u32,
     pub number_pvs: u32,
-    pub light_maps: u32,
+    pub number_lightmaps: u32,
     pub blend_map: u32,
     pub number_vars: u32,
     pub number_vslots: u32,
@@ -390,6 +401,36 @@ pub struct Geometry {
     edit_only: bool,
 }
 
+pub struct LightMap {
+    map_type: i32,
+    bpp: i32,
+    tex: i32,
+    offset_x: i32,
+    offset_y: i32,
+    lightmaps: u8,
+    lumels: u8,
+    unlit_x: i32,
+    unlit_y: i32,
+    data: Vec<u8>,
+}
+
+impl LightMap {
+    pub fn new() -> LightMap {
+        LightMap {
+            map_type: 0, // LM_DIFFUSE = 0
+            bpp: 3,
+            tex: -1,
+            offset_x: -1,
+            offset_y: -1,
+            lightmaps: 0,
+            lumels: 0,
+            unlit_x: -1,
+            unlit_y: -1,
+            data: vec![],
+        }
+    }
+}
+
 impl Parser {
     pub fn new(input: Vec<u8>) -> Self {
         Parser {
@@ -429,12 +470,17 @@ impl Parser {
         }
 
         let mut vslot_num = header.number_vslots.clone() as i32;
+        self.parse_vslots(&mut vslot_num);
 
         let world_root = self.parse_children(
             &Vector3::<i32> { x: 0, y: 0, z: 0 },
             header.world_size as i32 >> 1,
             &mut false,
         );
+
+        self.parse_lightmaps(header.number_lightmaps);
+
+        println!("{} / {}", self.position, self.input.len());
     }
 
     fn parse_header(&mut self) -> MapHeader {
@@ -445,7 +491,7 @@ impl Parser {
             world_size: self.parse_to_u32(),
             number_ents: self.parse_to_u32(),
             number_pvs: self.parse_to_u32(),
-            light_maps: self.parse_to_u32(),
+            number_lightmaps: self.parse_to_u32(),
             blend_map: self.parse_to_u32(),
             number_vars: self.parse_to_u32(),
             number_vslots: self.parse_to_u32(),
@@ -563,7 +609,6 @@ impl Parser {
                     vslots.push(Box::new(VSlot::new(None, vslots.len() as i32)));
                 }
                 *vslot_count += changed;
-                self.break_here();
             } else {
                 prev[vslots.len()] = self.parse_to_i32();
                 vslots.push(self.parse_vslot(vslots.len() as i32, changed));
@@ -660,6 +705,40 @@ impl Parser {
         Box::new(vslot)
     }
 
+    fn parse_lightmaps(&mut self, lightmap_count: u32) -> Vec<LightMap> {
+        let mut lightmaps = vec![];
+
+        for i in 0..lightmap_count {
+            let mut lightmap = LightMap::new();
+
+            lightmap.map_type = (self.read_byte() & 0x7F) as i32;
+            lightmap.unlit_x = 0;
+            lightmap.unlit_y = 0;
+
+            if lightmap.map_type & 0x80 != 0 {
+                lightmap.unlit_x = self.parse_to_u16() as i32;
+                lightmap.unlit_y = self.parse_to_u16() as i32;
+            }
+
+            // LM_ALPHA = 16 (1 << 4)
+            // LM_TYPE = 15
+            // LM_BUMPMAP1 = 2
+            if (lightmap.map_type & 16) != 0 && (lightmap.map_type & 15) != 2 {
+                lightmap.bpp = 4;
+            }
+
+            // LM_PACKW = 512
+            // LM_PACKH = 512
+            for _ in 0..(lightmap.bpp * 512 * 512) {
+                lightmap.data.push(self.read_byte());
+            }
+
+            lightmaps.push(lightmap);
+        }
+
+        lightmaps
+    }
+
     // FIXME:
     // baggage from cardboard, looks weird bc works around odd
     // behaivior of HashSets in cardboard
@@ -687,6 +766,9 @@ impl Parser {
 
         let mut cube = cube.unwrap();
 
+        // FIXME: none of the data read here is actually interpreted
+        // the minimum required to traverse the file is stored, but everything
+        // else is simply ignored
         match oct_sav & 0x7 {
             // Children
             0 => {
