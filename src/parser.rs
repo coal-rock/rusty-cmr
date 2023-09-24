@@ -533,7 +533,7 @@ impl Parser {
             texture_mru,
             entities,
             vslots,
-            map: todo!(),
+            map,
         };
     }
 
