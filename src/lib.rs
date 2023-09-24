@@ -1,4 +1,4 @@
-mod parser;
+pub mod parser;
 
 use flate2::bufread::GzDecoder;
 use parser::{Map, Parser};
