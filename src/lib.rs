@@ -1,8 +1,7 @@
 pub mod parser;
+pub use parser::*;
 
 use flate2::bufread::GzDecoder;
-use parser::{Map, Parser};
-
 use std::{fs::read, io::Read};
 
 // TODO:error handling here please
