@@ -47,7 +47,7 @@ pub struct Variable {
     name: String,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Entity {
     position: Position,
     attr1: u16,
@@ -58,7 +58,7 @@ pub struct Entity {
     ent_type: EntityType,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Position {
     x: f32,
     y: f32,
@@ -78,7 +78,7 @@ pub struct Vector2<T> {
     y: T,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub enum EntityType {
     Empty,
     Light,
@@ -431,6 +431,52 @@ impl LightMap {
     }
 }
 
+#[derive(Clone)]
+struct WaterPlane {
+    height: i32,
+    material_surfaces: Option<Vec<MaterialSurface>>,
+}
+
+impl WaterPlane {
+    pub fn new() -> WaterPlane {
+        WaterPlane {
+            height: 0,
+            material_surfaces: None,
+        }
+    }
+}
+
+#[derive(Clone)]
+struct MaterialSurface {
+    pos: Vector3<i32>,
+    c_size: u16,
+    r_size: u16,
+    material: u16,
+    skip: u16,
+    orient: u8,
+    visible: u8,
+    index_depth: IndexDepth,
+    light_envmap_ends: LightEnvMapEnds,
+}
+
+#[derive(Clone)]
+enum IndexDepth {
+    Index(i16),
+    Depth(i16),
+}
+
+#[derive(Clone)]
+enum LightEnvMapEnds {
+    Light(Entity),
+    EnvMap(u16),
+    Ends(u8),
+}
+
+pub struct PVSData {
+    offset: i32,
+    len: i32,
+}
+
 impl Parser {
     pub fn new(input: Vec<u8>) -> Self {
         Parser {
@@ -741,7 +787,34 @@ impl Parser {
         lightmaps
     }
 
-    fn parse_pvs(&mut self, pvs_count: i32) {}
+    fn parse_pvs(&mut self, pvs_count: i32) {
+        let mut total_len = self.parse_to_u32();
+        let mut num_water_planes = 0;
+        let mut water_planes: Vec<WaterPlane> = vec![WaterPlane::new(); 32];
+        let mut pvs: Vec<PVSData> = vec![];
+
+        if (total_len & 0x80000000) != 0 {
+            total_len &= !0x80000000;
+            num_water_planes = self.parse_to_u32();
+
+            for i in 0..num_water_planes {
+                water_planes[i as usize].height = self.parse_to_i32();
+            }
+        }
+
+        let mut offset = 0;
+
+        for i in 0..pvs_count {
+            let len = self.parse_to_u16();
+
+            pvs.push(PVSData {
+                offset: offset,
+                len: len as i32,
+            });
+
+            offset += len as i32;
+        }
+    }
 
     // FIXME:
     // baggage from cardboard, looks weird bc works around odd
