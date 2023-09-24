@@ -15,7 +15,7 @@ pub struct Map {
     game_ident: String,
     texture_mru: Vec<u16>,
     entities: Vec<Entity>,
-    vslots: Vec<VSlot>,
+    vslots: Vec<Box<VSlot>>,
     map: Vec<Box<Option<Cube>>>,
 }
 
@@ -487,7 +487,7 @@ impl Parser {
         }
     }
 
-    pub fn parse_map(&mut self) {
+    pub fn parse_map(&mut self) -> Map {
         let header = self.parse_header();
 
         let mut vars = Vec::new();
@@ -516,17 +516,25 @@ impl Parser {
         }
 
         let mut vslot_num = header.number_vslots.clone() as i32;
-        self.parse_vslots(&mut vslot_num);
+        let vslots = self.parse_vslots(&mut vslot_num);
 
-        let world_root = self.parse_children(
+        let map = self.parse_children(
             &Vector3::<i32> { x: 0, y: 0, z: 0 },
             header.world_size as i32 >> 1,
             &mut false,
         );
 
-        self.parse_lightmaps(header.number_lightmaps);
+        // self.parse_lightmaps(header.number_lightmaps);
 
-        println!("{} / {}", self.position, self.input.len());
+        return Map {
+            header,
+            vars,
+            game_ident,
+            texture_mru,
+            entities,
+            vslots,
+            map: todo!(),
+        };
     }
 
     fn parse_header(&mut self) -> MapHeader {
