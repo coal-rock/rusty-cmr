@@ -10,13 +10,13 @@ pub struct Parser {
 
 #[derive(Debug)]
 pub struct Map {
-    header: MapHeader,
-    vars: Vec<Variable>,
-    game_ident: String,
-    texture_mru: Vec<u16>,
-    entities: Vec<Entity>,
-    vslots: Vec<Box<VSlot>>,
-    map: Vec<Box<Option<Cube>>>,
+    pub header: MapHeader,
+    pub vars: Vec<Variable>,
+    pub game_ident: String,
+    pub texture_mru: Vec<u16>,
+    pub entities: Vec<Entity>,
+    pub vslots: Vec<Box<VSlot>>,
+    pub map: Vec<Box<Option<Cube>>>,
 }
 
 #[derive(Debug)]
