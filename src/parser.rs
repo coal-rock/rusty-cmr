@@ -288,7 +288,7 @@ pub struct GlobalShaderParamUse {
 }
 
 #[derive(Debug, Clone)]
-struct LocalShaderParamState {
+pub struct LocalShaderParamState {
     pub name: String,
     pub location: i32,
     pub size: i32,
@@ -303,13 +303,13 @@ pub struct ShaderParamBinding {
 }
 
 #[derive(Debug, Clone)]
-struct AttribLoc {
+pub struct AttribLoc {
     pub name: String,
     pub loc: i32,
 }
 
 #[derive(Debug, Clone)]
-struct UniformLoc {
+pub struct UniformLoc {
     pub name: String,
     pub block_name: String,
     pub loc: i32,
