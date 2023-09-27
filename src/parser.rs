@@ -42,40 +42,40 @@ pub enum VariableType {
 
 #[derive(Debug)]
 pub struct Variable {
-    var_type: VariableType,
-    name_len: u16,
-    name: String,
+    pub var_type: VariableType,
+    pub name_len: u16,
+    pub name: String,
 }
 
 #[derive(Debug, Clone)]
 pub struct Entity {
-    position: Position,
-    attr1: u16,
-    attr2: u16,
-    attr3: u16,
-    attr4: u16,
-    attr5: u16,
-    ent_type: EntityType,
+    pub position: Position,
+    pub attr1: u16,
+    pub attr2: u16,
+    pub attr3: u16,
+    pub attr4: u16,
+    pub attr5: u16,
+    pub ent_type: EntityType,
 }
 
 #[derive(Debug, Clone)]
 pub struct Position {
-    x: f32,
-    y: f32,
-    z: f32,
+    pub x: f32,
+    pub y: f32,
+    pub z: f32,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Vector3<T> {
-    x: T,
-    y: T,
-    z: T,
+    pub x: T,
+    pub y: T,
+    pub z: T,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Vector2<T> {
-    x: T,
-    y: T,
+    pub x: T,
+    pub y: T,
 }
 
 #[derive(Debug, Clone)]
@@ -115,21 +115,21 @@ pub enum EntityType {
 }
 #[derive(Debug, Clone)]
 pub struct VSlot {
-    slot: Option<Slot>,
-    next: Box<Option<VSlot>>,
-    index: i32,
-    changed: i32,
-    params: Vec<SlotShaderParam>,
-    linked: bool,
-    scale: f32,
-    rotation: i32,
-    offset: Vector2<i32>,
-    scroll: Vector2<f32>,
-    layer: i32,
-    alpha_front: f32,
-    alpha_back: f32,
-    color_scale: Vector3<f32>,
-    glow_color: Vector3<f32>,
+    pub slot: Option<Slot>,
+    pub next: Box<Option<VSlot>>,
+    pub index: i32,
+    pub changed: i32,
+    pub params: Vec<SlotShaderParam>,
+    pub linked: bool,
+    pub scale: f32,
+    pub rotation: i32,
+    pub offset: Vector2<i32>,
+    pub scroll: Vector2<f32>,
+    pub layer: i32,
+    pub alpha_front: f32,
+    pub alpha_back: f32,
+    pub color_scale: Vector3<f32>,
+    pub glow_color: Vector3<f32>,
 }
 
 impl VSlot {
@@ -164,110 +164,110 @@ impl VSlot {
 
 #[derive(Debug, Clone)]
 pub struct Slot {
-    slot: Box<Option<Slot>>,
-    index: i32,
-    sts: Vec<Tex>,
-    shader: Shader,
-    params: Vec<SlotShaderParam>,
-    variants: Vec<VSlot>,
-    loaded: bool,
-    tex_mask: u32,
-    auto_grass: i8,
-    grass_tex: Texture,
-    thumbnail: Texture,
-    layer_mask_name: String,
-    layer_mask_mode: i32,
-    layer_mask_scale: f32,
-    layer_mask: ImageData,
+    pub slot: Box<Option<Slot>>,
+    pub index: i32,
+    pub sts: Vec<Tex>,
+    pub shader: Shader,
+    pub params: Vec<SlotShaderParam>,
+    pub variants: Vec<VSlot>,
+    pub loaded: bool,
+    pub tex_mask: u32,
+    pub auto_grass: i8,
+    pub grass_tex: Texture,
+    pub thumbnail: Texture,
+    pub layer_mask_name: String,
+    pub layer_mask_mode: i32,
+    pub layer_mask_scale: f32,
+    pub layer_mask: ImageData,
 }
 
 #[derive(Debug, Clone)]
 pub struct ImageData {
-    width: i32,
-    h: i32,
-    bpp: i32,
-    levels: i32,
-    align: i32,
-    pitch: i32,
-    compressed: u32,
+    pub width: i32,
+    pub h: i32,
+    pub bpp: i32,
+    pub levels: i32,
+    pub align: i32,
+    pub pitch: i32,
+    pub compressed: u32,
     // void *owner;
     // void (*freefunc)(void *);
 }
 
 #[derive(Debug, Clone)]
 pub struct Tex {
-    tex_type: i32,
-    texture: Texture,
-    name: String,
-    combined: i32,
+    pub tex_type: i32,
+    pub texture: Texture,
+    pub name: String,
+    pub combined: i32,
 }
 
 #[derive(Debug, Clone)]
 pub struct Texture {
-    name: String,
-    tex_type: i32,
-    width: i32,
-    height: i32,
-    xs: i32,
-    ys: i32,
-    bpp: i32,
-    clamp: i32,
-    mipmap: bool,
-    can_reduce: bool,
-    id: u32, //GLuint
-    alpha_mask: String,
+    pub name: String,
+    pub tex_type: i32,
+    pub width: i32,
+    pub height: i32,
+    pub xs: i32,
+    pub ys: i32,
+    pub bpp: i32,
+    pub clamp: i32,
+    pub mipmap: bool,
+    pub can_reduce: bool,
+    pub id: u32, //GLuint
+    pub alpha_mask: String,
 }
 
 #[derive(Debug, Clone)]
 pub struct Shader {
-    last_shader: Box<Option<Shader>>,
-    name: String,
-    vs_str: String,
-    ps_str: String,
-    defer: String,
-    shader_type: i32,
-    program: u32, // GLuint
-    vs_obj: u32,  // GLuint
-    ps_obj: u32,  // GLuint
-    default_params: Vec<SlotShaderParamState>,
-    global_params: Vec<GlobalShaderParamUse>,
-    local_params: Vec<LocalShaderParamState>,
-    local_param_remap: Vec<u8>,
-    detail_shader: Box<Option<Shader>>,
-    variant_shader: Box<Option<Shader>>,
-    alt_shader: Box<Option<Shader>>,
-    fast_shader: (
+    pub last_shader: Box<Option<Shader>>,
+    pub name: String,
+    pub vs_str: String,
+    pub ps_str: String,
+    pub defer: String,
+    pub shader_type: i32,
+    pub program: u32, // GLuint
+    pub vs_obj: u32,  // GLuint
+    pub ps_obj: u32,  // GLuint
+    pub default_params: Vec<SlotShaderParamState>,
+    pub global_params: Vec<GlobalShaderParamUse>,
+    pub local_params: Vec<LocalShaderParamState>,
+    pub local_param_remap: Vec<u8>,
+    pub detail_shader: Box<Option<Shader>>,
+    pub variant_shader: Box<Option<Shader>>,
+    pub alt_shader: Box<Option<Shader>>,
+    pub fast_shader: (
         Box<Option<Shader>>,
         Box<Option<Shader>>,
         Box<Option<Shader>>,
     ), // 3 fields because MAXSHADERDETAIL = 3
-    variants: Vec<Box<Option<Shader>>>,
-    variant_rows: u16,
-    standard: bool,
-    forced: bool,
-    used: bool,
-    reuse_vs: Box<Option<Shader>>,
-    reuse_ps: Box<Option<Shader>>,
-    uniform_locs: Vec<Box<Option<UniformLoc>>>,
-    attrib_locs: Vec<Box<Option<AttribLoc>>>,
+    pub variants: Vec<Box<Option<Shader>>>,
+    pub variant_rows: u16,
+    pub standard: bool,
+    pub forced: bool,
+    pub used: bool,
+    pub reuse_vs: Box<Option<Shader>>,
+    pub reuse_ps: Box<Option<Shader>>,
+    pub uniform_locs: Vec<Box<Option<UniformLoc>>>,
+    pub attrib_locs: Vec<Box<Option<AttribLoc>>>,
     //const void *owner;
 }
 
 #[derive(Debug, Clone)]
 pub struct SlotShaderParamState {
-    value: (f32, f32, f32, f32),
-    name: String,
-    location: i32,
-    size: i32,
-    format: u32, // GLenum
+    pub value: (f32, f32, f32, f32),
+    pub name: String,
+    pub location: i32,
+    pub size: i32,
+    pub format: u32, // GLenum
 }
 
 #[derive(Debug, Clone)]
 pub struct GlobalShaderParamState {
-    name: String,
-    value: GlobalShaderParamStateValue,
-    version: i32,
-    next_version: i32,
+    pub name: String,
+    pub value: GlobalShaderParamStateValue,
+    pub version: i32,
+    pub next_version: i32,
 }
 
 #[derive(Debug, Clone)]
@@ -280,44 +280,44 @@ pub enum GlobalShaderParamStateValue {
 
 #[derive(Debug, Clone)]
 pub struct GlobalShaderParamUse {
-    param: GlobalShaderParamState,
-    version: i32,
-    location: i32,
-    size: i32,
-    format: u32, // GLenum
+    pub param: GlobalShaderParamState,
+    pub version: i32,
+    pub location: i32,
+    pub size: i32,
+    pub format: u32, // GLenum
 }
 
 #[derive(Debug, Clone)]
 struct LocalShaderParamState {
-    name: String,
-    location: i32,
-    size: i32,
-    format: u32, // GLenum
+    pub name: String,
+    pub location: i32,
+    pub size: i32,
+    pub format: u32, // GLenum
 }
 
 #[derive(Debug)]
 pub struct ShaderParamBinding {
-    location: i32,
-    size: i32,
-    format: u32, // GLenum
+    pub location: i32,
+    pub size: i32,
+    pub format: u32, // GLenum
 }
 
 #[derive(Debug, Clone)]
 struct AttribLoc {
-    name: String,
-    loc: i32,
+    pub name: String,
+    pub loc: i32,
 }
 
 #[derive(Debug, Clone)]
 struct UniformLoc {
-    name: String,
-    block_name: String,
-    loc: i32,
-    verison: i32,
-    binding: i32,
-    stride: i32,
-    offset: i32,
-    size: i32,
+    pub name: String,
+    pub block_name: String,
+    pub loc: i32,
+    pub verison: i32,
+    pub binding: i32,
+    pub stride: i32,
+    pub offset: i32,
+    pub size: i32,
     //void *data;
 }
 
@@ -336,26 +336,26 @@ pub enum TextureType {
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct SlotShaderParam {
-    name: String,
-    loc: i32,
-    values: (f32, f32, f32, f32),
+    pub name: String,
+    pub loc: i32,
+    pub values: (f32, f32, f32, f32),
 }
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Cube {
-    children: Vec<Box<Option<Cube>>>, // "points to 8 cube structures which are its children, or NULL. -Z first, then -Y, -X"
-    edge_face: EdgeFace,
-    textures: [u16; 6], // "one for each face. same order as orient." (6 entries)
-    material: u16,      // empty-space material
-    merged: u8,         // merged faces of the cube
-    escaped_visible: EscapedVisible,
-    cube_ext: Option<CubeExtInfo>,
+    pub children: Vec<Box<Option<Cube>>>, // "points to 8 cube structures which are its children, or NULL. -Z first, then -Y, -X"
+    pub edge_face: EdgeFace,
+    pub textures: [u16; 6], // "one for each face. same order as orient." (6 entries)
+    pub material: u16,      // empty-space material
+    pub merged: u8,         // merged faces of the cube
+    pub escaped_visible: EscapedVisible,
+    pub cube_ext: Option<CubeExtInfo>,
 }
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CubeExtInfo {
-    max_verts: u8,
-    tjoints: i32,
+    pub max_verts: u8,
+    pub tjoints: i32,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
